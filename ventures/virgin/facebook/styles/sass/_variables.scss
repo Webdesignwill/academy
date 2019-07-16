@@ -1,0 +1,45 @@
+
+$app-width                                     : 615px;
+$spriteSheet                                   : url('../../facebook/img/sprites/sprite.png') no-repeat;
+
+/* Fonts */
+
+$global-font                                   : "Arial", Helvetica, Tahoma, sans-serif;
+$styled-font                                   : "adelle", Arial, Helvetica, Tahoma, sans-serif;
+
+/* z-index's */
+$challenge-criteria                            : 10;
+$challenge-lesson-masks                        : 20;
+$list-item-mask                                : 30;
+$sash                                          : 40;
+$status-bar                                    : 50;
+$utilityBar                                    : 60;
+$navBar                                        : 70;
+$headerStartupText                             : 80;
+$teacherHeader                                 : 90;
+$academy-full-screen                           : 100;
+$sortCriteriaIndex                             : 110;
+$modal-mask                                    : 120;
+$academy-modal                                 : 130;
+$academy-sub-modal                             : 140;
+
+// Modal properties
+$width                                         :750px;
+$height                                        :570px;
+
+// Shadows
+$default-text-shadow-color                     : #F4FAFF;
+
+// Font-sizes
+$academy-header-title						   : 16px;
+
+// Colors
+$black                                         : #000000;
+$progress-bar-bg                               : #9AD3F8;
+$lesson-odd-row                                : #EBEDED;
+$lesson-even-row                               : #FAFAFA;
+$lesson-description                            : #5D5D5D;
+$lesson-border-color                           : #DFDFDF;
+$lesson-completed-color                        : #CB0000;
+$lesson-list-hover                             : #B5D5FF;
+$lesson-item-top-border                        : #DDDDDD;

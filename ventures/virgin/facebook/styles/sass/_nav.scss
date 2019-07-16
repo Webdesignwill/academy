@@ -1,0 +1,82 @@
+
+.nav-bar {
+  background:url('../img/backgrounds/primary-nav-bg.png') no-repeat center left;
+  height:48px;
+  position:relative;
+  z-index:$navBar;
+  .nav-container {
+    .navigation-back-button {
+      float:left;
+      background: url('../img/backgrounds/primary-navigation.png') no-repeat 0 -64px;
+      width:71px;
+      height:31px;
+      border:none;
+      color:#FFF;
+      text-indent:8px;
+      cursor:pointer;
+      margin:8px 0 0 9px;
+    }
+    .navigation-back-button:hover {
+      background-position: -71px -64px
+    }
+    ul {
+      margin-left:9px;
+      margin-top:8px;
+      float:left;
+      li {
+        @include text-shadow(1px 1px 1px #000);
+        background:url('../img/backgrounds/primary-navigation.png') no-repeat;
+        height:32px;
+        text-align:center;
+        display:inline-block;
+        font-size:14px;
+        color:#FFF;
+        line-height:32px;
+        cursor:pointer;
+        outline:none;
+        float: left;
+      }
+      li.primary-nav-1 {
+        width:70px;
+        background-position: 0 0;
+      }
+      li.primary-nav-1.active {
+        background-position: 0 -32px;
+      }
+      li.primary-nav-2 {
+        width:81px;
+        background-position: -71px 0;
+      }
+      li.primary-nav-2.active {
+        background-position: -71px -32px;
+      }
+      li.primary-nav-3 {
+        width:91px;
+        background-position: -153px 0;
+      }
+      li.primary-nav-3.active {
+        background-position: -153px -32px;
+      }
+      li.primary-nav-4 {
+        width:79px;
+        background-position: -245px 0;
+      }
+      li.primary-nav-4.active {
+        background-position: -245px -32px;
+      }
+      li:hover {
+
+      }
+      li:focus {
+
+      }
+      li.active {
+
+      }
+      li.active:hover {
+        cursor:default;
+      }
+    }
+  }
+  @import "sort-search";
+}

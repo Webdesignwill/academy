@@ -1,0 +1,71 @@
+{
+	"id": "virgin-poker-plugin",
+	"name": "Virgin Poker Academy Plugin",
+	"css": "/styles/plugin.css",
+	"componentTemplates": [
+
+		{
+			"id": "video-player",
+			"name": "Video Player",
+			"baseUrl": "/component-templates/video-player"
+		},
+		{
+			"id": "multi-choice",
+			"name": "Multi Choice",
+			"baseUrl": "/component-templates/multi-choice"
+		},
+		{
+			"id": "radio-button",
+			"name": "Radio Button",
+			"baseUrl": "/component-templates/radio-button"
+		},
+		{
+			"id": "modal",
+			"name": "Modal",
+			"baseUrl": "/component-templates/modal"
+		}
+	],
+	"layerTemplates": [
+		{
+			"id": "placeholder",
+			"name": "Placeholder slide",
+			"baseUrl": "/layer-templates/placeholder",
+			"config": {
+				"title": "Placeholder",
+				"buttonText": "Continue"
+			}
+		},
+		{
+			"id": "simple-tutorial",
+			"name": "Simple tutorial slide with text and image",
+			"baseUrl": "/layer-templates/simple-tutorial"
+		},
+		{
+			"id": "text-tutorial",
+			"name": "Simple text-based tutorial slide",
+			"baseUrl": "/layer-templates/text-tutorial"
+		},
+		{
+			"id": "lesson-completed",
+			"name": "The lesson completed screen",
+			"baseUrl": "/layer-templates/lesson-completed"
+		},
+		{
+			"id": "read-more",
+			"name": "Read More",
+			"baseUrl": "/layer-templates/read-more"
+		},
+		{
+			"id": "card-definitions",
+			"name": "Explanations of hands",
+			"baseUrl": "/layer-templates/card-definitions"
+		}
+	],
+	"navigationTemplates": [
+		{
+			"id": "core-navigation",
+			"name": "Core Navigation",
+			"baseUrl": "/navigation-templates/core-navigation"
+		}
+	]
+}

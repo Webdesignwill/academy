@@ -1,0 +1,200 @@
+[
+  {
+    "id" : "1",
+    "title" : "Test none for status",
+    "tip" : "This doesnt have a challenge associated with it.",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "2",
+    "title" : "Raising Preflop1",
+    "tip" : "Raise with strong starting cards to win more money. It will also allow you to play against fewer opponents, increasing your chances of winning.",
+    "awardTitle" : "Suited and booted",
+    "challengeCriteria" : "Make 50 suited hands",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "3",
+    "title" : "Starting Hands Overview",
+    "tip" : "Play hands where both cards work together pairs, two high cards or two connecting cards of the same suit. Avoid low unconnected cards of different suits.",
+    "awardTitle" : "Cry me a river",
+    "challengeCriteria" : "Make three successful river bluffs",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "4",
+    "title" : "Folding the Flop",
+    "tip" : "If you don't hit a pair or a draw on the first three cards, it's probably best to fold and wait for a better hand.",
+    "awardTitle" : "Don't have the player",
+    "challengeCriteria" : "Fold a pocket pair from UTG",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "5",
+    "title" : "Why Slow play is bad",
+    "tip" : "Try to play big pots with strong hands and small pots with weak hands. With a strong hand make lots of bets and raises to win as much money as possible.",
+    "awardTitle" : "Make it rain",
+    "challengeCriteria" : "Fold K J 5 times",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "6",
+    "title" : "Preflop Betsizing",
+    "tip" : "If you want to raise with good starting cards, the best raise size is 3 or 4 times the size of the big blind, regardless of the strength of your hand.",
+    "awardTitle" : "Reraiser sharp",
+    "challengeCriteria" : "Make 10 preflops raises",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "7",
+    "title" : "Introduction to the Academy",
+    "tip" : "You will receive tips based on your play. Reviews each tip you've received and free poker lessons in the poker school on the homepage",
+    "awardTitle" : "Welcome to valuetown",
+    "challengeCriteria" : "Make 10 preflops raises",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "8",
+    "title" : "Raising Preflop2",
+    "tip" : "Raise with strong starting cards to win more money. It will also allow you to play against fewer opponents, increasing your chances of winning.",
+    "awardTitle" : "Suited and booted",
+    "challengeCriteria" : "Make 50 suited hands",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "9",
+    "title" : "Starting Hands Overview",
+    "tip" : "Play hands where both cards work together pairs, two high cards or two connecting cards of the same suit. Avoid low unconnected cards of different suits.",
+    "awardTitle" : "Cry me a river",
+    "challengeCriteria" : "Make three successful river bluffs",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "10",
+    "title" : "Folding the Flop",
+    "tip" : "If you don't hit a pair or a draw on the first three cards, it's probably best to fold and wait for a better hand.",
+    "awardTitle" : "Don't have the player",
+    "challengeCriteria" : "Fold a pocket pair from dev",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "11",
+    "title" : "Why Slow play is bad",
+    "tip" : "Try to play big pots with strong hands and small pots with weak hands. With a strong hand make lots of bets and raises to win as much money as possible.",
+    "awardTitle" : "Make it rain",
+    "challengeCriteria" : "Fold K J 5 times",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "12",
+    "title" : "Preflop Betsizing",
+    "tip" : "If you want to raise with good starting cards, the best raise size is 3 or 4 times the size of the big blind, regardless of the strength of your hand.",
+    "awardTitle" : "Reraiser sharp",
+    "challengeCriteria" : "Make 10 preflops raises",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "13",
+    "title" : "Introduction to the Academy",
+    "tip" : "You will receive tips based on your play. Reviews each tip you've received and free poker lessons in the poker school on the homepage",
+    "awardTitle" : "Welcome to valuetown",
+    "challengeCriteria" : "Make 10 preflops raises",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "14",
+    "title" : "Raising Preflop",
+    "tip" : "Raise with strong starting cards to win more money. It will also allow you to play against fewer opponents, increasing your chances of winning.",
+    "awardTitle" : "Suited and booted",
+    "challengeCriteria" : "Make 50 suited hands",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "15",
+    "title" : "Starting Hands Overview",
+    "tip" : "Play hands where both cards work together pairs, two high cards or two connecting cards of the same suit. Avoid low unconnected cards of different suits.",
+    "awardTitle" : "Cry me a river",
+    "challengeCriteria" : "Make three successful river bluffs",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "16",
+    "title" : "Introduction to the Academy",
+    "tip" : "You will receive tips based on your play. Reviews each tip you've received and free poker lessons in the poker school on the homepage",
+    "awardTitle" : "Welcome to valuetown",
+    "challengeCriteria" : "Make 10 preflops raises",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "17",
+    "title" : "Raising Preflop",
+    "tip" : "Raise with strong starting cards to win more money. It will also allow you to play against fewer opponents, increasing your chances of winning.",
+    "awardTitle" : "Suited and booted",
+    "challengeCriteria" : "Make 50 suited hands",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "18",
+    "title" : "Starting Hands Overview",
+    "tip" : "Play hands where both cards work together pairs, two high cards or two connecting cards of the same suit. Avoid low unconnected cards of different suits.",
+    "awardTitle" : "Cry me a river",
+    "challengeCriteria" : "Make three successful river bluffs",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "19",
+    "title" : "Folding the Flop",
+    "tip" : "If you don't hit a pair or a draw on the first three cards, it's probably best to fold and wait for a better hand.",
+    "awardTitle" : "Don't have the player",
+    "challengeCriteria" : "Fold a pocket pair from UTG",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "20",
+    "title" : "Why Slow play is bad",
+    "tip" : "Try to play big pots with strong hands and small pots with weak hands. With a strong hand make lots of bets and raises to win as much money as possible.",
+    "awardTitle" : "Make it rain",
+    "challengeCriteria" : "Fold K J 5 times",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "21",
+    "title" : "Introduction to the Academy",
+    "tip" : "You will receive tips based on your play. Reviews each tip you've received and free poker lessons in the poker school on the homepage",
+    "awardTitle" : "Welcome to valuetown",
+    "challengeCriteria" : "Make 10 preflops raises",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "22",
+    "title" : "Raising Preflop",
+    "tip" : "Raise with strong starting cards to win more money. It will also allow you to play against fewer opponents, increasing your chances of winning.",
+    "awardTitle" : "Suited and booted",
+    "challengeCriteria" : "Make 50 suited hands",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "23",
+    "title" : "Starting Hands Overview",
+    "tip" : "Play hands where both cards work together pairs, two high cards or two connecting cards of the same suit. Avoid low unconnected cards of different suits.",
+    "awardTitle" : "Cry me a river",
+    "challengeCriteria" : "Make three successful river bluffs",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "24",
+    "title" : "Folding the Flop",
+    "tip" : "If you don't hit a pair or a draw on the first three cards, it's probably best to fold and wait for a better hand.",
+    "awardTitle" : "Don't have the player",
+    "challengeCriteria" : "Fold a pocket pair from UTG",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  },
+  {
+    "id" : "25",
+    "title" : "Why Slow play is bad",
+    "tip" : "Try to play big pots with strong hands and small pots with weak hands. With a strong hand make lots of bets and raises to win as much money as possible.",
+    "awardTitle" : "Make it rain",
+    "challengeCriteria" : "Fold K J 5 times",
+    "url" : "../../../shared/lessons/scorm/lesson_template/viewer/index.html"
+  }
+]

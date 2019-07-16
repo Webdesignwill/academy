@@ -1,0 +1,1 @@
+<span class="trophy-header-icon {{imageName}}"></span>

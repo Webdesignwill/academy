@@ -1,0 +1,12 @@
+body{
+	background-image:url(../assets/academy-background.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+#viewer{
+	font-family:"franklin-gothic-urw";
+}
+.page{
+	font-family:"franklin-gothic-urw";
+	margin:0 auto;
+}

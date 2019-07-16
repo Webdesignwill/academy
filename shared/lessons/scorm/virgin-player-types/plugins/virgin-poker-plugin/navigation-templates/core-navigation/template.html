@@ -1,0 +1,19 @@
+
+<div class="core-navigation">
+	<nav class="clearfix">
+		<button class="nav-previous hidden" id="nav-previous">Previous Page</button>
+		<div class="progress-block">
+			<div class="lesson-info">
+				<span id="page-name">{{currentPageName}}</span> / <span id="chapter-name">{{currentChapterName}}</span> (<span id="percent-complete">{{percentComplete}}</span>% Complete)
+			</div>
+			<div class="progress-bar">
+				<ul class="clearfix">
+					{{#progress}}
+						<li class="chapter" style="width:{{size}}%"><div class="chapter-bg"><div class="progress-bg" style="width:{{progress}}%"></div></div></li>
+					{{/progress}}
+				</ul>
+			</div>
+		</div>
+		<button class="nav-next" id="nav-next">Next Page</button>
+	</nav>
+</div>

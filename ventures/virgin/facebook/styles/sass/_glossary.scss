@@ -1,0 +1,39 @@
+
+.glossary-page-view {
+  line-height:140%;
+  .glossary-list-view {
+    color: $black;
+    background: $lesson-even-row;
+    width:100%;
+    display:inline-block;
+    padding-bottom:6px;
+    border-bottom:1px solid $lesson-border-color;
+    position:relative;
+    h2 {
+      font-size:30px;
+      position:absolute;
+      left:20px;
+      font-weight:bold;
+    }
+    .glossary-items-list {
+      width:90%;
+      float:right;
+      .glossary-list-item-view {
+        margin-bottom:10px;
+        .glossary-word {
+          font-style: italic;
+          font-weight:bold;
+          display:inline-block;
+          width:50%;
+        }
+        .glossary-description {
+          display:inline-block;
+          width:90%;
+        }
+      }
+    }
+  }
+  .glossary-list-view.odd {
+    background: $lesson-odd-row;
+  }
+}

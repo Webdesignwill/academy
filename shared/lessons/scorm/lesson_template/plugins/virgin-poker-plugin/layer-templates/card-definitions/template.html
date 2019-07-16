@@ -1,0 +1,35 @@
+
+<h2 class="virgin-poker-title"><span>{{title}}</span></h2>
+
+<section class="hand">
+	{{#renderItems}}
+		<div class="item-{{index}}">
+			<header>
+				<img src="{{projectBaseUrl}}/assets/{{{data.image}}}" alt="{{{data.title}}}" />
+				<p>{{{data.title}}}</p>
+			</header>
+			<p class="about">{{{data.text}}}</p>
+		</div>
+	{{/renderItems}}
+</div>
+
+<ul class="options {{listClass}}">
+	{{#renderItems}}
+		<li><img class="item-{{index}}" src="{{projectBaseUrl}}/assets/{{{data.image}}}" alt="{{{data.title}}}" /></li>
+	{{/renderItems}}
+</ul>
+
+
+
+
+{{#jargon}}
+<div class="definition">
+	<div class="top"></div>
+	<div class="middle">
+		<dl>
+			<dd></dd>
+		</dl>
+	</div>
+	<div class="bottom"></div>
+</div>
+{{/jargon}}

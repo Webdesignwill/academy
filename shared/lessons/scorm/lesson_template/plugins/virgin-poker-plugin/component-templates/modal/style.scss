@@ -1,0 +1,23 @@
+@import "compass/css3";
+.modal{
+	display:block;
+	width:100%;
+	height:100%;
+	border-radius:5px;
+	background-color:white;
+
+	.close{
+		position: absolute;
+		top:0;
+		right:0;
+		display:block;
+		padding:3px;
+		width:36px;
+		height: 36px;
+		background-image:url(assets/close-modal-black.png);
+		background-position:center center;
+		background-repeat:no-repeat;
+		text-indent:-9999px;
+		direction: ltr;
+	}
+}

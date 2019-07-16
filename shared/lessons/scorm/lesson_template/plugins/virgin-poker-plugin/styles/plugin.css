@@ -1,0 +1,16 @@
+
+.virgin-poker-title {
+	font-family: "skippy-sharp", cursive, sans-serif;
+	font-weight: lighter;
+	font-size: 32px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 12px rgba(0,0,0,.2);
+	margin: 24px 0;
+}
+
+.virgin-poker-title span {
+	padding: 0 0 8px 0;
+	background: url('../assets/strike.png') bottom center no-repeat;
+	background-size: 90% 7px;
+}

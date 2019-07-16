@@ -1,0 +1,346 @@
+3.1.20 (Brainy Betty)
+e70af1acfedca6a7ba533ecb1b0d606ad83f253c
+o:Sass::Tree::RootNode
+:@has_childrenT:
+@linei:@template"h6@import "compass/utilities/sprites/base";
+
+// General Sprite Defaults
+// You can override them before you import this file.
+$sprites-sprite-base-class: ".sprites-sprite" !default;
+$sprites-sprite-dimensions: false !default;
+$sprites-position: 0% !default;
+$sprites-spacing: 0 !default;
+$sprites-repeat: no-repeat !default;
+$sprites-prefix: '' !default;
+$sprites-clean-up: true !default;
+$sprites-layout:vertical !default;
+$sprites-inline: false !default;
+
+  
+ // These variables control the generated sprite output
+ // You can override them selectively before you import this file.
+ 
+   $sprites-achievement-template-position: $sprites-position !default;
+   $sprites-achievement-template-spacing:  $sprites-spacing !default;
+   $sprites-achievement-template-repeat:   $sprites-repeat !default;
+ 
+   $sprites-active-btn-position: $sprites-position !default;
+   $sprites-active-btn-spacing:  $sprites-spacing !default;
+   $sprites-active-btn-repeat:   $sprites-repeat !default;
+ 
+   $sprites-active-tick-position: $sprites-position !default;
+   $sprites-active-tick-spacing:  $sprites-spacing !default;
+   $sprites-active-tick-repeat:   $sprites-repeat !default;
+ 
+   $sprites-award-cup-position: $sprites-position !default;
+   $sprites-award-cup-spacing:  $sprites-spacing !default;
+   $sprites-award-cup-repeat:   $sprites-repeat !default;
+ 
+   $sprites-challenge-cup-completed-position: $sprites-position !default;
+   $sprites-challenge-cup-completed-spacing:  $sprites-spacing !default;
+   $sprites-challenge-cup-completed-repeat:   $sprites-repeat !default;
+ 
+   $sprites-challenge-cup-position: $sprites-position !default;
+   $sprites-challenge-cup-spacing:  $sprites-spacing !default;
+   $sprites-challenge-cup-repeat:   $sprites-repeat !default;
+ 
+   $sprites-cheering-position: $sprites-position !default;
+   $sprites-cheering-spacing:  $sprites-spacing !default;
+   $sprites-cheering-repeat:   $sprites-repeat !default;
+ 
+   $sprites-cite-pointer-position: $sprites-position !default;
+   $sprites-cite-pointer-spacing:  $sprites-spacing !default;
+   $sprites-cite-pointer-repeat:   $sprites-repeat !default;
+ 
+   $sprites-close-modal-white-position: $sprites-position !default;
+   $sprites-close-modal-white-spacing:  $sprites-spacing !default;
+   $sprites-close-modal-white-repeat:   $sprites-repeat !default;
+ 
+   $sprites-close-position: $sprites-position !default;
+   $sprites-close-spacing:  $sprites-spacing !default;
+   $sprites-close-repeat:   $sprites-repeat !default;
+ 
+   $sprites-dealing-position: $sprites-position !default;
+   $sprites-dealing-spacing:  $sprites-spacing !default;
+   $sprites-dealing-repeat:   $sprites-repeat !default;
+ 
+   $sprites-glossary-header-arrow-position: $sprites-position !default;
+   $sprites-glossary-header-arrow-spacing:  $sprites-spacing !default;
+   $sprites-glossary-header-arrow-repeat:   $sprites-repeat !default;
+ 
+   $sprites-lesson-position: $sprites-position !default;
+   $sprites-lesson-spacing:  $sprites-spacing !default;
+   $sprites-lesson-repeat:   $sprites-repeat !default;
+ 
+   $sprites-magnifier-position: $sprites-position !default;
+   $sprites-magnifier-spacing:  $sprites-spacing !default;
+   $sprites-magnifier-repeat:   $sprites-repeat !default;
+ 
+   $sprites-nav-active-btn-position: $sprites-position !default;
+   $sprites-nav-active-btn-spacing:  $sprites-spacing !default;
+   $sprites-nav-active-btn-repeat:   $sprites-repeat !default;
+ 
+   $sprites-overall-progress-bg-position: $sprites-position !default;
+   $sprites-overall-progress-bg-spacing:  $sprites-spacing !default;
+   $sprites-overall-progress-bg-repeat:   $sprites-repeat !default;
+ 
+   $sprites-practice-position: $sprites-position !default;
+   $sprites-practice-spacing:  $sprites-spacing !default;
+   $sprites-practice-repeat:   $sprites-repeat !default;
+ 
+   $sprites-restart-position: $sprites-position !default;
+   $sprites-restart-spacing:  $sprites-spacing !default;
+   $sprites-restart-repeat:   $sprites-repeat !default;
+ 
+   $sprites-sash-completed-position: $sprites-position !default;
+   $sprites-sash-completed-spacing:  $sprites-spacing !default;
+   $sprites-sash-completed-repeat:   $sprites-repeat !default;
+ 
+   $sprites-sash-inprogress-position: $sprites-position !default;
+   $sprites-sash-inprogress-spacing:  $sprites-spacing !default;
+   $sprites-sash-inprogress-repeat:   $sprites-repeat !default;
+ 
+   $sprites-sash-locked-position: $sprites-position !default;
+   $sprites-sash-locked-spacing:  $sprites-spacing !default;
+   $sprites-sash-locked-repeat:   $sprites-repeat !default;
+ 
+   $sprites-sash-new-position: $sprites-position !default;
+   $sprites-sash-new-spacing:  $sprites-spacing !default;
+   $sprites-sash-new-repeat:   $sprites-repeat !default;
+ 
+   $sprites-sash-recommended-position: $sprites-position !default;
+   $sprites-sash-recommended-spacing:  $sprites-spacing !default;
+   $sprites-sash-recommended-repeat:   $sprites-repeat !default;
+ 
+   $sprites-sash-unlocked-position: $sprites-position !default;
+   $sprites-sash-unlocked-spacing:  $sprites-spacing !default;
+   $sprites-sash-unlocked-repeat:   $sprites-repeat !default;
+ 
+   $sprites-sort-pointer-up-position: $sprites-position !default;
+   $sprites-sort-pointer-up-spacing:  $sprites-spacing !default;
+   $sprites-sort-pointer-up-repeat:   $sprites-repeat !default;
+ 
+   $sprites-sort-pointer-position: $sprites-position !default;
+   $sprites-sort-pointer-spacing:  $sprites-spacing !default;
+   $sprites-sort-pointer-repeat:   $sprites-repeat !default;
+ 
+   $sprites-thinking-position: $sprites-position !default;
+   $sprites-thinking-spacing:  $sprites-spacing !default;
+   $sprites-thinking-repeat:   $sprites-repeat !default;
+ 
+   $sprites-video-position: $sprites-position !default;
+   $sprites-video-spacing:  $sprites-spacing !default;
+   $sprites-video-repeat:   $sprites-repeat !default;
+ 
+
+ $sprites-sprites: sprite-map("sprites/*.png",
+ 
+   $sprites-achievement-template-position: $sprites-achievement-template-position, 
+   $sprites-achievement-template-spacing:  $sprites-achievement-template-spacing, 
+   $sprites-achievement-template-repeat:   $sprites-achievement-template-repeat,
+ 
+   $sprites-active-btn-position: $sprites-active-btn-position, 
+   $sprites-active-btn-spacing:  $sprites-active-btn-spacing, 
+   $sprites-active-btn-repeat:   $sprites-active-btn-repeat,
+ 
+   $sprites-active-tick-position: $sprites-active-tick-position, 
+   $sprites-active-tick-spacing:  $sprites-active-tick-spacing, 
+   $sprites-active-tick-repeat:   $sprites-active-tick-repeat,
+ 
+   $sprites-award-cup-position: $sprites-award-cup-position, 
+   $sprites-award-cup-spacing:  $sprites-award-cup-spacing, 
+   $sprites-award-cup-repeat:   $sprites-award-cup-repeat,
+ 
+   $sprites-challenge-cup-completed-position: $sprites-challenge-cup-completed-position, 
+   $sprites-challenge-cup-completed-spacing:  $sprites-challenge-cup-completed-spacing, 
+   $sprites-challenge-cup-completed-repeat:   $sprites-challenge-cup-completed-repeat,
+ 
+   $sprites-challenge-cup-position: $sprites-challenge-cup-position, 
+   $sprites-challenge-cup-spacing:  $sprites-challenge-cup-spacing, 
+   $sprites-challenge-cup-repeat:   $sprites-challenge-cup-repeat,
+ 
+   $sprites-cheering-position: $sprites-cheering-position, 
+   $sprites-cheering-spacing:  $sprites-cheering-spacing, 
+   $sprites-cheering-repeat:   $sprites-cheering-repeat,
+ 
+   $sprites-cite-pointer-position: $sprites-cite-pointer-position, 
+   $sprites-cite-pointer-spacing:  $sprites-cite-pointer-spacing, 
+   $sprites-cite-pointer-repeat:   $sprites-cite-pointer-repeat,
+ 
+   $sprites-close-modal-white-position: $sprites-close-modal-white-position, 
+   $sprites-close-modal-white-spacing:  $sprites-close-modal-white-spacing, 
+   $sprites-close-modal-white-repeat:   $sprites-close-modal-white-repeat,
+ 
+   $sprites-close-position: $sprites-close-position, 
+   $sprites-close-spacing:  $sprites-close-spacing, 
+   $sprites-close-repeat:   $sprites-close-repeat,
+ 
+   $sprites-dealing-position: $sprites-dealing-position, 
+   $sprites-dealing-spacing:  $sprites-dealing-spacing, 
+   $sprites-dealing-repeat:   $sprites-dealing-repeat,
+ 
+   $sprites-glossary-header-arrow-position: $sprites-glossary-header-arrow-position, 
+   $sprites-glossary-header-arrow-spacing:  $sprites-glossary-header-arrow-spacing, 
+   $sprites-glossary-header-arrow-repeat:   $sprites-glossary-header-arrow-repeat,
+ 
+   $sprites-lesson-position: $sprites-lesson-position, 
+   $sprites-lesson-spacing:  $sprites-lesson-spacing, 
+   $sprites-lesson-repeat:   $sprites-lesson-repeat,
+ 
+   $sprites-magnifier-position: $sprites-magnifier-position, 
+   $sprites-magnifier-spacing:  $sprites-magnifier-spacing, 
+   $sprites-magnifier-repeat:   $sprites-magnifier-repeat,
+ 
+   $sprites-nav-active-btn-position: $sprites-nav-active-btn-position, 
+   $sprites-nav-active-btn-spacing:  $sprites-nav-active-btn-spacing, 
+   $sprites-nav-active-btn-repeat:   $sprites-nav-active-btn-repeat,
+ 
+   $sprites-overall-progress-bg-position: $sprites-overall-progress-bg-position, 
+   $sprites-overall-progress-bg-spacing:  $sprites-overall-progress-bg-spacing, 
+   $sprites-overall-progress-bg-repeat:   $sprites-overall-progress-bg-repeat,
+ 
+   $sprites-practice-position: $sprites-practice-position, 
+   $sprites-practice-spacing:  $sprites-practice-spacing, 
+   $sprites-practice-repeat:   $sprites-practice-repeat,
+ 
+   $sprites-restart-position: $sprites-restart-position, 
+   $sprites-restart-spacing:  $sprites-restart-spacing, 
+   $sprites-restart-repeat:   $sprites-restart-repeat,
+ 
+   $sprites-sash-completed-position: $sprites-sash-completed-position, 
+   $sprites-sash-completed-spacing:  $sprites-sash-completed-spacing, 
+   $sprites-sash-completed-repeat:   $sprites-sash-completed-repeat,
+ 
+   $sprites-sash-inprogress-position: $sprites-sash-inprogress-position, 
+   $sprites-sash-inprogress-spacing:  $sprites-sash-inprogress-spacing, 
+   $sprites-sash-inprogress-repeat:   $sprites-sash-inprogress-repeat,
+ 
+   $sprites-sash-locked-position: $sprites-sash-locked-position, 
+   $sprites-sash-locked-spacing:  $sprites-sash-locked-spacing, 
+   $sprites-sash-locked-repeat:   $sprites-sash-locked-repeat,
+ 
+   $sprites-sash-new-position: $sprites-sash-new-position, 
+   $sprites-sash-new-spacing:  $sprites-sash-new-spacing, 
+   $sprites-sash-new-repeat:   $sprites-sash-new-repeat,
+ 
+   $sprites-sash-recommended-position: $sprites-sash-recommended-position, 
+   $sprites-sash-recommended-spacing:  $sprites-sash-recommended-spacing, 
+   $sprites-sash-recommended-repeat:   $sprites-sash-recommended-repeat,
+ 
+   $sprites-sash-unlocked-position: $sprites-sash-unlocked-position, 
+   $sprites-sash-unlocked-spacing:  $sprites-sash-unlocked-spacing, 
+   $sprites-sash-unlocked-repeat:   $sprites-sash-unlocked-repeat,
+ 
+   $sprites-sort-pointer-up-position: $sprites-sort-pointer-up-position, 
+   $sprites-sort-pointer-up-spacing:  $sprites-sort-pointer-up-spacing, 
+   $sprites-sort-pointer-up-repeat:   $sprites-sort-pointer-up-repeat,
+ 
+   $sprites-sort-pointer-position: $sprites-sort-pointer-position, 
+   $sprites-sort-pointer-spacing:  $sprites-sort-pointer-spacing, 
+   $sprites-sort-pointer-repeat:   $sprites-sort-pointer-repeat,
+ 
+   $sprites-thinking-position: $sprites-thinking-position, 
+   $sprites-thinking-spacing:  $sprites-thinking-spacing, 
+   $sprites-thinking-repeat:   $sprites-thinking-repeat,
+ 
+   $sprites-video-position: $sprites-video-position, 
+   $sprites-video-spacing:  $sprites-video-spacing, 
+   $sprites-video-repeat:   $sprites-video-repeat,
+ 
+ $layout: $sprites-layout,
+ $cleanup: $sprites-clean-up
+ );
+
+
+// All sprites should extend this class
+// The sprites-sprite mixin will do so for you.
+@if $sprites-inline {
+  #{$sprites-sprite-base-class} {
+    background-image: inline-sprite($sprites-sprites);
+  } 
+} @else {
+  #{$sprites-sprite-base-class} {
+    background: $sprites-sprites no-repeat;
+  }
+}
+//sass functions to return the dimensions of a sprite image as units
+
+  @function sprites-sprite-width($name) {
+    $file: sprite_file($sprites-sprites, $name);
+    @return image-width($file);
+  }
+
+  @function sprites-sprite-height($name) {
+    $file: sprite_file($sprites-sprites, $name);
+    @return image-height($file);
+  }
+
+
+// Use this to set the dimensions of an element
+// based on the size of the original image.
+@mixin sprites-sprite-dimensions($name) {
+  @include sprite-dimensions($sprites-sprites, $name)
+}
+
+// Move the background position to display the sprite.
+@mixin sprites-sprite-position($name, $offset-x: 0, $offset-y: 0) {
+  @include sprite-background-position($sprites-sprites, $name, $offset-x, $offset-y)
+}
+
+// Extends the sprite base class and set the background position for the desired sprite.
+// It will also apply the image dimensions if $dimensions is true.
+@mixin sprites-sprite($name, $dimensions: $sprites-sprite-dimensions, $offset-x: 0, $offset-y: 0) {
+  @extend #{$sprites-sprite-base-class};
+  @include sprite($sprites-sprites, $name, $dimensions, $offset-x, $offset-y)
+}
+
+@mixin sprites-sprites($sprite-names, $dimensions: $sprites-sprite-dimensions, $prefix: sprite-map-name($sprites-sprites), $offset-x: 0, $offset-y: 0) {
+  @include sprites($sprites-sprites, $sprite-names, $sprites-sprite-base-class, $dimensions, $prefix, $offset-x, $offset-y)
+}
+
+// Generates a class for each sprited image.
+@mixin all-sprites-sprites($dimensions: $sprites-sprite-dimensions, $prefix: sprite-map-name($sprites-sprites), $offset-x: 0, $offset-y: 0) {
+  @include sprites-sprites(achievement-template active-btn active-tick award-cup challenge-cup-completed challenge-cup cheering cite-pointer close-modal-white close dealing glossary-header-arrow lesson magnifier nav-active-btn overall-progress-bg practice restart sash-completed sash-inprogress sash-locked sash-new sash-recommended sash-unlocked sort-pointer-up sort-pointer thinking video, $dimensions, $prefix, $offset-x, $offset-y);
+}:@children[to:Sass::Tree::ImportNode
+;i:@imported_filename"#compass/utilities/sprites/base;0;	[ :@options{ o:Sass::Tree::CommentNode:@value["X/* General Sprite Defaults
+ * You can override them before you import this file. */;i:
+@loud0;	[ ;@:@silenti o:Sass::Tree::VariableNode:@guarded"!default;i
+:
+@name"sprites-sprite-base-class:
+@expro:Sass::Script::String	;".sprites-sprite;i
+:
+@type:string;@;	[ ;@o;;"!default;i;"sprites-sprite-dimensions;o:Sass::Script::Bool;F;i;@;	[ ;@o;;"!default;i;"sprites-position;o:Sass::Script::Number:@denominator_units[ ;i ;i:@numerator_units["%:@original"0%;@;	[ ;@o;;"!default;i;"sprites-spacing;o;;[ ;i ;i;[ ;"0;@;	[ ;@o;;"!default;i;"sprites-repeat;o;	;"no-repeat;i;:identifier;@;	[ ;@o;;"!default;i;"sprites-prefix;o;	;" ;i;;;@;	[ ;@o;;"!default;i;"sprites-clean-up;o;;T;i;@;	[ ;@o;;"!default;i;"sprites-layout;o;	;"vertical;i;;;@;	[ ;@o;;"!default;i;"sprites-inline;o;;F;i;@;	[ ;@o;;["{/* These variables control the generated sprite output
+ * You can override them selectively before you import this file. */;i;0;	[ ;@;i o;;"!default;i;"*sprites-achievement-template-position;o:Sass::Script::Variable	;i;"sprites-position;@:@underscored_name"sprites_position;	[ ;@o;;"!default;i;")sprites-achievement-template-spacing;o;	;i;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i;"(sprites-achievement-template-repeat;o;	;i;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i;" sprites-active-btn-position;o;	;i;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i;"sprites-active-btn-spacing;o;	;i;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i;"sprites-active-btn-repeat;o;	;i;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i ;"!sprites-active-tick-position;o;	;i ;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i!;" sprites-active-tick-spacing;o;	;i!;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i";"sprites-active-tick-repeat;o;	;i";"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i$;"sprites-award-cup-position;o;	;i$;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i%;"sprites-award-cup-spacing;o;	;i%;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i&;"sprites-award-cup-repeat;o;	;i&;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i(;"-sprites-challenge-cup-completed-position;o;	;i(;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i);",sprites-challenge-cup-completed-spacing;o;	;i);"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i*;"+sprites-challenge-cup-completed-repeat;o;	;i*;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i,;"#sprites-challenge-cup-position;o;	;i,;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i-;""sprites-challenge-cup-spacing;o;	;i-;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i.;"!sprites-challenge-cup-repeat;o;	;i.;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i0;"sprites-cheering-position;o;	;i0;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i1;"sprites-cheering-spacing;o;	;i1;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i2;"sprites-cheering-repeat;o;	;i2;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i4;""sprites-cite-pointer-position;o;	;i4;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i5;"!sprites-cite-pointer-spacing;o;	;i5;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i6;" sprites-cite-pointer-repeat;o;	;i6;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i8;"'sprites-close-modal-white-position;o;	;i8;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i9;"&sprites-close-modal-white-spacing;o;	;i9;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i:;"%sprites-close-modal-white-repeat;o;	;i:;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i<;"sprites-close-position;o;	;i<;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i=;"sprites-close-spacing;o;	;i=;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i>;"sprites-close-repeat;o;	;i>;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i@;"sprites-dealing-position;o;	;i@;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iA;"sprites-dealing-spacing;o;	;iA;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;iB;"sprites-dealing-repeat;o;	;iB;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;iD;"+sprites-glossary-header-arrow-position;o;	;iD;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iE;"*sprites-glossary-header-arrow-spacing;o;	;iE;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;iF;")sprites-glossary-header-arrow-repeat;o;	;iF;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;iH;"sprites-lesson-position;o;	;iH;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iI;"sprites-lesson-spacing;o;	;iI;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;iJ;"sprites-lesson-repeat;o;	;iJ;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;iL;"sprites-magnifier-position;o;	;iL;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iM;"sprites-magnifier-spacing;o;	;iM;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;iN;"sprites-magnifier-repeat;o;	;iN;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;iP;"$sprites-nav-active-btn-position;o;	;iP;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iQ;"#sprites-nav-active-btn-spacing;o;	;iQ;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;iR;""sprites-nav-active-btn-repeat;o;	;iR;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;iT;")sprites-overall-progress-bg-position;o;	;iT;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iU;"(sprites-overall-progress-bg-spacing;o;	;iU;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;iV;"'sprites-overall-progress-bg-repeat;o;	;iV;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;iX;"sprites-practice-position;o;	;iX;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iY;"sprites-practice-spacing;o;	;iY;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;iZ;"sprites-practice-repeat;o;	;iZ;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i\;"sprites-restart-position;o;	;i\;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i];"sprites-restart-spacing;o;	;i];"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i^;"sprites-restart-repeat;o;	;i^;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i`;"$sprites-sash-completed-position;o;	;i`;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;ia;"#sprites-sash-completed-spacing;o;	;ia;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;ib;""sprites-sash-completed-repeat;o;	;ib;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;id;"%sprites-sash-inprogress-position;o;	;id;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;ie;"$sprites-sash-inprogress-spacing;o;	;ie;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;if;"#sprites-sash-inprogress-repeat;o;	;if;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;ih;"!sprites-sash-locked-position;o;	;ih;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;ii;" sprites-sash-locked-spacing;o;	;ii;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;ij;"sprites-sash-locked-repeat;o;	;ij;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;il;"sprites-sash-new-position;o;	;il;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;im;"sprites-sash-new-spacing;o;	;im;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;in;"sprites-sash-new-repeat;o;	;in;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;ip;"&sprites-sash-recommended-position;o;	;ip;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iq;"%sprites-sash-recommended-spacing;o;	;iq;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;ir;"$sprites-sash-recommended-repeat;o;	;ir;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;it;"#sprites-sash-unlocked-position;o;	;it;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iu;""sprites-sash-unlocked-spacing;o;	;iu;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;iv;"!sprites-sash-unlocked-repeat;o;	;iv;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;ix;"%sprites-sort-pointer-up-position;o;	;ix;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;iy;"$sprites-sort-pointer-up-spacing;o;	;iy;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;iz;"#sprites-sort-pointer-up-repeat;o;	;iz;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i|;""sprites-sort-pointer-position;o;	;i|;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i};"!sprites-sort-pointer-spacing;o;	;i};"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i~;" sprites-sort-pointer-repeat;o;	;i~;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i{;"sprites-thinking-position;o;	;i{;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i|;"sprites-thinking-spacing;o;	;i|;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i};"sprites-thinking-repeat;o;	;i};"sprites-repeat;@;"sprites_repeat;	[ ;@o;;"!default;i;"sprites-video-position;o;	;i;"sprites-position;@;"sprites_position;	[ ;@o;;"!default;i€;"sprites-video-spacing;o;	;i€;"sprites-spacing;@;"sprites_spacing;	[ ;@o;;"!default;i;"sprites-video-repeat;o;	;i;"sprites-repeat;@;"sprites_repeat;	[ ;@o;;0;iø;"sprites-sprites;o:Sass::Script::Funcall
+;iø;"sprite-map:@keywords{["sprites_magnifier_spacingo;	;i»;"sprites-magnifier-spacing;@;"sprites_magnifier_spacing"%sprites_sort_pointer_up_positiono;	;iæ;"%sprites-sort-pointer-up-position;@;"%sprites_sort_pointer_up_position"sprites_sash_locked_repeato;	;iØ;"sprites-sash-locked-repeat;@;"sprites_sash_locked_repeat")sprites_glossary_header_arrow_repeato;	;i´;")sprites-glossary-header-arrow-repeat;@;")sprites_glossary_header_arrow_repeat"sprites_active_tick_repeato;	;i;"sprites-active-tick-repeat;@;"sprites_active_tick_repeat"sprites_restart_positiono;	;iÊ;"sprites-restart-position;@;"sprites_restart_position"sprites_active_btn_spacingo;	;i‹;"sprites-active-btn-spacing;@;"sprites_active_btn_spacing"*sprites_glossary_header_arrow_spacingo;	;i³;"*sprites-glossary-header-arrow-spacing;@;"*sprites_glossary_header_arrow_spacing"sprites_thinking_spacingo;	;iï;"sprites-thinking-spacing;@;"sprites_thinking_spacing"sprites_lesson_repeato;	;i¸;"sprites-lesson-repeat;@;"sprites_lesson_repeat"sprites_lesson_positiono;	;i¶;"sprites-lesson-position;@;"sprites_lesson_position" sprites_sort_pointer_repeato;	;iì;" sprites-sort-pointer-repeat;@;" sprites_sort_pointer_repeat"sprites_practice_spacingo;	;iÇ;"sprites-practice-spacing;@;"sprites_practice_spacing"#sprites_sash_inprogress_repeato;	;iÔ;"#sprites-sash-inprogress-repeat;@;"#sprites_sash_inprogress_repeat"!sprites_cite_pointer_spacingo;	;i£;"!sprites-cite-pointer-spacing;@;"!sprites_cite_pointer_spacing"#sprites_nav_active_btn_spacingo;	;i¿;"#sprites-nav-active-btn-spacing;@;"#sprites_nav_active_btn_spacing"sprites_restart_spacingo;	;iË;"sprites-restart-spacing;@;"sprites_restart_spacing"sprites_cheering_repeato;	;i ;"sprites-cheering-repeat;@;"sprites_cheering_repeat"&sprites_sash_recommended_positiono;	;iÞ;"&sprites-sash-recommended-position;@;"&sprites_sash_recommended_position"!sprites_sash_unlocked_repeato;	;iä;"!sprites-sash-unlocked-repeat;@;"!sprites_sash_unlocked_repeat"-sprites_challenge_cup_completed_positiono;	;i–;"-sprites-challenge-cup-completed-position;@;"-sprites_challenge_cup_completed_position""sprites_nav_active_btn_repeato;	;iÀ;""sprites-nav-active-btn-repeat;@;""sprites_nav_active_btn_repeat",sprites_challenge_cup_completed_spacingo;	;i—;",sprites-challenge-cup-completed-spacing;@;",sprites_challenge_cup_completed_spacing"layouto;	;iö;"sprites-layout;@;"sprites_layout")sprites_overall_progress_bg_positiono;	;iÂ;")sprites-overall-progress-bg-position;@;")sprites_overall_progress_bg_position""sprites_sash_unlocked_spacingo;	;iã;""sprites-sash-unlocked-spacing;@;""sprites_sash_unlocked_spacing"#sprites_sash_completed_spacingo;	;iÏ;"#sprites-sash-completed-spacing;@;"#sprites_sash_completed_spacing"&sprites_close_modal_white_spacingo;	;i§;"&sprites-close-modal-white-spacing;@;"&sprites_close_modal_white_spacing""sprites_sash_completed_repeato;	;iÐ;""sprites-sash-completed-repeat;@;""sprites_sash_completed_repeat" sprites_cite_pointer_repeato;	;i¤;" sprites-cite-pointer-repeat;@;" sprites_cite_pointer_repeat"'sprites_overall_progress_bg_repeato;	;iÄ;"'sprites-overall-progress-bg-repeat;@;"'sprites_overall_progress_bg_repeat"sprites_video_repeato;	;iô;"sprites-video-repeat;@;"sprites_video_repeat"cleanupo;	;i÷;"sprites-clean-up;@;"sprites_clean_up"#sprites_challenge_cup_positiono;	;iš;"#sprites-challenge-cup-position;@;"#sprites_challenge_cup_position"+sprites_challenge_cup_completed_repeato;	;i˜;"+sprites-challenge-cup-completed-repeat;@;"+sprites_challenge_cup_completed_repeat""sprites_challenge_cup_spacingo;	;i›;""sprites-challenge-cup-spacing;@;""sprites_challenge_cup_spacing""sprites_cite_pointer_positiono;	;i¢;""sprites-cite-pointer-position;@;""sprites_cite_pointer_position"$sprites_sash_recommended_repeato;	;ià;"$sprites-sash-recommended-repeat;@;"$sprites_sash_recommended_repeat"$sprites_sash_inprogress_spacingo;	;iÓ;"$sprites-sash-inprogress-spacing;@;"$sprites_sash_inprogress_spacing"sprites_practice_repeato;	;iÈ;"sprites-practice-repeat;@;"sprites_practice_repeat"sprites_cheering_positiono;	;iž;"sprites-cheering-position;@;"sprites_cheering_position"sprites_lesson_spacingo;	;i·;"sprites-lesson-spacing;@;"sprites_lesson_spacing" sprites_active_tick_spacingo;	;i;" sprites-active-tick-spacing;@;" sprites_active_tick_spacing"*sprites_achievement_template_positiono;	;i†;"*sprites-achievement-template-position;@;"*sprites_achievement_template_position"sprites_cheering_spacingo;	;iŸ;"sprites-cheering-spacing;@;"sprites_cheering_spacing"$sprites_sash_completed_positiono;	;iÎ;"$sprites-sash-completed-position;@;"$sprites_sash_completed_position"sprites_thinking_repeato;	;ið;"sprites-thinking-repeat;@;"sprites_thinking_repeat"sprites_award_cup_positiono;	;i’;"sprites-award-cup-position;@;"sprites_award_cup_position"!sprites_challenge_cup_repeato;	;iœ;"!sprites-challenge-cup-repeat;@;"!sprites_challenge_cup_repeat"'sprites_close_modal_white_positiono;	;i¦;"'sprites-close-modal-white-position;@;"'sprites_close_modal_white_position"sprites_close_positiono;	;iª;"sprites-close-position;@;"sprites_close_position"%sprites_sash_recommended_spacingo;	;iß;"%sprites-sash-recommended-spacing;@;"%sprites_sash_recommended_spacing"$sprites_nav_active_btn_positiono;	;i¾;"$sprites-nav-active-btn-position;@;"$sprites_nav_active_btn_position" sprites_sash_locked_spacingo;	;i×;" sprites-sash-locked-spacing;@;" sprites_sash_locked_spacing"sprites_dealing_positiono;	;i®;"sprites-dealing-position;@;"sprites_dealing_position"+sprites_glossary_header_arrow_positiono;	;i²;"+sprites-glossary-header-arrow-position;@;"+sprites_glossary_header_arrow_position"sprites_dealing_spacingo;	;i¯;"sprites-dealing-spacing;@;"sprites_dealing_spacing"sprites_sash_new_spacingo;	;iÛ;"sprites-sash-new-spacing;@;"sprites_sash_new_spacing"sprites_award_cup_spacingo;	;i“;"sprites-award-cup-spacing;@;"sprites_award_cup_spacing"sprites_magnifier_repeato;	;i¼;"sprites-magnifier-repeat;@;"sprites_magnifier_repeat"(sprites_achievement_template_repeato;	;iˆ;"(sprites-achievement-template-repeat;@;"(sprites_achievement_template_repeat"sprites_sash_new_positiono;	;iÚ;"sprites-sash-new-position;@;"sprites_sash_new_position"$sprites_sort_pointer_up_spacingo;	;iç;"$sprites-sort-pointer-up-spacing;@;"$sprites_sort_pointer_up_spacing"sprites_video_positiono;	;iò;"sprites-video-position;@;"sprites_video_position"!sprites_sash_locked_positiono;	;iÖ;"!sprites-sash-locked-position;@;"!sprites_sash_locked_position"!sprites_active_tick_positiono;	;iŽ;"!sprites-active-tick-position;@;"!sprites_active_tick_position"sprites_sash_new_repeato;	;iÜ;"sprites-sash-new-repeat;@;"sprites_sash_new_repeat" sprites_active_btn_positiono;	;iŠ;" sprites-active-btn-position;@;" sprites_active_btn_position"sprites_thinking_positiono;	;iî;"sprites-thinking-position;@;"sprites_thinking_position"sprites_practice_positiono;	;iÆ;"sprites-practice-position;@;"sprites_practice_position"sprites_award_cup_repeato;	;i”;"sprites-award-cup-repeat;@;"sprites_award_cup_repeat"!sprites_sort_pointer_spacingo;	;ië;"!sprites-sort-pointer-spacing;@;"!sprites_sort_pointer_spacing"sprites_close_spacingo;	;i«;"sprites-close-spacing;@;"sprites_close_spacing""sprites_sort_pointer_positiono;	;iê;""sprites-sort-pointer-position;@;""sprites_sort_pointer_position")sprites_achievement_template_spacingo;	;i‡;")sprites-achievement-template-spacing;@;")sprites_achievement_template_spacing"sprites_active_btn_repeato;	;iŒ;"sprites-active-btn-repeat;@;"sprites_active_btn_repeat"sprites_dealing_repeato;	;i°;"sprites-dealing-repeat;@;"sprites_dealing_repeat"sprites_magnifier_positiono;	;iº;"sprites-magnifier-position;@;"sprites_magnifier_position"#sprites_sash_unlocked_positiono;	;iâ;"#sprites-sash-unlocked-position;@;"#sprites_sash_unlocked_position"%sprites_close_modal_white_repeato;	;i¨;"%sprites-close-modal-white-repeat;@;"%sprites_close_modal_white_repeat"sprites_video_spacingo;	;ió;"sprites-video-spacing;@;"sprites_video_spacing"sprites_close_repeato;	;i¬;"sprites-close-repeat;@;"sprites_close_repeat"(sprites_overall_progress_bg_spacingo;	;iÃ;"(sprites-overall-progress-bg-spacing;@;"(sprites_overall_progress_bg_spacing"%sprites_sash_inprogress_positiono;	;iÒ;"%sprites-sash-inprogress-position;@;"%sprites_sash_inprogress_position"#sprites_sort_pointer_up_repeato;	;iè;"#sprites-sort-pointer-up-repeat;@;"#sprites_sort_pointer_up_repeat"sprites_restart_repeato;	;iÌ;"sprites-restart-repeat;@;"sprites_restart_repeat:
+@args[o;	;"sprites/*.png;i„;;;@;@;	[ ;@o;;["_/* All sprites should extend this class
+ * The sprites-sprite mixin will do so for you. */;iû;0;	[ ;@;i u:Sass::Tree::IfNodeÑ[o:Sass::Script::Variable	:
+@lineiý:
+@name"sprites-inline:@options{ :@underscored_name"sprites_inlineu:Sass::Tree::IfNodeÜ[00[o:Sass::Tree::RuleNode:@has_childrenT:
+@tabsi :
+@linei:
+@rule[o:Sass::Script::Variable	;i:
+@name"sprites-sprite-base-class:@options{ :@underscored_name"sprites_sprite_base_class:@children[o:Sass::Tree::PropNode;i :@valueo:Sass::Script::List	;[o;
+	;i;"sprites-sprites;@;"sprites_spriteso:Sass::Script::String	;"no-repeat;i:
+@type:identifier;@;i:@separator:
+space;@;i:@prop_syntax:new;["background;[ ;@;@[o:Sass::Tree::RuleNode:@has_childrenT:
+@tabsi ;iþ:
+@rule[o; 	;iþ;"sprites-sprite-base-class;@;	"sprites_sprite_base_class:@children[o:Sass::Tree::PropNode;i :@valueo:Sass::Script::Funcall
+;iÿ;"inline-sprite:@keywords{ :
+@args[o; 	;iÿ;"sprites-sprites;@;	"sprites_sprites;@;iÿ:@prop_syntax:new;["background-image;[ ;@;@o;;["L/*sass functions to return the dimensions of a sprite image as units */;i;0;	[ ;@;i o:Sass::Tree::FunctionNode;T;i;"sprites-sprite-width;	[o;;0;i	;"	file;o; 
+;i	;"sprite_file;!{ ;"[o;	;i	;"sprites-sprites;@;"sprites_spriteso;	;i	;"	name;@;"	name;@;	[ ;@o:Sass::Tree::ReturnNode	;i
+;o; 
+;i
+;"image-width;!{ ;"[o;	;i
+;"	file;@;"	file;@;	[ ;@;"[[o;;"	name;@;"	name0;@o;$;T;i;"sprites-sprite-height;	[o;;0;i;"	file;o; 
+;i;"sprite_file;!{ ;"[o;	;i;"sprites-sprites;@;"sprites_spriteso;	;i;"	name;@;"	name;@;	[ ;@o;%	;i;o; 
+;i;"image-height;!{ ;"[o;	;i;"	file;@;"	file;@;	[ ;@;"[[o;;"	name;@;"	name0;@o;;["c/* Use this to set the dimensions of an element
+ * based on the size of the original image. */;i;0;	[ ;@;i o:Sass::Tree::MixinDefNode;T;i;"sprites-sprite-dimensions;	[o:Sass::Tree::MixinNode;i;"sprite-dimensions;!{ ;	[ ;"[o;	;i;"sprites-sprites;@;"sprites_spriteso;	;i;"	name;@;"	name;@;"[[o;;"	name;@;"	name0;@o;;[">/* Move the background position to display the sprite. */;i;0;	[ ;@;i o;&;T;i;"sprites-sprite-position;	[o;';i;"sprite-background-position;!{ ;	[ ;"[	o;	;i;"sprites-sprites;@;"sprites_spriteso;	;i;"	name;@;"	nameo;	;i;"offset-x;@;"offset_xo;	;i;"offset-y;@;"offset_y;@;"[[o;;"	name;@;"	name0[o;;"offset-x;@;"offset_xo;;@(;i ;i;[ ;"0;@[o;;"offset-y;@;"offset_yo;;@(;i ;i;[ ;"0;@;@o;;["ž/* Extends the sprite base class and set the background position for the desired sprite.
+ * It will also apply the image dimensions if $dimensions is true. */;i;0;	[ ;@;i o;&;T;i ;"sprites-sprite;	[o:Sass::Tree::ExtendNode	;i!;	[ :@selector[o;	;i!;"sprites-sprite-base-class;@;"sprites_sprite_base_class;@o;';i#;"sprite;!{ ;	[ ;"[
+o;	;i";"sprites-sprites;@;"sprites_spriteso;	;i";"	name;@;"	nameo;	;i";"dimensions;@;"dimensionso;	;i";"offset-x;@;"offset_xo;	;i";"offset-y;@;"offset_y;@;"[	[o;;"	name;@;"	name0[o;;"dimensions;@;"dimensionso;	;i ;"sprites-sprite-dimensions;@;"sprites_sprite_dimensions[o;;"offset-x;@;"offset_xo;;@(;i ;i ;[ ;"0;@[o;;"offset-y;@;"offset_yo;;@(;i ;i ;[ ;"0;@;@o;&;T;i%;"sprites-sprites;	[o;';i';"sprites;!{ ;	[ ;"[o;	;i&;"sprites-sprites;@;"sprites_spriteso;	;i&;"sprite-names;@;"sprite_nameso;	;i&;"sprites-sprite-base-class;@;"sprites_sprite_base_classo;	;i&;"dimensions;@;"dimensionso;	;i&;"prefix;@;"prefixo;	;i&;"offset-x;@;"offset_xo;	;i&;"offset-y;@;"offset_y;@;"[
+[o;;"sprite-names;@;"sprite_names0[o;;"dimensions;@;"dimensionso;	;i%;"sprites-sprite-dimensions;@;"sprites_sprite_dimensions[o;;"prefix;@;"prefixo; 
+;i%;"sprite-map-name;!{ ;"[o;	;i%;"sprites-sprites;@;"sprites_sprites;@[o;;"offset-x;@;"offset_xo;;@(;i ;i%;[ ;"0;@[o;;"offset-y;@;"offset_yo;;@(;i ;i%;[ ;"0;@;@o;;["4/* Generates a class for each sprited image. */;i);0;	[ ;@;i o;&;T;i*;"all-sprites-sprites;	[o;';i+;"sprites-sprites;!{ ;	[ ;"[
+o:Sass::Script::List	;[!o;	;"achievement-template;i+;;;@o;	;"active-btn;i+;;;@o;	;"active-tick;i+;;;@o;	;"award-cup;i+;;;@o;	;"challenge-cup-completed;i+;;;@o;	;"challenge-cup;i+;;;@o;	;"cheering;i+;;;@o;	;"cite-pointer;i+;;;@o;	;"close-modal-white;i+;;;@o;	;"
+close;i+;;;@o;	;"dealing;i+;;;@o;	;"glossary-header-arrow;i+;;;@o;	;"lesson;i+;;;@o;	;"magnifier;i+;;;@o;	;"nav-active-btn;i+;;;@o;	;"overall-progress-bg;i+;;;@o;	;"practice;i+;;;@o;	;"restart;i+;;;@o;	;"sash-completed;i+;;;@o;	;"sash-inprogress;i+;;;@o;	;"sash-locked;i+;;;@o;	;"sash-new;i+;;;@o;	;"sash-recommended;i+;;;@o;	;"sash-unlocked;i+;;;@o;	;"sort-pointer-up;i+;;;@o;	;"sort-pointer;i+;;;@o;	;"thinking;i+;;;@o;	;"
+video;i+;;;@;i+:@separator:
+space;@o;	;i+;"dimensions;@;"dimensionso;	;i+;"prefix;@;"prefixo;	;i+;"offset-x;@;"offset_xo;	;i+;"offset-y;@;"offset_y;@;"[	[o;;"dimensions;@;"dimensionso;	;i*;"sprites-sprite-dimensions;@;"sprites_sprite_dimensions[o;;"prefix;@;"prefixo; 
+;i*;"sprite-map-name;!{ ;"[o;	;i*;"sprites-sprites;@;"sprites_sprites;@[o;;"offset-x;@;"offset_xo;;@(;i ;i*;[ ;"0;@[o;;"offset-y;@;"offset_yo;;@(;i ;i*;[ ;"0;@;@;@

@@ -1,0 +1,57 @@
+
+.utility-bar {
+  @include box-shadow($black 0 0px 20px -6px);
+  background:url('../img/backgrounds/utility-bar.png') repeat-x center left;
+  height:43px;
+  width:100%;
+  position: relative;
+  font-weight:bold;
+  @include single-text-shadow(#FFF, 0px, 1px, 1px);
+  z-index:$utilityBar;
+  .p1, .p2, .p3 {
+    @include single-text-shadow($default-text-shadow-color, 0px, 1px, 1px);
+    float:left;
+    height:100%;
+    color: $lesson-description;
+    font-size:15px;
+    text-indent:22px;
+    line-height:43px;
+  }
+  .p1 {
+    width: 221px;
+    padding-left: 42px;
+  }
+  .p2 {
+    width: 226px;
+  }
+  .alphabetical-filter {
+    margin-left:26px;
+    display: inline-block;
+    margin-top:13px;
+    li {
+      @include border-radius(3px);
+      float:left;
+      cursor:pointer;
+      margin:0 2px 0 0;
+      a {
+        color: $lesson-description;
+        text-decoration:none;
+        padding:5px 5px;
+      }
+    }
+    li:hover {
+      background: $lesson-completed-color;
+      @include single-text-shadow(#555, 0px, -1px, 1px);
+    }
+    li.active {
+      background: $lesson-completed-color;
+    }
+    li.last {
+      margin-right:0;
+    }
+    li:hover a,
+    li.active a {
+      color: $white;
+    }
+  }
+}

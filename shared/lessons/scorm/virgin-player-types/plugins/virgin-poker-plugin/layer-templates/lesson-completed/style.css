@@ -1,0 +1,100 @@
+
+
+.lesson-completed h2 {
+	font-family: "skippy-sharp", cursive, sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	font-style: normal;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 12px rgba(0,0,0,.2);
+	margin: 60px 0 24px 0;
+}
+
+.lesson-completed h2 span {
+	padding: 0 0 8px 0;
+	background: url('../../assets/strike.png') bottom center no-repeat;
+	background-size: 90% 7px;
+}
+
+
+.lesson-completed .normal,
+.lesson-completed label {
+	font-family: franklin-gothic-urw;
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+	width: 60%;
+	margin: 16px auto;
+	text-align: center;
+}
+
+
+.lesson-completed .objective {
+	border: 3px solid white;
+	border-radius: 8px;
+	box-shadow: 0 0 8px 1px rgba(0,0,0,0.25),
+				inset 0 0 8px 1px rgba(0,0,0,0.4);
+	width: 70%;
+	margin: 20px auto 0;
+	text-align: center;
+}
+
+
+.lesson-completed .objective header {
+	text-align: center;
+	color: #fefe98;
+	font-size: 18px;
+	padding: 12px 0 0;
+}
+
+
+.lesson-completed .objective div,
+.lesson-completed .objective p {
+	width: 48%;
+	display: inline-block;
+	border-right: 1px solid black;
+	line-height: 90px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.lesson-completed .objective p {
+	color: #fff;
+	font-size: 36px;
+	border-right: none;
+	border-left: 1px solid white;
+}
+
+
+.lesson-completed button {
+	background-image: -webkit-linear-gradient(top, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+	background-image: linear-gradient(to bottom center, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+	color: white;
+	padding: 8px 16px;
+	font-family: "franklin-gothic-urw";
+	font-weight: lighter;
+	letter-spacing: .05em;
+	font-size: 20px;
+	border: 1px solid;
+	border-radius: 6px;
+	border-color: #ab1000 #642226 #951000;
+	margin: 8px 6px 0;
+	box-shadow: 0 0 4px 1px rgba(0,0,0,0.3);
+}
+
+
+.lesson-completed button.secondary {
+	background-image: -webkit-linear-gradient(top, #fefefe 0%, #f4f4f4 49.9%, #e3e3e3 50%, #c9c9c9 100%);
+	background-image: linear-gradient(to bottom center, #fefefe 0%, #f4f4f4 49.9%, #e3e3e3 50%, #c9c9c9 100%);
+	border-color: #fff #b3b3b3 #b3b3b3;
+	color: #5d5d5d;
+}
+
+
+.lesson-completed p.share,
+.lesson-completed div.buttons {
+	text-align: center;
+	margin-bottom: 8px;
+}
+

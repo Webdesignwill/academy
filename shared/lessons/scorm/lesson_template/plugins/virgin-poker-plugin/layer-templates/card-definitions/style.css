@@ -1,0 +1,74 @@
+
+.card-definitions {
+	color: #fff;
+	background: url('../../assets/prof-hmm.png') bottom right no-repeat;
+}
+
+.card-definitions h2 {
+	font-family: "skippy-sharp", cursive, sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	font-style: normal;
+	text-align: center;
+	text-shadow: 0 0 12px rgba(0,0,0,.2);
+	margin: 102px 0 24px 0;
+}
+
+.card-definitions h2 span {
+	padding: 0 0 8px 0;
+	background: url('../../assets/strike.png') bottom center no-repeat;
+	background-size: 90% 7px;
+}
+
+
+.card-definitions header {
+	border-bottom: 1px solid #fff;
+	overflow: none;
+	padding: 0 0 10px 177px;
+	height: 70px;
+}
+
+.card-definitions header img {
+	padding-right: 20px;
+	vertical-align: middle;
+}
+
+.card-definitions header p {
+	display: inline;
+	vertical-align: middle;
+	font-size: 1.2em;
+}
+
+
+.card-definitions section.hand div > p {
+	margin-top: 20px;
+	float: right;
+	width: 550px;
+	padding-right: 30px;
+}
+
+
+.card-definitions ul {
+	width: 160px;
+	padding: 0;
+	margin-left: 4px;
+}
+
+.card-definitions li {
+	text-align: center;
+	list-style: none;
+	padding: 8px 4px;
+}
+
+.card-definitions ul.small li {
+	display: inline-block;
+	width: 70px;
+}
+
+.card-definitions ul.small li img {
+	width: 100%;
+}
+
+.card-definitions li img {
+	transition: opacity .2s ease-in-out;
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "id" : "1",
+    "title" : "A Diamond in the Bluff",
+    "tip" : "Basic intro to the concept of bluffing, what it is and some factors to consider when deciding whether to bluff or not.",
+    "awardTitle" : "Don't Hate the Playa",
+    "awardRef" : "DONT_HATE_THE_PLAYA",
+    "challengeCriteria" : "Make 3 successful river bluffs (Bet river with less than a pair and make your opponent fold)",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "2",
+    "title" : "Position Impossible",
+    "tip" : "Defining the four positions, early, middle, late, blinds and a little bit about how each affects hand selection.",
+    "awardTitle" : "Push the Button",
+    "awardRef" : "PUSH_THE_BUTTON",
+    "challengeCriteria" : "Raise on the button 10 times.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "3",
+    "title" : "Maniac on the Floor",
+    "tip" : "Guide to the different player types.",
+    "awardTitle" : "Know your Enemy",
+    "awardRef" : "KNOW_YOUR_ENEMY",
+    "challengeCriteria" : "Call a river bet with Ace high and win.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "4",
+    "title" : "Hands to Yourself",
+    "tip" : "Guide to preflop hand strength.",
+    "awardTitle" : "Taking out the Trash",
+    "awardRef" : "TAKING_OUT_THE_TRASH",
+    "challengeCriteria" : "Fold 25 junk hands.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "5",
+    "title" : "Look Before You Leap",
+    "tip" : "General strategy for playing tighter in EP and looser in LP with some rough guidelines for which hands you can play from each.",
+    "awardTitle" : "Assume the Position",
+    "awardRef" : "ASSUME_THE_POSITION",
+    "challengeCriteria" : "Fold a top 20% hand in EP 3 times.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "6",
+    "title" : "To Bet or Not to Bet?",
+    "tip" : "Why and when to bet.",
+    "awardTitle" : "Welcome to Valuetown",
+    "awardRef" : "WELCOME_TO_VALUETOWN",
+    "challengeCriteria" : "Make 3 successful river value bets.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "7",
+    "title" : "No Mistake About It",
+    "tip" : "Common Mistakes for Beginners.",
+    "awardTitle" : "Suited and Booted",
+    "awardRef" : "SUITED_AND_BOOTED",
+    "challengeCriteria" : "Fold 50 suited hands.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "8",
+    "title" : "Belly Flop",
+    "tip" : "A lesson on why you shouldn't always call the flop and some rough guides for when to continue - when you have at least a pair or a decent draw.",
+    "awardTitle" : "Floptimal Play",
+    "awardRef" : "FLOPTIMAL_PLAY",
+    "challengeCriteria" : "Fold on the flop 5 times",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "9",
+    "title" : "The CBetting Identity",
+    "tip" : "Introduction tot he concept of the continuation bet - betting on the flop after having made a raise preflop, regardless of your hand strength.",
+    "awardTitle" : "To Be Continued",
+    "awardRef" : "TO_BE_CONTINUED",
+    "challengeCriteria" : "Make ten flop continuation bets.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "10",
+    "title" : "Poker 101",
+    "tip" : "The rules of poker explained.",
+    "awardTitle" : "Pop ya Cherry",
+    "awardRef" : "POP_YA_CHERRY",
+    "challengeCriteria" : "Play a hand.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "12",
+    "title" : "Raise the Roof",
+    "tip" : "Explanation of why it's a good idea to come in for a raise preflop rather than just call.",
+    "awardTitle" : "Raisy Daisy",
+    "awardRef" : "RAISY_DAISY",
+    "challengeCriteria" : "Make 10 preflop raises.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "13",
+    "title" : "Take Me to the River",
+    "tip" : "Why you shouldn't call every time and some things to consider when thinking about calling with a weak hand.",
+    "awardTitle" : "Cry me a River",
+    "awardRef" : "CRY_ME_A_RIVER",
+    "challengeCriteria" : "Fold to a river bet 3 times.",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  },
+  {
+    "id" : "14",
+    "title" : "Slow Motion",
+    "tip" : "explanation of what slowplay is and some tips on when to use it and when to avoid it.",
+    "awardTitle" : "Make it Rain",
+    "awardRef" : "MAKE_IT_RAIN",
+    "challengeCriteria" : "Win 3 pots of over 100BBs",
+    "url" : "../../../shared/lessons/scorm/virgin-player-types/viewer/index.html"
+  }
+]

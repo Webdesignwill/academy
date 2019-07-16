@@ -1,0 +1,26 @@
+/* line 2, style.scss */
+input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: -99999px;
+}
+
+/* line 7, style.scss */
+input[type="radio"] + label {
+  position: relative;
+  display: inline;
+  width: 20px;
+  height: 21px;
+  background-image: url(assets/radio-buttons.png);
+  background-position: 0 0;
+}
+
+/* line 15, style.scss */
+input[type="radio"]:checked + label {
+  background-position: 0 -21px;
+}
+
+/* line 18, style.scss */
+input[type="radio"] + label.checked {
+  background-position: 0 -21px;
+}

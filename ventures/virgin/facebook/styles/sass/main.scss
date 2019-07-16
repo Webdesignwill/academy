@@ -1,0 +1,69 @@
+
+@import "core";
+@import "sprites";
+@import "variables";
+@import "compass-twitter-bootstrap";
+
+.academy-content-container {
+  position:absolute;
+  background: #000 url('../img/backgrounds/academy_bg.png') no-repeat top center;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  #academy-global-container {
+    @import "theme";
+    @import "base";
+    @import "nav";
+    @import "header";
+    @import "trophies";
+    @import "utility-bar";
+    @import "typography";
+    @import "lesson-items";
+    @import "glossary";
+
+    .text-highlight {
+      background:yellow;
+      color:#000;
+    }
+
+    width:$app-width;
+    margin:0 auto;
+    padding-top:20px;
+    font-family:$global-font;
+    .academy-modal {
+      visibility:hidden;
+      @import "lesson-completed";
+    }
+    .academy-sub-modal {
+      visibility:hidden;
+    }
+    .modal-mask {
+      display:none;
+    }
+    .error {
+      @include border-radius(6px);
+      background:#FFF;
+      padding:20px;
+      font-size:22px;
+      margin: 100px auto 0 auto;
+      width:400px;
+      text-align:center;
+      line-height:28px;
+      strong {
+        font-weight:bold;
+      }
+    }
+    button {
+      border:none;
+    }
+  }
+}
+
+#academy-global-container.show-modal {
+  @import "modal";
+}
+
+#academy-global-container.show-sub-modal {
+  @import "sub-modal";
+}

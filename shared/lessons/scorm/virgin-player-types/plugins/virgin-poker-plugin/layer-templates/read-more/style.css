@@ -1,0 +1,195 @@
+/* line 2, style.scss */
+.read-more-container {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -270px;
+  width: 540px;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+}
+/* line 10, style.scss */
+.read-more-container .image-container {
+  display: block;
+  float: left;
+  min-height: 268px;
+  width: 220px;
+}
+/* line 15, style.scss */
+.read-more-container .image-container img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* line 21, style.scss */
+.read-more-container .text-container {
+  float: left;
+  margin-right: 30px;
+  width: 290px;
+}
+/* line 26, style.scss */
+.read-more-container .headline {
+  margin: 25px 0;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+}
+/* line 32, style.scss */
+.read-more-container .see-more-link {
+  display: inline-block;
+  padding-left: 30px;
+  background-image: url("assets/see-more.png");
+  background-repeat: no-repeat;
+  color: #414042;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+}
+/* line 43, style.scss */
+.read-more-container .scroll-container {
+  display: none;
+  overflow: auto;
+  width: 100%;
+  height: 150px;
+}
+/* line 49, style.scss */
+.read-more-container .more-text {
+  padding-right: 10px;
+}
+/* line 52, style.scss */
+.read-more-container .go-container {
+  margin: 30px 0;
+  text-align: center;
+}
+/* line 56, style.scss */
+.read-more-container .go {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid;
+  border-color: #ab1000 #642226 #951000;
+  border-radius: 6px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UzMjEwNiIvPjxzdG9wIG9mZnNldD0iNDkuOSUiIHN0b3AtY29sb3I9IiNkZTIwMDYiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2M3MWMxMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FlMTUwZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e32106), color-stop(49.9%, #de2006), color-stop(50%, #c71c12), color-stop(100%, #ae150d));
+  background-image: -webkit-linear-gradient(top, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+  background-image: -moz-linear-gradient(top, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+  background-image: -o-linear-gradient(top, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+  background-image: linear-gradient(top, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* line 74, style.scss */
+.jspContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 80, style.scss */
+.jspPane {
+  position: absolute;
+}
+
+/* line 85, style.scss */
+.jspVerticalBar {
+  position: absolute;
+  top: 0;
+  right: 8px;
+  width: 8px;
+  height: 100%;
+}
+
+/* line 94, style.scss */
+.jspHorizontalBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 16px;
+}
+
+/* line 104, style.scss */
+.jspVerticalBar *,
+.jspHorizontalBar * {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 110, style.scss */
+.jspCap {
+  display: block;
+  height: 8px;
+}
+
+/* line 116, style.scss */
+.jspHorizontalBar .jspCap {
+  float: left;
+}
+
+/* line 121, style.scss */
+.jspTrack {
+  position: relative;
+}
+
+/* line 126, style.scss */
+.jspDrag {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #454646;
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
+/* line 138, style.scss */
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+  float: left;
+  height: 100%;
+}
+
+/* line 144, style.scss */
+.jspArrow {
+  display: block;
+  text-indent: -20000px;
+  cursor: pointer;
+}
+
+/* line 151, style.scss */
+.jspArrow.jspDisabled {
+  cursor: default;
+}
+
+/* line 156, style.scss */
+.jspVerticalBar .jspArrow {
+  height: 16px;
+}
+
+/* line 161, style.scss */
+.jspHorizontalBar .jspArrow {
+  float: left;
+  width: 16px;
+  height: 100%;
+}
+
+/* line 168, style.scss */
+.jspVerticalBar .jspArrow:focus {
+  outline: none;
+}
+
+/* line 173, style.scss */
+.jspCorner {
+  float: left;
+  height: 100%;
+}

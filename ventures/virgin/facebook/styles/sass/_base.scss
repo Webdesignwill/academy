@@ -1,0 +1,11 @@
+
+/* Global styles that apply to all non views */
+
+.academy-content {
+  min-height:425px;
+  max-height:416px;
+  overflow-y:scroll;
+  clear:both;
+  background:#FFF;
+  @include border-bottom-radius(12px);
+}

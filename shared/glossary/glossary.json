@@ -1,0 +1,830 @@
+[
+  {
+    "letter" : "A",
+    "words" : [
+      {
+        "word" : "ABC player",
+        "description" : "An uncreative and predictable player."
+      },
+      {
+        "word" : "Act",
+        "description" : "An opportunity for a player to make an available action - to ‘act’ on your hand – your turn."
+      },
+      {
+        "word" : "Action",
+        "description" : "- (1) ‘The action is on you’ = it’s your turn. (2) Bets and raises. ‘If another club hits the board and there's a lot of action, someone must have hit their flush.’"
+      },
+      {
+        "word" : "Active Player",
+        "description" : "Any player currently involved in a hand."
+      },
+      {
+        "word" : "Add-On",
+        "description" : "The option to buy (and add-on) a set amount of additional chips at the end of the rebuy period of a tournament."
+      },
+      {
+        "word" : "Aggressive",
+        "description" : "If a player is frequently betting and raising, their style of play is said to be aggressive."
+      },
+      {
+        "word" : "All-in",
+        "description" : "When a player bets all of his or her remaining chips. (You may be deemed ‘all-in’ when you are disconnected, even if you have chips remaining)."
+      },
+      {
+        "word" : "Ante",
+        "description" : "Towards the latter stages of a tournament, antes are introduced as an additional, smaller blind bet which is paid by every player before each hand."
+      }
+    ]
+  },
+  {
+    "letter" : "B",
+    "words" : [
+      {
+        "word" : "Backdoor",
+        "description" : "Catching both the turn and river card to make your hand.  E.G You hold Ah-5h and the flop comes Ad-3h-9c. You bet and are called. The turn is the Jh - everybody checks - and the river is the 10h. You’ve now made a backdoor flush."
+      },
+      {
+        "word" : "Bad Beat",
+        "description" : "When a vastly inferior pre-flop hand ends up beating a stronger hand – this is what is known as a bad beat. The implication here is usually that the holder of the worse hand had no business being in the pot. Try to avoid becoming a teller of ‘bad beat stories’."
+      },
+      {
+        "word" : "Bankroll",
+        "description" : "The number of chips you have in your Virgin Poker account."
+      },
+      {
+        "word" : "Bet The Pot",
+        "description" : "To bet the value of the pot."
+      },
+      {
+        "word" : "Big Blind (bb)",
+        "description" : "The big blind is the larger of the two pre-flop forced bets and paid by the player two seats to the left of the dealer. The big blind is often twice the amount of the small blind."
+      },
+      {
+        "word" : "Big Slick",
+        "description" : "A nickname for AK (suited or not)."
+      },
+      {
+        "word" : "Blank",
+        "description" : "– A card dealt to the board that doesn’t seem to affect the action or change things in the hand."
+      },
+      {
+        "word" : "Blind",
+        "description" : "A forced pre-flop bet (or partial bet) put in by one or more players before the cards are dealt. Blinds are put in by players immediately to the left of the dealer."
+      },
+      {
+        "word" : "Bluff",
+        "description" : "Betting or raising to make other players believe that you have a better hand than you actually hold."
+      },
+      {
+        "word" : "Board",
+        "description" : "The community cards - the flop, turn, and river."
+      },
+      {
+        "word" : "Bottom Pair",
+        "description" : "A pair with the lowest card on the board. If you have A-5, and the flop is J-Q-5, you have flopped bottom pair."
+      },
+      {
+        "word" : "Bottom Pair",
+        "description" : "A pair with the lowest card on the flop."
+      },
+      {
+        "word" : "Bounty",
+        "description" : "A prize given for eliminating a certain player from a tournament. "
+      },
+      {
+        "word" : "Bubble",
+        "description" : "The last player to be knocked out of a tournament before entering the payouts."
+      },
+      {
+        "word" : "Busted",
+        "description" : "(1) To miss a draw (2) To be lose all your chips and be eliminated from a tournament"
+      },
+      {
+        "word" : "Button",
+        "description" : "A white disk used to establish the dealer from the other seated players. If you are the button or 'on the button', you are the nominal dealer and have the advantage of acting last post-flop."
+      },
+      {
+        "word" : "Buy",
+        "description" : "(1) To buy the pot or attempt to buy the pot – is to make a bet which you hope will not be called. (2) Similarly, to ‘buy the button’ is to bet or raise pre-flop, hoping that players between you and the button will fold, effectively making you the button for the remainder of the hand."
+      },
+      {
+        "word" : "Buy-in",
+        "description" : "The amount of money you put in for chips at a poker table - the cost of an entry fee to a tournament."
+      }
+    ]
+  },
+  {
+    "letter" : "C",
+    "words" : [
+      {
+        "word" : "Call",
+        "description" : "To match the current bet – E.G if a previous player has bet $10, you also put $10 into the pot (rather than raise or fold)."
+      },
+      {
+        "word" : "Calling Station",
+        "description" : "A poor player who calls too often and rarely bets or raises."
+      },
+      {
+        "word" : "Catch",
+        "description" : "To hit a card that you need."
+      },
+      {
+        "word" : "Cash Game",
+        "description" : "A poker game where you may leave at any time as an alternative to a tournament. Also known as a ring game"
+      },
+      {
+        "word" : "Change Gears",
+        "description" : "To change your style of play based on the players or situation at the table. E.G to tighten up when other players at the table are loose – or to loosen up at the bubble stage of a tournament."
+      },
+
+      {
+        "word" : "Chase",
+        "description" : "When a player stays in a pot hoping to improve to a better hand, that player is said to be ‘chasing’."
+      },
+      {
+        "word" : "Check",
+        "description" : "To not bet. If the action is on you, and you aren’t facing a bet, you can check."
+      },
+      {
+        "word" : "Check-raise",
+        "description" : "To check and then raise if someone behind you bets."
+      },
+      {
+        "word" : "Chip Dump",
+        "description" : "This refers to the intentional loss of funds or chips to a designated player. This is a form of colluding. The recipient of the dump is referred to as the funnel. "
+      },
+      {
+        "word" : "Chip Leader",
+        "description" : "The player with the most chips at any given time in a tournament."
+      },
+      {
+        "word" : "Chip Leader",
+        "description" : "The player with the most chips at any given time in a tournament."
+      },
+      {
+        "word" : "Chop",
+        "description" : "(1) To split a pot as a result of drawn hands. (2) An agreement on the final table of a multi table tournament whereby the remaining players choose among themselves how to divide up the prize pool."
+      },
+      {
+        "word" : "Collusion",
+        "description" : "A form of cheating where two players on the same table pass each other information or chips"
+      },
+      {
+        "word" : "Community Cards",
+        "description" : "The common cards on the board which are used by all players in the hand."
+      },
+      {
+        "word" : "Connectors ",
+        "description" : "Two cards or more which are of consecutive rank."
+      },
+      {
+        "word" : "Continuation bet",
+        "description" : "A bet made on the flop by the player who took the pre-flop betting lead."
+      },
+      {
+        "word" : "Counterfeit",
+        "description" : "When one of cards on the board duplicates one of your hole cards and makes your hand weaker, you are said to have been counterfeited. E.G you hold 7c, 8d – the flop comes 9c, 10s, Jh – making you a straight. The next card is the 8h, weakening your holding as now any player with a queen has you beaten."
+      },
+      {
+        "word" : "Cripple the deck",
+        "description" : "When you hold most or all the cards that are needed to make a strong hand on a particular flop, you are said to have crippled the deck. For example, you hold a pair of aces and two more aces come on the flop, you’ve a) got very lucky and b) crippled the deck."
+      },
+      {
+        "word" : "Crying Call",
+        "description" : "A call you expect to lose, but feel obliged to make due to the pot odds. "
+      },
+      {
+        "word" : "Cut-off ",
+        "description" : "The seat immediately to the right of the dealer button. "
+      }
+    ]
+  },
+  {
+    "letter" : "D",
+    "words" : [
+      {
+        "word" : "Dealer",
+        "description" : "Also known being ‘on the button’. In the dealer’s position you enjoy the advantage of being the last to act in post flop betting rounds."
+      },
+      {
+        "word" : "Deepstack",
+        "description" : "A tournament in which players start with a larger number of chips than usual in relation to the blinds."
+      },
+      {
+        "word" : "Defensive Bet",
+        "description" : "A small bet which hopes to gather information about an opponent’s hand and limit loss to one’s own hand."
+      },
+      {
+        "word" : "Dog",
+        "description" : "Short for ‘underdog’ - this term refers to the person with the lowest chance of winning the hand."
+      },
+      {
+        "word" : "Dominate ",
+        "description" : "In a situation where two hands are matching up against one another and the weaker hand has three or fewer cards in the deck it can hit to have a chance of winning – that hand is said to be dominated. Usually this happens when both hands share a common card E.G. AK v A7 – there are only three 7s in the deck which the A7 hand can hope to hit."
+      },
+      {
+        "word" : "Donk (Donkey)",
+        "description" : "This term refers to a bad player. It may also be used to describe a good player that did something stupid."
+      },
+      {
+        "word" : "Double through, double up",
+        "description" : "To double your chips by betting them all (and winning) against a player who has more chips than you (or the same number)."
+      },
+      {
+        "word" : "Draw",
+        "description" : "A term given to hand which is not yet good however the hand has potential if the right cards come."
+      },
+      {
+        "word" : "Draw Dead",
+        "description" : "Usually heard when two or more players are all-in. When no card can turn your hand into the best hand this is said to be 'drawing dead'."
+      },
+      {
+        "word" : "Drawing Thin",
+        "description" : "Not quite drawing dead, but drawing to only one or two cards in the deck."
+      }
+    ]
+  },
+  {
+    "letter" : "E",
+    "words" : [
+      {
+        "word" : "Equity",
+        "description" : "Your expected share of a pot. If the pot contains $50, and you have a 50% chance of winning, you have $25 equity in the pot. In reality you'll either win $50 or $0, but you can get an idea of how much you would win on average in this situation"
+      }
+    ]
+  },
+  {
+    "letter" : "F",
+    "words" : [
+      {
+        "word" : "Face Card",
+        "description" : "A king, queen or jack."
+      },
+      {
+        "word" : "Fast Play",
+        "description" : "Playing aggressively, betting and raising frequently."
+      },
+      {
+        "word" : "Favourite ",
+        "description" : "The hand with the best chance of winning"
+      },
+      {
+        "word" : "Fifth Street",
+        "description" : "The fifth and final card dealt to the board, the ‘river’ card."
+      },
+      {
+        "word" : "Final Table",
+        "description" : "When only one table's worth of players remain in a multi-table tournament."
+      },
+      {
+        "word" : "Fish",
+        "description" : "A loose, unskilled player. As opposed to a shark, a skilled player who eats the fish..."
+      },
+      {
+        "word" : "Flat Call",
+        "description" : "Electing to call a bet where a raise might have been more expected."
+      },
+      {
+        "word" : "Float",
+        "description" : "Calling a bet with a poor hand with the intention of bluffing on a later street if the bettor gives up and checks to you."
+      },
+      {
+        "word" : "Flop",
+        "description" : "(1) The first three community cards. (2) Seeing the Flop: staying in the hand until the flop is dealt. (3) Post-Flop: any action that occurs after the flop. (4) Hitting the Flop: Making a pair or better with your hole cards and the cards on the flop."
+      },
+      {
+        "word" : "Flush",
+        "description" : "A hand which contains five non-consecutive cards of the same suit."
+      },
+      {
+        "word" : "Fold",
+        "description" : "To exit the current pot and decline to put any more chips in."
+      },
+      {
+        "word" : "Four of a Kind ",
+        "description" : "Also known as 'qauds' - four of a kind is a hand with four cards of the same rank."
+      },
+      {
+        "word" : "Fourth Street",
+        "description" : "The fourth card dealt to the board, the ‘turn’ card."
+      },
+      {
+        "word" : "Free Card",
+        "description" : "A card dealt to the board after a betting round in which every player remaining in the hand has checked."
+      },
+      {
+        "word" : "Freeroll",
+        "description" : "(1) A tournament that is free to enter. (2) To freeroll - to have the chance to win a hand without risk, when your opponent can’t hit any cards to win the hand outright."
+      },
+      {
+        "word" : "Freezeout",
+        "description" : "The standard form of tournament play - there are no rebuys and play continues until one player has all of the chips."
+      },
+      {
+        "word" : "Full House",
+        "description" : "A hand that contains three cards of one rank and two cards of another."
+      }
+    ]
+  },
+  {
+    "letter" : "G",
+    "words" : [
+      {
+        "word" : "Grinder",
+        "description" : "A 'grinder' refers to a player who grinds out a profit over a long period of careful play within his limits. "
+      },
+      {
+        "word" : "Gutshot",
+        "description" : "A term used to describe the card needed to fill an inside straight. E.G you hold 7,8, the board shows 10, J, 2 - you need a 9 to complete your gutshot draw."
+      }
+    ]
+  },
+  {
+    "letter" : "H",
+    "words" : [
+      {
+        "word" : "Hand ",
+        "description" : "(1) Your hand comprises of the cards you are holding combined with the best available cards on the board.(2) One complete round of poker, from the cards being dealt to someone winning the pot. (i.e. ‘I haven’t won a hand tonight’) "
+      },
+      {
+        "word" : "Heads-up",
+        "description" : "When there are only two players competing for a pot, they are said to be 'heads-up'. "
+      },
+      {
+        "word" : "High Card",
+        "description" : "A hand with no pair is ranked according to its highest card."
+      },
+      {
+        "word" : "High Roller",
+        "description" : "Someone who plays at high stakes, also, a 'baller'."
+      },
+      {
+        "word" : "Hole, Hole Cards",
+        "description" : "Your face down cards, pocket cards."
+      }
+    ]
+  },
+  {
+    "letter" : "I",
+    "words" : [
+      {
+        "word" : "Implied Odds",
+        "description" : "Implied odds are pot odds which don't currently exist, but take into account the bets you expect to win if you make your hand."
+      },
+      {
+        "word" : "Inside Straight Draw",
+        "description" : "A term used to describe the card needed to fill a gap in a straight. E.G you hold 7,8, the board shows 10, J, 2 - you need a 9 to complete your inside straight draw."
+      },
+      {
+        "word" : "In the Money",
+        "description" : "To be placed high enough in a tournament to receive prize money."
+      }
+    ]
+  },
+{
+    "letter" : "J",
+    "words" : [
+      {
+        "word" : "Jam",
+        "description" : "To 'jam the pot' is to bet or raise the maximum possible."
+      }
+    ]
+  },
+{
+    "letter" : "K",
+    "words" : [
+      {
+        "word" : "Kicker",
+        "description" : "The kicker is used to split hands of the same ranking. The winner between ties hands is whoever has the highest card (kicker) in addition to the cards that make up their ranking hand"
+      }
+    ]
+  },
+  {
+    "letter" : "L",
+    "words" : [
+      {
+        "word" : "Ladies",
+        "description" : "A pair of queens."
+      },
+      {
+        "word" : "Lay Down",
+        "description" : "To fold."
+      },
+      {
+        "word" : "Lead",
+        "description" : "To open the betting."
+      },
+      {
+        "word" : "Limp",
+        "description" : "To just call the blind pre-flop, rather than open with a raise."
+      },
+      {
+        "word" : "Live Cards",
+        "description" : "Cards in your hand which if paired, will give you the lead over your opponent. Typically used to describe cards in a weaker hand."
+      },
+      {
+        "word" : "Loose",
+        "description" : "Playing too many hands. Loose-passive players call too much, whereas loose-aggressive players bet and raise too often."
+      }
+    ]
+  },
+  {
+    "letter" : "M",
+    "words" : [
+      {
+        "word" : "Maniac",
+        "description" : "A hyper-aggressive raising, bluffing and betting machine. Maniacs are not usually good players but crazy gamblers."
+      },
+      {
+        "word" : "Miss",
+        "description" : "To 'miss', is to not connect with any of your cards on the flop or to not make your draw."
+      },
+      {
+        "word" : "Monster",
+        "description" : "A hand which is very likely to win."
+      },
+      {
+        "word" : "Muck",
+        "description" : "To fold one's hand without showing it or to chose not to show the winning hand if all other players fold."
+      }
+    ]
+  },
+  {
+    "letter" : "N",
+    "words" : [
+      {
+        "word" : "No Limit",
+        "description" : "In no limit poker, players may bet all the chips in front of them at any point. The most popular betting format in hold'em poker."
+      },
+      {
+        "word" : "Nuts",
+        "description" : "The best hand possile at any given time is known as the nuts."
+      }
+    ]
+  },
+  {
+    "letter" : "O",
+    "words" : [
+      {
+        "word" : "Odds",
+        "description" : "The probability of making a hand. "
+      },
+      {
+        "word" : "Offsuit",
+        "description" : "A starting hand with two cards of different suits. "
+      },
+      {
+        "word" : "Open",
+        "description" : "To start the betting."
+      },
+      {
+        "word" : "Open Ended Straight Draw",
+        "description" : "A straight draw which can be filled in at either end. E.G. You hold 9,10 - the flop comes J,Q,2 - you are said to be 'open ended' as you can hit an 8 or a K to complete your 9,10,J,Q draw."
+      },
+      {
+        "word" : "Outs",
+        "description" : "Any cards that you can hit to give you the winning hand. For example, if you hold an ace and only another ace will win the pot for you - there are three remaining in the deck, so you have three 'outs'."
+      },
+      {
+        "word" : "Overcard",
+        "description" : "Any card higher than a player's pocket pair."
+      },
+      {
+        "word" : "Overpair",
+        "description" : "A pocket pair higher in rank than any card on the board."
+      }
+    ]
+  },
+  {
+    "letter" : "P",
+    "words" : [
+      {
+        "word" : "Pair",
+        "description" : "Two cards of the same rank."
+      },
+      {
+        "word" : "Pass",
+        "description" : "To fold."
+      },
+      {
+        "word" : "Passive",
+        "description" : "If a player calls and checks too much, rather than making bets and raises - they are said to be playing with a 'passive' style."
+      },
+      {
+        "word" : "Play the Board",
+        "description" : "If the best hand you can make is comprised entirely of the community cards you are 'playing the board'."
+      },
+      {
+        "word" : "Pocket Pair",
+        "description" : "Having a pair in your starting hand. "
+      },
+      {
+        "word" : "Position",
+        "description" : "Refers to your proximity to the dealer. Players to the left of the dealer are in early position, the dealer is in last position. The later that your osition is, the beter, as you have more information - having seen the other players act before you. "
+      },
+      {
+        "word" : "Pot",
+        "description" : "The accumulated money or chips to be won in any particular hand."
+      },
+      {
+        "word" : "Pot Odds",
+        "description" : "A way to assess the value of your investment in a pot. If there's a pot of $90, and someone bets $10 - there's now a pot of $100 and it'll cost you $10 to call, your ot odds are therefore 10/1 as the pot is giving you a 10x return on your investment. If the chance of you having the best hand is at least 11/1, then you should call."
+      },
+      {
+        "word" : "Pre-flop",
+        "description" : "The period in between being dealt your hole cards and the flop being dealt. The first round of betting."
+      },
+      {
+        "word" : "Price",
+        "description" : "The pot odds you are getting to make a call or hit your draw."
+      },
+      {
+        "word" : "Put Down",
+        "description" : "To fold."
+      },
+      {
+        "word" : "Put On",
+        "description" : "To put someone on a hand is to try and deduce what they are holding based on their actions and previous play."
+      }
+    ]
+  },
+  {
+    "letter" : "Q",
+    "words" : [
+      {
+        "word" : "Quads",
+        "description" : "Four of a kind."
+      }
+    ]
+  },
+  {
+    "letter" : "R",
+    "words" : [
+      {
+        "word" : "Rag",
+        "description" : "A card that doesn't connect with anything and doesn't affect the hand at all. Usually a low card."
+      },
+      {
+        "word" : "Rail",
+        "description" : "The sidleine at a physical poker table and the observers at an online poker table."
+      },
+      {
+        "word" : "Raise",
+        "description" : "To match any bets previously made and then add another bet for others to match."
+      },
+      {
+        "word" : "Re-buy",
+        "description" : "To pay an additional fee and re-enter a tournament if eliminated."
+      },
+      {
+        "word" : "Re-raise",
+        "description" : "To raise an already raised bet."
+      },
+      {
+        "word" : "Ring Game",
+        "description" : "A standard poker game which differs from a tournament in that it is played with chips that have a cash value. Also known as a cash game."
+      },
+      {
+        "word" : "River Card",
+        "description" : "The fifth and final card dealt to the board."
+      },
+
+      {
+        "word" : "Rock",
+        "description" : "A very tight and uncreative player."
+      },
+      {
+        "word" : "Royal Flush",
+        "description" : "A,K,Q,J,10 of the same suit - the best possible hand in poker."
+      },
+      {
+        "word" : "Runner-runner",
+        "description" : "Hitting both the turn and the river card to make your hand. "
+      }
+    ]
+  },
+  {
+    "letter" : "S",
+    "words" : [
+      {
+        "word" : "Sailboats",
+        "description" : "A pocket pair of fours."
+      },
+      {
+        "word" : "Satellite",
+        "description" : "A tournament in which the prize is a buy-in to a larger tournament."
+      },
+      {
+        "word" : "Scare Card",
+        "description" : "A card dealt to the board which appears to have made someone else's hand stronger."
+      },
+      {
+        "word" : "See",
+        "description" : "To call."
+      },
+      {
+        "word" : "Semi-bluff",
+        "description" : "Bluffing in one round of betting with an inferior hand that is likely to improve."
+      },
+      {
+        "word" : "Sit and Go",
+        "description" : "A Sit and Go or Sit'n'Go is a type of tournament with no scheduled starting time. The tournament starts when the required number of players has joined."
+      },
+      {
+        "word" : "Set",
+        "description" : "Three of a kind, with two of the three cards held by the player."
+      },
+      {
+        "word" : "Shark",
+        "description" : "A skilled professional player. The opposite of a fish."
+      },
+      {
+        "word" : "Shootout",
+        "description" : "A tournamet format where the last surviving player on a table then goes on to play the remaining players from other tables. Each table plays independently with no balancing as players get knocked out."
+      },
+      {
+        "word" : "Short Stack",
+        "description" : "A chip count which is relatively small for the stakes being played."
+      },
+      {
+        "word" : "Shorthanded",
+        "description" : "A poker game which has six players or fewer."
+      },
+      {
+        "word" : "Showdown",
+        "description" : "The end of a hand in which remaining players show their cards to determine who wins the pot ."
+      },
+      {
+        "word" : "Side Pot",
+        "description" : "A separate pot to the main pot. This occurs when a player goes all-in and there is additional action from players who have more chips remaining."
+      },
+      {
+        "word" : "Sit and Go",
+        "description" : "A Sit and Go is a tournament which begins when a set number of players have bought in. The most common type of Sit and Go is the single table tournament which usually has 6 or 9 players."
+      },
+      {
+        "word" : "Slow Play",
+        "description" : "Under-betting a strong hand to tempt others into calling and to stop them from folding early."
+      },
+      {
+        "word" : "Split",
+        "description" : "A pot which is evenly divided between two or more players with tying hands."
+      },
+      {
+        "word" : "Squeeze Play",
+        "description" : "An advanced play whereby you re-raise a player whom you suspect has raised with weak cards - on the assumption that their raise was put in due to the loose reputation of the player before them."
+      },
+      {
+        "word" : "Stack",
+        "description" : "The total number of chips a player has at any given time (chips in the pot are not included)."
+      },
+      {
+        "word" : "Stakes",
+        "description" : "The size of a buy-in or the size of the blinds that you are playing for. "
+      },
+      {
+        "word" : "Starting Hand",
+        "description" : "The hole cards dealt to a player."
+      },
+      {
+        "word" : "Street",
+        "description" : "A round of betting."
+      },
+      {
+        "word" : "Stroll",
+        "description" : "Refers to the pre-flop situation where there is no small blind (due to table balancing etc) and all players fold round to the big blind.  Like a walk... but easier. "
+      },
+      {
+        "word" : "Suited Conectors",
+        "description" : "Two cards of the same suit and consecutive in rank E.G 7h,8h."
+      }
+    ]
+  },
+  {
+    "letter" : "T",
+    "words" : [
+      {
+        "word" : "Table",
+        "description" : "(1)The surface on which poker is played, either a real life physical table or a virtual table on a poker site. (2)The collective noun for all the players at the table."
+      },
+      {
+        "word" : "Tell",
+        "description" : "Detectable changes in a player's behaviour or mannerisms that give away clues about the cards he is holding. Some players may give off false tells to confuse opponents."
+      },
+      {
+        "word" : "Three Bet",
+        "description" : "Putting in a third level of betting. E.G Player 1 bets, Player 2 raises and if you were then to put in a further raise - this would be a 'three bet'."
+      },
+      {
+        "word" : "Three of a Kind",
+        "description" : "Three cards of the same rank, also known as trips or a set."
+      },
+      {
+        "word" : "Tight",
+        "description" : "A player who is very careful with their chips and the starting hands which they play."
+      },
+      {
+        "word" : "Tilt",
+        "description" : "To play poorly after suffering a bad beat, making a mistake, or some other factor."
+      },
+      {
+        "word" : "To Go",
+        "description" : "A phrase describing how much you need to call to stay in the hand. E.G. if someone bets $50, it's now said to be '$50 to go'"
+      },
+      {
+        "word" : "Top Kicker",
+        "description" : "The best possible kicker at any given time. Usually an ace is top kicker, but if there is an ace on the board, top kicker would then be a king."
+      },
+      {
+        "word" : "Top Pair",
+        "description" : "Top pair describes a hand matching the highest card on the board with a pocket card."
+      },
+      {
+        "word" : "Trips",
+        "description" : "Making three of a kind with one of your hole cards and two community cards. Differs from a set where two of the cards are in your hand."
+      },
+      {
+        "word" : "Turn",
+        "description" : "The fourth community card, also known as fourth street."
+      }
+    ]
+  },
+  {
+    "letter" : "U",
+    "words" : [
+      {
+        "word" : "Under the Gun",
+        "description" : "The playing position directly to the left of the big blind. The under the gun position is first to act pre-flop."
+      },
+      {
+        "word" : "Underdog",
+        "description" : "The underdog is the hand least likely to win in a specified situation. "
+      }
+    ]
+  },
+  {
+    "letter" : "V",
+    "words" : [
+      {
+        "word" : "Value Bet",
+        "description" : "A value bet is a bet made with the intention that your opponent will call it, based on the assumption that you have the best hand and want to get maximum value from it."
+      },
+      {
+        "word" : "Variance",
+        "description" : "Variance describes the fluctuations in 'luck' one can expect when playing poker. If the odds of you winning in a particular situation are 5/1 in your favour but you lose in that situaion 5 times in a row - you are going through a period of negative variance. On the flip side, as 'luck' evens out and obeys the laws of averages, you will also go through periods of positive variance where you win in a situation more often than expected."
+      }
+    ]
+  },
+{
+    "letter" : "W",
+    "words" : [
+      {
+        "word" : "Wake Up",
+        "description" : "To 'wake up' to a hand is to look at one's cards pre-flop (after there has already been beting and raising) and discover a strong holding."
+      },
+      {
+        "word" : "Walk",
+        "description" : "A walk is the situation where all players fold pre-flop and the big blind gets the small blind and keeps the big blind."
+      },
+      {
+        "word" : "Weak Ace",
+        "description" : "An ace with a low kicker."
+      },
+      {
+        "word" : "Wheel",
+        "description" : "A 5-high straight - A, 2, 3, 4, 5."
+      },
+      {
+        "word" : "WSOP",
+        "description" : "The World Series of Poker, a poker festival culminating in the WSOP Main Event, the biggest tournament of the year. Held annually in Las Vegas. "      }
+    ]
+  },
+{
+    "letter" : "X",
+    "words" : [
+
+      {
+        "word" : "X-bomb",
+        "description" : "A made-up term invented to fill in poker glossaries."
+      }
+    ]
+  },
+{
+    "letter" : "Y",
+    "words" : [
+      {
+        "word" : "Y.B.A",
+        "description" : "Stands for 'You'll Be Alright!' - a sarcastic utterance meaning that you certainly won't be alright. Usually aimed at someone playing poorly."
+      }
+          ]
+  },
+{
+    "letter" : "Z",
+    "words" : [
+      {
+        "word" : "Zzzzzzzz",
+        "description" : "A humorous way of letting someone know that they're playing slowly..."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2565 @@
+/* This is the shared Core SASS file which imports generic styles to be used across all ventures */
+/* Import reset style sheet */
+/* line 17, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Import generic compass CSS3 mixins */
+/* line 258, sprites/*.png */
+.sprite, .sprites-achievement-template, .sprites-active-btn, .sprites-active-tick, .sprites-award-cup, .sprites-challenge-cup-completed, .sprites-challenge-cup, .sprites-cheering, .sprites-cite-pointer, .sprites-close-modal-white, .sprites-close, .sprites-dealing, .sprites-glossary-header-arrow, .sprites-lesson, .sprites-magnifier, .sprites-nav-active-btn, .sprites-overall-progress-bg, .sprites-practice, .sprites-restart, .sprites-sash-completed, .sprites-sash-inprogress, .sprites-sash-locked, .sprites-sash-new, .sprites-sash-recommended, .sprites-sash-unlocked, .sprites-sort-pointer-up, .sprites-sort-pointer, .sprites-thinking, .sprites-video {
+  background: url('../img/sprites.png') no-repeat;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-achievement-template {
+  background-position: 0 -464px;
+  height: 114px;
+  width: 128px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-active-btn {
+  background-position: 0 -388px;
+  height: 33px;
+  width: 103px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-active-tick {
+  background-position: -6px -36px;
+  height: 13px;
+  width: 14px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-award-cup {
+  background-position: -54px -36px;
+  height: 24px;
+  width: 26px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-challenge-cup-completed {
+  background-position: 0 -60px;
+  height: 39px;
+  width: 46px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-challenge-cup {
+  background-position: 0 -110px;
+  height: 39px;
+  width: 46px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-cheering {
+  background-position: 0 -578px;
+  height: 225px;
+  width: 216px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-cite-pointer {
+  background-position: -24px 0;
+  height: 31px;
+  width: 27px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-close-modal-white {
+  background-position: -154px 0;
+  height: 36px;
+  width: 36px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-close {
+  background-position: -86px -60px;
+  height: 47px;
+  width: 47px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-dealing {
+  background-position: 0 -1048px;
+  height: 245px;
+  width: 150px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-glossary-header-arrow {
+  background-position: -46px -36px;
+  height: 18px;
+  width: 8px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-lesson {
+  background-position: -133px -60px;
+  height: 50px;
+  width: 50px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-magnifier {
+  background-position: 0 0;
+  height: 24px;
+  width: 24px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-nav-active-btn {
+  background-position: -51px 0;
+  height: 33px;
+  width: 103px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-overall-progress-bg {
+  background-position: -80px -36px;
+  height: 19px;
+  width: 135px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-practice {
+  background-position: -46px -110px;
+  height: 50px;
+  width: 50px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-restart {
+  background-position: -46px -60px;
+  height: 44px;
+  width: 40px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-sash-completed {
+  background-position: 0 -236px;
+  height: 76px;
+  width: 95px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-sash-inprogress {
+  background-position: 0 -160px;
+  height: 76px;
+  width: 95px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-sash-locked {
+  background-position: -95px -160px;
+  height: 76px;
+  width: 95px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-sash-new {
+  background-position: -95px -236px;
+  height: 76px;
+  width: 95px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-sash-recommended {
+  background-position: -103px -388px;
+  height: 76px;
+  width: 95px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-sash-unlocked {
+  background-position: 0 -312px;
+  height: 76px;
+  width: 95px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-sort-pointer-up {
+  background-position: -20px -36px;
+  height: 15px;
+  width: 26px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-sort-pointer {
+  background-position: 0 -36px;
+  height: 10px;
+  width: 6px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-thinking {
+  background-position: 0 -803px;
+  height: 245px;
+  width: 163px;
+}
+
+/* line 60, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-video {
+  background-position: -96px -110px;
+  height: 50px;
+  width: 50px;
+}
+
+/* Fonts */
+/* z-index's */
+/*
+ * Bootstrap v2.1.0
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+/* line 9, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_scaffolding.scss */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  background-color: white;
+}
+
+/* line 22, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_scaffolding.scss */
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+/* line 26, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_scaffolding.scss */
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+
+/* line 36, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_scaffolding.scss */
+.img-rounded {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 41, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_scaffolding.scss */
+.img-polaroid {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* line 50, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_scaffolding.scss */
+.img-circle {
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+}
+
+/* line 9, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav {
+  margin-left: 0;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+/* line 16, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav > li > a {
+  display: block;
+}
+
+/* line 19, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+/* line 26, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav > li > a > img {
+  max-width: none;
+}
+
+/* line 31, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav > .pull-right {
+  float: right;
+}
+
+/* line 36, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-header {
+  display: block;
+  padding: 3px 15px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #999999;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+/* line 47, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav li + .nav-header {
+  margin-top: 9px;
+}
+
+/* line 56, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0;
+}
+
+/* line 62, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-list > li > a,
+.nav-list .nav-header {
+  margin-left: -15px;
+  margin-right: -15px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* line 67, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-list > li > a {
+  padding: 3px 15px;
+}
+
+/* line 71, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #0088cc;
+}
+
+/* line 77, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-list [class^="icon-"],
+.nav-list [class*=" icon-"] {
+  margin-right: 2px;
+}
+
+/* line 81, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-list .divider {
+  *width: 100%;
+  height: 1px;
+  margin: 9px 1px;
+  *margin: -5px 0 5px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid white;
+}
+
+/* line 92, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs,
+.nav-pills {
+  *zoom: 1;
+}
+/* line 15, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.nav-tabs:before, .nav-tabs:after,
+.nav-pills:before,
+.nav-pills:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.nav-tabs:after,
+.nav-pills:after {
+  clear: both;
+}
+
+/* line 96, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs > li,
+.nav-pills > li {
+  float: left;
+}
+
+/* line 100, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs > li > a,
+.nav-pills > li > a {
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: 2px;
+  line-height: 14px;
+}
+
+/* line 111, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 115, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs > li {
+  margin-bottom: -1px;
+}
+
+/* line 119, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 20px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+/* line 125, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+
+/* line 131, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover {
+  color: #555555;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+/* line 144, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-pills > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 154, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover {
+  color: white;
+  background-color: #0088cc;
+}
+
+/* line 165, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-stacked > li {
+  float: none;
+}
+
+/* line 168, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-stacked > li > a {
+  margin-right: 0;
+}
+
+/* line 173, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs.nav-stacked {
+  border-bottom: 0;
+}
+
+/* line 176, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs.nav-stacked > li > a {
+  border: 1px solid #ddd;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 180, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs.nav-stacked > li:first-child > a {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 183, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs.nav-stacked > li:last-child > a {
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* line 186, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs.nav-stacked > li > a:hover {
+  border-color: #ddd;
+  z-index: 2;
+}
+
+/* line 192, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-pills.nav-stacked > li > a {
+  margin-bottom: 3px;
+}
+
+/* line 195, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-pills.nav-stacked > li:last-child > a {
+  margin-bottom: 1px;
+}
+
+/* line 204, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs .dropdown-menu {
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+}
+
+/* line 207, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-pills .dropdown-menu {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 214, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav .dropdown-toggle .caret {
+  border-top-color: #0088cc;
+  border-bottom-color: #0088cc;
+  margin-top: 6px;
+}
+
+/* line 219, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav .dropdown-toggle:hover .caret {
+  border-top-color: #005580;
+  border-bottom-color: #005580;
+}
+
+/* move down carets for tabs */
+/* line 224, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs .dropdown-toggle .caret {
+  margin-top: 8px;
+}
+
+/* line 230, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav .active .dropdown-toggle .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* line 234, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs .active .dropdown-toggle .caret {
+  border-top-color: #555555;
+  border-bottom-color: #555555;
+}
+
+/* line 241, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav > .dropdown.active > a:hover {
+  cursor: pointer;
+}
+
+/* line 249, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav > li.dropdown.open.active > a:hover {
+  color: white;
+  background-color: #999999;
+  border-color: #999999;
+}
+
+/* line 256, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav li.dropdown.open .caret,
+.nav li.dropdown.open.active .caret,
+.nav li.dropdown.open a:hover .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+  opacity: 0.01;
+  filter: alpha(opacity=1);
+}
+
+/* line 263, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-stacked .open > a:hover {
+  border-color: #999999;
+}
+
+/* line 277, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabbable {
+  *zoom: 1;
+}
+/* line 15, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.tabbable:before, .tabbable:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.tabbable:after {
+  clear: both;
+}
+
+/* line 280, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tab-content {
+  overflow: auto;
+}
+
+/* line 287, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+/* line 293, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+/* line 297, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+/* line 305, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-below > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+/* line 308, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+/* line 312, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+/* line 314, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-below > .nav-tabs > li > a:hover {
+  border-bottom-color: transparent;
+  border-top-color: #ddd;
+}
+
+/* line 320, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover {
+  border-color: transparent #ddd #ddd #ddd;
+}
+
+/* line 329, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+  float: none;
+}
+
+/* line 333, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+/* line 340, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+/* line 345, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+/* line 349, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-left > .nav-tabs > li > a:hover {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+/* line 353, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: white;
+}
+
+/* line 359, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-right > .nav-tabs {
+  float: right;
+  margin-left: 19px;
+  border-left: 1px solid #ddd;
+}
+
+/* line 364, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-right > .nav-tabs > li > a {
+  margin-left: -1px;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* line 368, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-right > .nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+}
+
+/* line 372, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover {
+  border-color: #ddd #ddd #ddd transparent;
+  *border-left-color: white;
+}
+
+/* line 383, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav > .disabled > a {
+  color: #999999;
+}
+
+/* line 387, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navs.scss */
+.nav > .disabled > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  cursor: default;
+}
+
+/* line 10, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar {
+  overflow: visible;
+  margin-bottom: 20px;
+  *position: relative;
+  *z-index: 2;
+}
+
+/* line 21, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inner {
+  min-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top, white, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, white, #f2f2f2);
+  background-image: -o-linear-gradient(top, white, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f0f0f0', GradientType=0);
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+  *zoom: 1;
+}
+/* line 15, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar-inner:before, .navbar-inner:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar-inner:after {
+  clear: both;
+}
+
+/* line 36, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .container {
+  width: auto;
+}
+
+/* line 41, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.nav-collapse.collapse {
+  height: auto;
+  overflow: visible;
+}
+
+/* line 49, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .brand {
+  float: left;
+  display: block;
+  padding: 10px 20px 10px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #777777;
+  text-shadow: 0 1px 0 white;
+}
+/* line 59, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .brand:hover {
+  text-decoration: none;
+}
+
+/* line 66, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-text {
+  margin-bottom: 0;
+  line-height: 40px;
+  color: #777777;
+}
+
+/* line 74, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-link {
+  color: #777777;
+}
+/* line 76, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-link:hover {
+  color: #333333;
+}
+
+/* line 83, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .divider-vertical {
+  height: 40px;
+  margin: 0 9px;
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid white;
+}
+
+/* line 93, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .btn,
+.navbar .btn-group {
+  margin-top: 5px;
+}
+
+/* line 98, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .btn-group .btn,
+.navbar .input-prepend .btn,
+.navbar .input-append .btn {
+  margin-top: 0;
+}
+
+/* line 104, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-form {
+  margin-bottom: 0;
+  *zoom: 1;
+}
+/* line 15, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar-form:before, .navbar-form:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar-form:after {
+  clear: both;
+}
+/* line 110, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-form input,
+.navbar-form select,
+.navbar-form .radio,
+.navbar-form .checkbox {
+  margin-top: 5px;
+}
+/* line 115, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-form input,
+.navbar-form select,
+.navbar-form .btn {
+  display: inline-block;
+  margin-bottom: 0;
+}
+/* line 121, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-form input[type="image"],
+.navbar-form input[type="checkbox"],
+.navbar-form input[type="radio"] {
+  margin-top: 3px;
+}
+/* line 125, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-form .input-append,
+.navbar-form .input-prepend {
+  margin-top: 5px;
+  white-space: nowrap;
+}
+/* line 128, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-form .input-append input,
+.navbar-form .input-prepend input {
+  margin-top: 0;
+}
+
+/* line 136, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-search {
+  position: relative;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+/* line 141, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-search .search-query {
+  margin-bottom: 0;
+  padding: 4px 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+/* line 154, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-static-top {
+  position: static;
+  margin-bottom: 0;
+}
+/* line 157, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-static-top .navbar-inner {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 169, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+
+/* line 177, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  border-width: 0 0 1px;
+}
+
+/* line 180, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-bottom .navbar-inner {
+  border-width: 1px 0 0;
+}
+
+/* line 184, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-top .navbar-inner,
+.navbar-fixed-bottom .navbar-inner {
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 194, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
+}
+
+/* line 199, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-top {
+  top: 0;
+}
+
+/* line 204, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 210, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-bottom {
+  bottom: 0;
+}
+/* line 212, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-bottom .navbar-inner {
+  -webkit-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* line 222, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+/* line 229, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav.pull-right {
+  float: right;
+  margin-right: 0;
+}
+
+/* line 233, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav > li {
+  float: left;
+}
+
+/* line 238, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #777777;
+  text-decoration: none;
+  text-shadow: 0 1px 0 white;
+}
+
+/* line 246, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav .dropdown-toggle .caret {
+  margin-top: 8px;
+}
+
+/* line 253, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  background-color: transparent;
+  color: #333333;
+  text-decoration: none;
+}
+
+/* line 262, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #555555;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+/* line 271, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .btn-navbar {
+  display: none;
+  float: right;
+  padding: 7px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ededed;
+  background-image: -moz-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#e3e3e3', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #e6e6e6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+}
+/* line 489, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar .btn-navbar:hover, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+  color: white;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+/* line 497, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar .btn-navbar:active, .navbar .btn-navbar.active {
+  background-color: #cccccc \9;
+}
+
+/* line 280, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .btn-navbar .icon-bar {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background-color: #f5f5f5;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 288, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.btn-navbar .icon-bar + .icon-bar {
+  margin-top: 3px;
+}
+
+/* line 299, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav > li > .dropdown-menu:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: -7px;
+  left: 9px;
+}
+/* line 310, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav > li > .dropdown-menu:after {
+  content: '';
+  display: inline-block;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+  position: absolute;
+  top: -6px;
+  left: 10px;
+}
+
+/* line 323, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-bottom .nav > li > .dropdown-menu:before {
+  border-top: 7px solid #ccc;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-bottom: 0;
+  bottom: -7px;
+  top: auto;
+}
+/* line 330, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-fixed-bottom .nav > li > .dropdown-menu:after {
+  border-top: 6px solid white;
+  border-bottom: 0;
+  bottom: -6px;
+  top: auto;
+}
+
+/* line 339, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav li.dropdown > a:hover .caret {
+  border-top-color: #555555;
+  border-bottom-color: #555555;
+}
+
+/* line 347, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  background-color: #e6e6e6;
+  color: #555555;
+}
+
+/* line 351, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+  border-top-color: #777777;
+  border-bottom-color: #777777;
+}
+
+/* line 357, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #555555;
+  border-bottom-color: #555555;
+}
+
+/* line 364, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .pull-right > li > .dropdown-menu,
+.navbar .nav > li > .dropdown-menu.pull-right {
+  left: auto;
+  right: 0;
+}
+/* line 367, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .pull-right > li > .dropdown-menu:before,
+.navbar .nav > li > .dropdown-menu.pull-right:before {
+  left: auto;
+  right: 12px;
+}
+/* line 371, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .pull-right > li > .dropdown-menu:after,
+.navbar .nav > li > .dropdown-menu.pull-right:after {
+  left: auto;
+  right: 13px;
+}
+/* line 375, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar .pull-right > li > .dropdown-menu .dropdown-menu,
+.navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu {
+  left: auto;
+  right: 100%;
+  margin-left: 0;
+  margin-right: -1px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+/* line 390, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .navbar-inner {
+  background-color: #1b1b1b;
+  background-image: -moz-linear-gradient(top, #222222, #111111);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
+  background-image: -webkit-linear-gradient(top, #222222, #111111);
+  background-image: -o-linear-gradient(top, #222222, #111111);
+  background-image: linear-gradient(to bottom, #222222, #111111);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f1f1f', endColorstr='#0e0e0e', GradientType=0);
+  border-color: #252525;
+}
+/* line 396, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+  color: #999999;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+/* line 399, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .brand:hover,
+.navbar-inverse .nav > li > a:hover {
+  color: white;
+}
+/* line 404, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .brand {
+  color: #999999;
+}
+/* line 408, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .navbar-text {
+  color: #999999;
+}
+/* line 413, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .nav > li > a:focus,
+.navbar-inverse .nav > li > a:hover {
+  background-color: transparent;
+  color: white;
+}
+/* line 420, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+  color: white;
+  background-color: #111111;
+}
+/* line 426, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .navbar-link {
+  color: #999999;
+}
+/* line 428, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .navbar-link:hover {
+  color: white;
+}
+/* line 434, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .divider-vertical {
+  border-left-color: #111111;
+  border-right-color: #222222;
+}
+/* line 442, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+  background-color: #111111;
+  color: white;
+}
+/* line 446, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .nav li.dropdown > a:hover .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+/* line 450, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+  border-top-color: #999999;
+  border-bottom-color: #999999;
+}
+/* line 456, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+/* line 463, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .navbar-search .search-query {
+  color: white;
+  background-color: #515151;
+  border-color: #111111;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/* line 83, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar-inverse .navbar-search .search-query:-moz-placeholder {
+  color: #cccccc;
+}
+/* line 86, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar-inverse .navbar-search .search-query:-ms-input-placeholder {
+  color: #cccccc;
+}
+/* line 89, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar-inverse .navbar-search .search-query::-webkit-input-placeholder {
+  color: #cccccc;
+}
+/* line 473, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .navbar-search .search-query:focus, .navbar-inverse .navbar-search .search-query.focused {
+  padding: 5px 15px;
+  color: #333333;
+  text-shadow: 0 1px 0 white;
+  background-color: white;
+  border: 0;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  outline: 0;
+}
+/* line 486, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_navbar.scss */
+.navbar-inverse .btn-navbar {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #0e0e0e;
+  background-image: -moz-linear-gradient(top, #151515, #040404);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#040404));
+  background-image: -webkit-linear-gradient(top, #151515, #040404);
+  background-image: -o-linear-gradient(top, #151515, #040404);
+  background-image: linear-gradient(to bottom, #151515, #040404);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#131313', endColorstr='#020202', GradientType=0);
+  border-color: #040404 #040404 black;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #040404;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+/* line 489, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active, .navbar-inverse .btn-navbar.disabled, .navbar-inverse .btn-navbar[disabled] {
+  color: white;
+  background-color: #040404;
+  *background-color: black;
+}
+/* line 497, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/compass_twitter_bootstrap/_mixins.scss */
+.navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active {
+  background-color: black \9;
+}
+
+/* line 7, sass/main.scss */
+.academy-content-container {
+  position: absolute;
+  background: black url("../img/backgrounds/academy_bg.png") no-repeat top center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* line 14, sass/main.scss */
+.academy-content-container #academy-global-container {
+  /* Global styles that apply to all non views */
+  /*
+  
+  .ASSUME_THE_POSITION,
+  .CRY_ME_A_RIVER,
+  .DONT_HATE_THE_PLAYA,
+  .FLOPTIMAL_PLAY,
+  .KNOW_YOUR_ENEMY,
+  .MAKE_IT_RAIN,
+  .POP_YA_CHERRY,
+  .PUSH_THE_BUTTON,
+  .RAISY_DAISY,
+  .SUITED_AND_BOOTED,
+  .TAKING_OUT_THE_TRASH,
+  .TO_BE_CONTINUED,
+  .WELCOME_TO_VALUETOWN {
+  	background:url('../img/achievements/achievements.png') no-repeat;
+  }
+  
+  */
+  width: 615px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: "Arial", Helvetica, Tahoma, sans-serif;
+}
+/* line 4, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_base.scss */
+.academy-content-container #academy-global-container .academy-content {
+  min-height: 425px;
+  max-height: 416px;
+  overflow-y: scroll;
+  clear: both;
+  background: #FFF;
+  -moz-border-radius-bottomleft: 12px;
+  -webkit-border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  -moz-border-radius-bottomright: 12px;
+  -webkit-border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+/* line 2, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar {
+  background: url("../img/backgrounds/primary-nav-bg.png") no-repeat center left;
+  height: 48px;
+  position: relative;
+  z-index: 70;
+}
+/* line 8, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container .navigation-back-button {
+  float: left;
+  background: url("../img/backgrounds/primary-navigation.png") no-repeat 0 -64px;
+  width: 71px;
+  height: 31px;
+  border: none;
+  color: #FFF;
+  text-indent: 8px;
+  cursor: pointer;
+  margin: 8px 0 0 9px;
+}
+/* line 19, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container .navigation-back-button:hover {
+  background-position: -71px -64px;
+}
+/* line 22, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul {
+  margin-left: 9px;
+  margin-top: 8px;
+  float: left;
+}
+/* line 26, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li {
+  text-shadow: 1px 1px 1px black;
+  background: url("../img/backgrounds/primary-navigation.png") no-repeat;
+  height: 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  color: #FFF;
+  line-height: 32px;
+  cursor: pointer;
+  outline: none;
+  float: left;
+}
+/* line 39, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li.primary-nav-1 {
+  width: 70px;
+  background-position: 0 0;
+}
+/* line 43, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li.primary-nav-1.active {
+  background-position: 0 -32px;
+}
+/* line 46, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li.primary-nav-2 {
+  width: 81px;
+  background-position: -71px 0;
+}
+/* line 50, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li.primary-nav-2.active {
+  background-position: -71px -32px;
+}
+/* line 53, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li.primary-nav-3 {
+  width: 91px;
+  background-position: -153px 0;
+}
+/* line 57, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li.primary-nav-3.active {
+  background-position: -153px -32px;
+}
+/* line 60, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li.primary-nav-4 {
+  width: 79px;
+  background-position: -245px 0;
+}
+/* line 64, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li.primary-nav-4.active {
+  background-position: -245px -32px;
+}
+/* line 76, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_nav.scss */
+.academy-content-container #academy-global-container .nav-bar .nav-container ul li.active:hover {
+  cursor: default;
+}
+/* line 1, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search {
+  float: right;
+  margin-top: 9px;
+  position: relative;
+  line-height: 30px;
+  text-indent: 10px;
+}
+/* line 7, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn {
+  text-shadow: 1px 1px 1px black;
+  background: url("../img/backgrounds/goToButton.png") no-repeat top left;
+  width: 93px;
+  height: 31px;
+  color: #FFF;
+  text-align: left;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  outline: none;
+}
+/* line 19, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sprites-sort-pointer-up {
+  position: absolute;
+  top: -15px;
+  left: 96px;
+}
+/* line 24, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria {
+  -webkit-box-shadow: black 2px 2px 10px;
+  -moz-box-shadow: black 2px 2px 10px;
+  box-shadow: black 2px 2px 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  display: none;
+  background: #313131;
+  cursor: default;
+  width: 210px;
+  text-align: left;
+  position: absolute;
+  top: 55px;
+  left: -70px;
+  line-height: 17px;
+  text-indent: 0;
+  outline: none;
+  z-index: 110;
+}
+/* line 39, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria ul {
+  padding: 0;
+}
+/* line 41, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria ul li {
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+/* line 48, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria ul li a {
+  text-shadow: black 2px;
+  background: url("../img/backgrounds/sort-by-bg.png") repeat-x bottom left;
+  color: #FFF;
+  font-style: italic;
+  text-decoration: none;
+  text-indent: 50px;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+}
+/* line 60, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria ul li.active-tick {
+  background: url("../img/backgrounds/active-tick.png") no-repeat 15px center;
+}
+/* line 63, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria ul li:hover {
+  text-shadow: none;
+  background: #ADD9FA;
+}
+/* line 66, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria ul li:hover a {
+  color: #494C51;
+  background: none;
+}
+/* line 71, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria ul li:focus {
+  text-shadow: none;
+  background: #ADD9FA;
+}
+/* line 74, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria ul li:focus a {
+  color: #494C51;
+  background: none;
+}
+/* line 80, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn .sort-criteria ul li.last a {
+  background: none;
+}
+/* line 87, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .search-input {
+  border: none;
+  background: url("../img/backgrounds/search-input.png") no-repeat 0 0;
+  color: #FFF;
+  margin: 0px;
+  width: 147px;
+  height: 27px;
+  text-indent: 10px;
+  outline: none;
+  float: right;
+  margin-right: 9px;
+}
+/* line 99, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .search-input:focus {
+  background-position: 0 -29px;
+  color: #000;
+}
+/* line 103, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn:hover {
+  background-position: 0 -31px;
+  color: #BBB;
+}
+/* line 107, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn:focus {
+  background-position: 0 -31px;
+  color: #BBB;
+}
+/* line 111, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn:active {
+  color: #AAA;
+}
+/* line 115, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sort-search.scss */
+.academy-content-container #academy-global-container .nav-bar .sort-search .sprites-sort-btn.display .sort-criteria {
+  display: inline-block;
+}
+/* line 2, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header {
+  height: 185px;
+  min-height: 185px;
+  position: relative;
+  width: 615px;
+}
+/* line 11, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .profile-view,
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .overall-progress,
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .latest-trophies,
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary {
+  height: 100%;
+  float: left;
+  margin-right: 15px;
+  font-weight: bold;
+}
+/* line 16, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .profile-view h2,
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .overall-progress h2,
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .latest-trophies h2,
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary h2 {
+  font-family: "skippy-sharp", cursive, sans-serif;
+  font-weight: normal;
+  background: url("../img/backgrounds/strike.png") bottom center no-repeat;
+  font-size: 22px;
+  padding-bottom: 15px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+/* line 26, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .profile-view {
+  width: 112px;
+}
+/* line 28, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .profile-view .avatar-background {
+  width: 112px;
+  height: 112px;
+  background: url("../img/backgrounds/avatar-bg.png") no-repeat top left;
+}
+/* line 33, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .profile-view .avatar-background img {
+  width: 110px;
+  margin-top: 3px;
+}
+/* line 42, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .overall-progress {
+  position: relative;
+  width: 135px;
+}
+/* line 45, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .overall-progress .sprites-overall-progress-bg {
+  height: 19px;
+}
+/* line 48, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .overall-progress .progress-percentage {
+  font-size: 60px;
+  line-height: 90px;
+  color: #FFFFFF;
+  text-align: center;
+}
+/* line 54, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .overall-progress .progress-bar-wrapper {
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  position: relative;
+}
+/* line 58, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .overall-progress .progress-bar-wrapper .progress-bar {
+  background: url("../img/backgrounds/overall-progress-bar.png") no-repeat center right;
+  position: absolute;
+  display: inline-block;
+  height: 15px;
+  top: 2px;
+  left: 2px;
+  -moz-border-radius-topleft: 25px;
+  -webkit-border-top-left-radius: 25px;
+  border-top-left-radius: 25px;
+  -moz-border-radius-bottomleft: 25px;
+  -webkit-border-bottom-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+/* line 69, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .latest-trophies {
+  width: 190px;
+}
+/* line 71, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .latest-trophies .no-trophy-list-wrapper {
+  position: relative;
+  background: url("../img/backgrounds/trophy-header-bg.png") no-repeat top left;
+  width: 100%;
+  height: 102px;
+  color: #FFF;
+  padding: 10px;
+}
+/* line 79, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .latest-trophies ul.trophy-list {
+  list-style: none;
+}
+/* line 81, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .latest-trophies ul.trophy-list li {
+  background: url("../img/backgrounds/trophy-icon-bg.png");
+  width: 53px;
+  height: 53px;
+  margin: 0 6px 6px 0;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+}
+/* line 89, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .latest-trophies ul.trophy-list li .trophy-header-icon {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-top: 3px;
+  background-position: 0 0;
+}
+/* line 96, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .latest-trophies ul.trophy-list li .trophy-header-icon:hover {
+  background-position: 0 -50px;
+}
+/* line 100, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .latest-trophies ul.trophy-list .see-all-trophies {
+  color: #FFF;
+  line-height: 52px;
+}
+/* line 106, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .trophy-case {
+  width: 25%;
+  color: #A6A6A6;
+}
+/* line 110, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary {
+  width: 133px;
+  margin-right: 0;
+}
+/* line 113, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary .open-glossary {
+  position: relative;
+  background: url("../img/backgrounds/glossary-header-bg.png") no-repeat top left;
+  width: 123px;
+  height: 102px;
+  color: #FFF;
+  padding: 10px;
+  cursor: pointer;
+}
+/* line 121, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary .open-glossary .sprites-glossary-header-arrow {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+/* line 128, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .startup-screen-view, .academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary-header-view {
+  height: 185px;
+}
+/* line 130, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .startup-screen-view .sprites-cheering, .academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary-header-view .sprites-cheering {
+  position: absolute;
+  height: 185px;
+  z-index: 90;
+}
+/* line 135, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .startup-screen-view .sprites-thinking, .academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary-header-view .sprites-thinking {
+  position: absolute;
+  height: 185px;
+  z-index: 90;
+}
+/* line 140, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .startup-screen-view .header-startup-text, .academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary-header-view .header-startup-text {
+  text-align: center;
+  width: 422px;
+  top: 40px;
+  right: 0;
+  position: absolute;
+  z-index: 80;
+}
+/* line 148, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .startup-screen-view h1, .academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary-header-view h1 {
+  font-family: "skippy-sharp", cursive, sans-serif;
+  font-weight: normal;
+  background: url("../img/backgrounds/strike-large.png") bottom center no-repeat;
+  color: #FFF;
+  margin-bottom: 10px;
+  font-size: 45px;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+/* line 158, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_header.scss */
+.academy-content-container #academy-global-container #academy-header .academy-header-inner .startup-screen-view h2, .academy-content-container #academy-global-container #academy-header .academy-header-inner .glossary-header-view h2 {
+  text-shadow: 1px 1px 1px black;
+  font-family: "skippy-sharp", cursive, sans-serif;
+  color: #FFF;
+  font-size: 26px;
+}
+/* line 2, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .ASSUME_THE_POSITION {
+  background: url("../img/achievements/ASSUME_THE_POSITION.png") no-repeat;
+}
+/* line 5, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .CRY_ME_A_RIVER {
+  background: url("../img/achievements/CRY_ME_A_RIVER.png") no-repeat;
+}
+/* line 8, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .DONT_HATE_THE_PLAYA {
+  background: url("../img/achievements/DONT_HATE_THE_PLAYA.png") no-repeat;
+}
+/* line 11, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .FLOPTIMAL_PLAY {
+  background: url("../img/achievements/FLOPTIMAL_PLAY.png") no-repeat;
+}
+/* line 14, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .KNOW_YOUR_ENEMY {
+  background: url("../img/achievements/KNOW_YOUR_ENEMY.png") no-repeat;
+}
+/* line 17, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .MAKE_IT_RAIN {
+  background: url("../img/achievements/MAKE_IT_RAIN.png") no-repeat;
+}
+/* line 20, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .POP_YA_CHERRY {
+  background: url("../img/achievements/POP_YA_CHERRY.png") no-repeat;
+}
+/* line 23, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .PUSH_THE_BUTTON {
+  background: url("../img/achievements/PUSH_THE_BUTTON.png") no-repeat;
+}
+/* line 26, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .RAISY_DAISY {
+  background: url("../img/achievements/RAISY_DAISY.png") no-repeat;
+}
+/* line 29, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .SUITED_AND_BOOTED {
+  background: url("../img/achievements/SUITED_AND_BOOTED.png") no-repeat;
+}
+/* line 32, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .TAKING_OUT_THE_TRASH {
+  background: url("../img/achievements/TAKING_OUT_THE_TRASH.png") no-repeat;
+}
+/* line 35, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .TO_BE_CONTINUED {
+  background: url("../img/achievements/TO_BE_CONTINUED.png") no-repeat;
+}
+/* line 38, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_trophies.scss */
+.academy-content-container #academy-global-container .WELCOME_TO_VALUETOWN {
+  background: url("../img/achievements/WELCOME_TO_VALUETOWN.png") no-repeat;
+}
+/* line 2, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar {
+  -webkit-box-shadow: black 0 0px 20px -6px;
+  -moz-box-shadow: black 0 0px 20px -6px;
+  box-shadow: black 0 0px 20px -6px;
+  background: url("../img/backgrounds/utility-bar.png") repeat-x center left;
+  height: 43px;
+  width: 100%;
+  position: relative;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px white;
+  z-index: 60;
+}
+/* line 11, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .p1, .academy-content-container #academy-global-container .utility-bar .p2, .academy-content-container #academy-global-container .utility-bar .p3 {
+  text-shadow: 0px 1px 1px #f4faff;
+  float: left;
+  height: 100%;
+  color: #5d5d5d;
+  font-size: 15px;
+  text-indent: 22px;
+  line-height: 43px;
+}
+/* line 20, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .p1 {
+  width: 221px;
+  padding-left: 42px;
+}
+/* line 24, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .p2 {
+  width: 226px;
+}
+/* line 27, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .alphabetical-filter {
+  margin-left: 26px;
+  display: inline-block;
+  margin-top: 13px;
+}
+/* line 31, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .alphabetical-filter li {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  float: left;
+  cursor: pointer;
+  margin: 0 2px 0 0;
+}
+/* line 36, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .alphabetical-filter li a {
+  color: #5d5d5d;
+  text-decoration: none;
+  padding: 5px 5px;
+}
+/* line 42, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .alphabetical-filter li:hover {
+  background: #cb0000;
+  text-shadow: 0px -1px 1px #555555;
+}
+/* line 46, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .alphabetical-filter li.active {
+  background: #cb0000;
+}
+/* line 49, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .alphabetical-filter li.last {
+  margin-right: 0;
+}
+/* line 53, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_utility-bar.scss */
+.academy-content-container #academy-global-container .utility-bar .alphabetical-filter li:hover a,
+.academy-content-container #academy-global-container .utility-bar .alphabetical-filter li.active a {
+  color: white;
+}
+/* line 2, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_typography.scss */
+.academy-content-container #academy-global-container h1 {
+  font-style: italic;
+  color: #797979;
+  font-size: 30px;
+}
+/* line 7, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_typography.scss */
+.academy-content-container #academy-global-container p {
+  line-height: 150%;
+  font-size: 12px;
+}
+/* line 11, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_typography.scss */
+.academy-content-container #academy-global-container .bold {
+  font-weight: bold;
+}
+/* line 14, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_typography.scss */
+.academy-content-container #academy-global-container .large {
+  font-size: 150%;
+}
+/* line 2, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list {
+  position: relative;
+}
+/* line 4, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .p-bar {
+  background: #9ad3f8 no-repeat center right;
+  height: 100%;
+  position: absolute;
+  left: -20px;
+}
+/* line 5, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .p-bar div {
+  width: 20px;
+  display: inline-block;
+  position: absolute;
+  right: -20px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 35.5px 0 35.5px 20px;
+  border-color: transparent transparent transparent #9ad3f8;
+}
+/* line 24, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item:nth-child(even) {
+  background: #fafafa;
+}
+/* line 28, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item {
+  width: 100%;
+  height: 70px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  clear: both;
+  border-bottom: 1px solid #DDDDDD;
+}
+/* line 37, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .l-wrppr {
+  margin: 20px 45px 5px 2px;
+  position: relative;
+}
+/* line 42, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item h2,
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item p {
+  line-height: 15px;
+  text-shadow: 0px 1px 1px #f4faff;
+}
+/* line 46, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item h2 {
+  font-size: 15px;
+  font-style: italic;
+  color: black;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+/* line 53, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item p {
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #5d5d5d;
+}
+/* line 60, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .sash {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 64px;
+  z-index: 40;
+  background: url("../img/ribbons/ribbons-sprite.png") no-repeat;
+}
+/* line 68, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .sash .unlock-level-num {
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 34px;
+  width: 21px;
+  -webkit-transform: rotate(38deg);
+  -moz-transform: rotate(38deg);
+  -ms-transform: rotate(38deg);
+  -o-transform: rotate(38deg);
+  transform: rotate(38deg);
+}
+/* line 79, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .l-inf,
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .ch-in {
+  float: left;
+  margin-right: 20px;
+}
+/* line 83, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .l-inf {
+  width: 264px;
+}
+/* line 85, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .l-inf .l-in-inf {
+  margin-left: 61px;
+}
+/* line 88, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .l-inf .icon {
+  background: url("../img/lesson-icons/lesson-icons.png") -48px -260px;
+  float: left;
+  width: 50px;
+  height: 45px;
+  margin-top: -4px;
+}
+/* line 96, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .ch-in {
+  width: 165px;
+}
+/* line 99, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .re-inf {
+  position: absolute;
+  top: 8px;
+  right: 3px;
+  width: 95px;
+}
+/* line 104, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .re-inf h2 {
+  text-align: right;
+}
+/* line 107, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .re-inf .icon {
+  top: -18px;
+  right: 5px;
+  left: -6px;
+  position: absolute;
+}
+/* line 113, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .re-inf .list-item-trophy-icon {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-position: 0 -100px;
+}
+/* line 121, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .re-inf.point .list-item-trophy-icon {
+  background-position: 0 0;
+}
+/* line 126, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .l-inf.completed .icon {
+  background-position: -5px 0px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+/* line 132, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item .l-inf.completed h2 {
+  color: #cb0000;
+}
+/* line 137, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.odd {
+  background: #ebeded;
+}
+/* line 141, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.completed h2 {
+  color: #cb0000;
+}
+/* line 145, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.completed .l-inf .icon {
+  background-position: -5px 0px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+/* line 152, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.completed .sash {
+  background-position: -4px 0px;
+}
+/* line 157, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.display-redo-lesson-btn .toggle-redo-lesson-mask {
+  display: block;
+  cursor: default;
+}
+/* line 162, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.locked {
+  cursor: default;
+}
+/* line 164, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.locked h2, .academy-content-container #academy-global-container .lessons-list .lesson-list-item.locked p {
+  color: #A6A6A6;
+}
+/* line 167, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.locked .sash {
+  background-position: -4px -140px;
+}
+/* line 172, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.new .sash {
+  background-position: -4px -210px;
+}
+/* line 177, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.recommended .sash {
+  background-position: -4px -280px;
+}
+/* line 182, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.inprogress .sash {
+  background-position: -3px -70px;
+}
+/* line 188, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.locked .l-inf .icon {
+  background-position: -48px -316px;
+}
+/* line 196, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-items.scss */
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.inprogress:hover,
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.recommended:hover,
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.new:hover,
+.academy-content-container #academy-global-container .lessons-list .lesson-list-item.completed:hover {
+  background-color: #b5d5ff;
+}
+/* line 2, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_glossary.scss */
+.academy-content-container #academy-global-container .glossary-page-view {
+  line-height: 140%;
+}
+/* line 4, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_glossary.scss */
+.academy-content-container #academy-global-container .glossary-page-view .glossary-list-view {
+  color: black;
+  background: #fafafa;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #dfdfdf;
+  position: relative;
+}
+/* line 12, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_glossary.scss */
+.academy-content-container #academy-global-container .glossary-page-view .glossary-list-view h2 {
+  font-size: 30px;
+  position: absolute;
+  left: 20px;
+  font-weight: bold;
+}
+/* line 18, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_glossary.scss */
+.academy-content-container #academy-global-container .glossary-page-view .glossary-list-view .glossary-items-list {
+  width: 90%;
+  float: right;
+}
+/* line 21, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_glossary.scss */
+.academy-content-container #academy-global-container .glossary-page-view .glossary-list-view .glossary-items-list .glossary-list-item-view {
+  margin-bottom: 10px;
+}
+/* line 23, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_glossary.scss */
+.academy-content-container #academy-global-container .glossary-page-view .glossary-list-view .glossary-items-list .glossary-list-item-view .glossary-word {
+  font-style: italic;
+  font-weight: bold;
+  display: inline-block;
+  width: 50%;
+}
+/* line 29, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_glossary.scss */
+.academy-content-container #academy-global-container .glossary-page-view .glossary-list-view .glossary-items-list .glossary-list-item-view .glossary-description {
+  display: inline-block;
+  width: 90%;
+}
+/* line 36, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_glossary.scss */
+.academy-content-container #academy-global-container .glossary-page-view .glossary-list-view.odd {
+  background: #ebeded;
+}
+/* line 25, sass/main.scss */
+.academy-content-container #academy-global-container .text-highlight {
+  background: yellow;
+  color: #000;
+}
+/* line 34, sass/main.scss */
+.academy-content-container #academy-global-container .academy-modal {
+  visibility: hidden;
+}
+/* line 1, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed {
+  background: url("../img/backgrounds/academy_bg.png") no-repeat top center;
+  text-align: center;
+  padding: 40px;
+  color: white;
+  height: 890px;
+  position: relative;
+  font-family: 'franklin-gothic-urw';
+}
+/* line 9, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed h1 {
+  font-family: "skippy-sharp", cursive, sans-serif;
+  font-weight: normal;
+  font-size: 44px;
+  padding-bottom: 26px;
+  background: url("../img/backgrounds/strike.png") bottom center no-repeat;
+  color: white;
+}
+/* line 17, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed p {
+  text-shadow: 0px 1px 4px black;
+  line-height: 140%;
+  font-size: 20px;
+  font-style: italic;
+}
+/* line 23, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container {
+  background: url("../img/lessoncompleted/Box.png") no-repeat center center;
+  width: 525px;
+  height: 200px;
+  margin: auto;
+}
+/* line 28, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container h2 {
+  text-shadow: 0px -1px 0 black;
+  padding-top: 25px;
+  font-size: 18px;
+  color: #FFFF99;
+}
+/* line 34, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data {
+  position: relative;
+}
+/* line 36, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data .challenge-criteria {
+  color: white;
+  font-size: 14px;
+  padding: 0;
+}
+/* line 41, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data .objective-data-inner {
+  height: 120px;
+}
+/* line 44, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data .objective-data-inner .achievement,
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data .objective-data-inner .awards {
+  width: 49.5%;
+}
+/* line 47, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data .objective-data-inner .achievement {
+  float: left;
+  border-right: 1px solid #DDD;
+  margin-top: 10px;
+}
+/* line 51, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data .objective-data-inner .achievement .lesson-completed-trophy {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  background-position: -278px 0;
+}
+/* line 58, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data .objective-data-inner .awards {
+  float: right;
+}
+/* line 60, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data .objective-data-inner .awards h3 {
+  text-shadow: 0px -1px 0 black;
+  font-size: 38px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 40px;
+}
+/* line 69, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .objective-data #thumbsup-girl {
+  height: 300px;
+  width: 212px;
+  background: url("../img/lessoncompleted/thumbsup.png") no-repeat;
+  position: absolute;
+  bottom: -255px;
+  right: -170px;
+}
+/* line 78, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .go-to-challenge {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  margin-top: 25px;
+  border: 1px solid #A0A0A0;
+  color: #000;
+  padding: 15px 28px;
+  font-size: 25px;
+  cursor: pointer;
+}
+/* line 87, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .go-to-challenge:hover {
+  background: #A0A0A0;
+}
+/* line 90, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .objective-container .go-to-challenge:active {
+  background: #777;
+}
+/* line 94, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .bottom-buttons {
+  width: 100%;
+}
+/* line 96, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .bottom-buttons .bottom-buttons-inner {
+  width: 440px;
+  margin: auto;
+  clear: both;
+}
+/* line 101, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .bottom-buttons .bottom-buttons-inner #redo-lesson-button,
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .bottom-buttons .bottom-buttons-inner #accept-challenge {
+  font-weight: bold;
+  line-height: 56px;
+  font-size: 23px;
+  height: 60px;
+  width: 215px;
+}
+/* line 108, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .bottom-buttons .bottom-buttons-inner #redo-lesson-button {
+  text-shadow: 0px -1px 0 white;
+  float: left;
+  color: #333333;
+  background: url("../img/lessoncompleted/greybutton.png") no-repeat center center;
+}
+/* line 114, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .bottom-buttons .bottom-buttons-inner #redo-lesson-button:hover {
+  cursor: pointer;
+  background: url("../img/lessoncompleted/greybutton_hover.png") no-repeat center center;
+}
+/* line 118, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .bottom-buttons .bottom-buttons-inner #accept-challenge {
+  text-shadow: 0px -1px 0 black;
+  float: right;
+  color: white;
+  background: url("../img/lessoncompleted/greenbutton.png") no-repeat center center;
+}
+/* line 124, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_lesson-completed.scss */
+.academy-content-container #academy-global-container .academy-modal .lesson-completed .bottom-buttons .bottom-buttons-inner #accept-challenge:hover {
+  cursor: pointer;
+  background: url("../img/lessoncompleted/greenbutton_hover.png") no-repeat center center;
+}
+/* line 38, sass/main.scss */
+.academy-content-container #academy-global-container .academy-sub-modal {
+  visibility: hidden;
+}
+/* line 41, sass/main.scss */
+.academy-content-container #academy-global-container .modal-mask {
+  display: none;
+}
+/* line 44, sass/main.scss */
+.academy-content-container #academy-global-container .error {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  background: #FFF;
+  padding: 20px;
+  font-size: 22px;
+  margin: 100px auto 0 auto;
+  width: 400px;
+  text-align: center;
+  line-height: 28px;
+}
+/* line 53, sass/main.scss */
+.academy-content-container #academy-global-container .error strong {
+  font-weight: bold;
+}
+/* line 57, sass/main.scss */
+.academy-content-container #academy-global-container button {
+  border: none;
+}
+
+/* line 2, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_modal.scss */
+#academy-global-container.show-modal .academy-modal {
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #FFF;
+  position: fixed;
+  z-index: 130;
+  visibility: visible;
+}
+/* line 12, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_modal.scss */
+#academy-global-container.show-modal .academy-modal .sprites-close {
+  position: absolute;
+  top: -23px;
+  right: -23px;
+  cursor: pointer;
+}
+
+/* line 1, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .academy-sub-modal {
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+  background: url("../img/backgrounds/mask-bg.png");
+  z-index: 140;
+  visibility: visible;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+}
+/* line 12, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .academy-sub-modal .sub-modal-inner {
+  width: 282px;
+  margin: 180px auto 0 auto;
+  height: 380px;
+  background: #000;
+  position: relative;
+  text-align: center;
+}
+/* line 19, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .academy-sub-modal .sub-modal-inner .sprites-close-modal-white {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: block;
+}
+/* line 26, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .academy-sub-modal .sub-modal-inner #academy-sub-modal {
+  font-family: "franklin-gothic-urw-n5", "franklin-gothic-urw", Helvetica, Arial, sans-serif !important;
+  font-weight: bold;
+  color: #FFF;
+  padding: 10px;
+}
+/* line 31, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .academy-sub-modal .sub-modal-inner #academy-sub-modal .share-button-row {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 7px;
+  min-height: 30px;
+}
+/* line 37, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .academy-sub-modal .sub-modal-inner #academy-sub-modal h2 {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+/* line 42, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .academy-sub-modal .sub-modal-inner #academy-sub-modal p {
+  font-size: 16px;
+  line-height: 16px;
+}
+/* line 46, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .academy-sub-modal .sub-modal-inner #academy-sub-modal .achievement-container {
+  background: url("../img/achievements/large-bg.png") no-repeat top center;
+  width: 263px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+/* line 51, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .academy-sub-modal .sub-modal-inner #academy-sub-modal .achievement-container .trophy-sub-modal-icon {
+  display: inline-block;
+  height: 228px;
+  width: 227px;
+  background-position: -50px 0;
+}
+/* line 61, /Users/will.falkowski/Sites/gamesPoker/poker-lobby-ui/trunk/src/main/resources/web/academy_client_dev/ventures/virgin/facebook/styles/sass/_sub-modal.scss */
+#academy-global-container.show-sub-modal .modal-mask {
+  background: url("../img/backgrounds/mask-bg.png");
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 120;
+  display: block;
+}

@@ -1,0 +1,199 @@
+/* line 2, main.scss */
+.page {
+  position: relative;
+  margin: 8px;
+  padding: 0;
+  height: 100%;
+}
+/* line 8, main.scss */
+.page .page-template,
+.page .layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+}
+/* line 17, main.scss */
+.page .layers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* line 23, main.scss */
+.page .layer {
+  z-index: 1;
+}
+/* line 26, main.scss */
+.page .layer.fadeIn {
+  z-index: 104;
+}
+/* line 29, main.scss */
+.page .component {
+  position: absolute;
+  /* overflow: hidden; */
+}
+
+/* line 35, main.scss */
+.navigation {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+/* line 43, main.scss */
+div.layer-container,
+div.layers,
+div.layer {
+  height: 100%;
+}
+
+/* line 47, main.scss */
+div.component.text {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 51, main.scss */
+div.component.text p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 57, main.scss */
+#toolbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+/* line 63, main.scss */
+#editor {
+  padding-top: 40px;
+}
+
+/* line 67, main.scss */
+.viewer-container {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 73, main.scss */
+.clickable {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Text Jargon */
+/* line 81, main.scss */
+.jargon {
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+/* line 85, main.scss */
+.jargon:hover {
+  cursor: pointer;
+}
+
+/* line 89, main.scss */
+.jargon.show:after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 2;
+  margin-left: -13px;
+  width: 23px;
+  height: 14px;
+  background-image: url(../assets/text-jargon/jargon-arrow.png);
+  content: "";
+}
+
+/* line 100, main.scss */
+.definition {
+  position: absolute;
+  display: none;
+  overflow: hidden;
+  width: 145px;
+  text-decoration: none;
+}
+/* line 106, main.scss */
+.definition dl, .definition dt, .definition dd {
+  margin: 0;
+  padding: 0;
+}
+/* line 110, main.scss */
+.definition dt {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+/* line 115, main.scss */
+.definition.show {
+  display: block;
+}
+/* line 118, main.scss */
+.definition .top {
+  width: 146px;
+  height: 18px;
+  background-image: url(../assets/text-jargon/jargon-top.png);
+}
+/* line 123, main.scss */
+.definition .middle {
+  padding: 0 8px;
+  width: 130px;
+  background-image: url(../assets/text-jargon/jargon-middle.png);
+  background-repeat: repeat-y;
+}
+/* line 129, main.scss */
+.definition dl {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmNWY1ZjUiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2RkZGNkZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #f5f5f5), color-stop(50%, #dddcdd));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 50%, #dddcdd 50%);
+  background-image: -moz-linear-gradient(top, #f5f5f5 50%, #dddcdd 50%);
+  background-image: -o-linear-gradient(top, #f5f5f5 50%, #dddcdd 50%);
+  background-image: linear-gradient(top, #f5f5f5 50%, #dddcdd 50%);
+  text-shadow: white 0 1px 0;
+  padding: 0 6px;
+  width: 118px;
+  background-color: #f5f5f5;
+  color: #4A4C52;
+  font-weight: 500;
+  font-size: 14px;
+  filter: dropshadow(color=white, offx=0, offy=1);
+}
+/* line 141, main.scss */
+.definition .bottom {
+  width: 146px;
+  height: 18px;
+  background-image: url(../assets/text-jargon/jargon-bottom.png);
+}
+
+/* Modal Background */
+/* line 149, main.scss */
+.modal-background {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* line 153, main.scss */
+.modal-background.show {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 100;
+}

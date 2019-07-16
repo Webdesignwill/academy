@@ -1,0 +1,20 @@
+@import "compass/css3";
+input[type="radio"]{
+	position:absolute;
+	top:0;
+	left:-99999px;
+}
+input[type="radio"]+label{
+	position:relative;
+	display:inline;
+	width:20px;
+	height: 21px;
+	background-image:url(assets/radio-buttons.png);
+	background-position:0 0;
+}
+input[type="radio"]:checked + label{
+	background-position:0 -21px;
+}
+input[type="radio"] + label.checked{
+	background-position:0 -21px;
+}

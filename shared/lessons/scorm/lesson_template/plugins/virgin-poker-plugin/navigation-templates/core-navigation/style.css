@@ -1,0 +1,103 @@
+/* line 2, core-navigation.scss */
+.core-navigation {
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  border-radius: 22px;
+  margin: 0 62px;
+  padding: 0 10px;
+  border: 2px solid white;
+}
+/* line 7, core-navigation.scss */
+.core-navigation .hidden {
+  visibility: hidden;
+}
+/* line 11, core-navigation.scss */
+.core-navigation .nav-previous,
+.core-navigation .nav-next {
+  display: block;
+  margin: 3px 0 0 0;
+  padding: 0;
+  width: 29px;
+  height: 34px;
+  border: 0;
+  background-color: transparent;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  direction: ltr;
+}
+/* line 25, core-navigation.scss */
+.core-navigation .nav-previous:hover,
+.core-navigation .nav-next:hover {
+  background-position: 0 -34px;
+}
+/* line 28, core-navigation.scss */
+.core-navigation .nav-previous {
+  float: left;
+  margin-right: 12px;
+  background-image: url(assets/nav-prev.png);
+}
+/* line 33, core-navigation.scss */
+.core-navigation .nav-next {
+  float: right;
+  margin-left: 12px;
+  background-image: url(assets/nav-next.png);
+}
+/* line 38, core-navigation.scss */
+.core-navigation .progress-block {
+  display: inline-block;
+  margin: 5px 0;
+  width: 526px;
+  text-align: center;
+}
+/* line 44, core-navigation.scss */
+.core-navigation .lesson-info {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+/* line 49, core-navigation.scss */
+.core-navigation ul {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: solid 1px transparent;
+  list-style-type: none;
+}
+/* line 57, core-navigation.scss */
+.core-navigation .chapter {
+  display: inline-block;
+  float: left;
+  height: 8px;
+}
+/* line 62, core-navigation.scss */
+.core-navigation .chapter-bg {
+  display: block;
+  margin-right: 2px;
+  height: 8px;
+  background-image: url(assets/chapter-bg.png);
+  background-repeat: repeat-x;
+}
+/* line 69, core-navigation.scss */
+.core-navigation .chapter:last-child .chapter-bg {
+  margin-right: 0;
+}
+/* line 72, core-navigation.scss */
+.core-navigation .progress-bg {
+  display: block;
+  width: 0px;
+  height: 8px;
+  background-image: url(assets/progress-bar.png);
+  background-repeat: repeat-x;
+  -webkit-transition: width 0.7s ease;
+  -moz-transition: width 0.7s ease;
+  -o-transition: width 0.7s ease;
+  transition: width 0.7s ease;
+}

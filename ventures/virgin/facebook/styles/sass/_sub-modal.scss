@@ -1,0 +1,70 @@
+.academy-sub-modal {
+  @include border-radius(10px, 10px);
+  background: url('../img/backgrounds/mask-bg.png');
+  z-index: $academy-sub-modal;
+  visibility:visible;
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  display:block;
+  .sub-modal-inner {
+    width:282px;
+    margin: 180px auto 0 auto;
+    height:380px;
+    background:#000;
+    position:relative;
+    text-align:center;
+    .sprites-close-modal-white {
+      position:absolute;
+      top:10px;
+      right:10px;
+      cursor:pointer;
+      display:block;
+    }
+    #academy-sub-modal {
+      font-family: "franklin-gothic-urw-n5", "franklin-gothic-urw", Helvetica, Arial, sans-serif !important;
+      font-weight: bold;
+      color: #FFF;
+      padding:10px;
+      .share-button-row {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 7px;
+        min-height: 30px;
+      }
+      h2 {
+        font-size: 24px;
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        line-height:16px;
+      }
+      .achievement-container {
+        background: url("../img/achievements/large-bg.png") no-repeat top center;
+        width: 263px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        .trophy-sub-modal-icon {
+          display:inline-block;
+          height:228px;
+          width:227px;
+          background-position: -50px 0;
+        }
+      }
+    }
+  }
+}
+.modal-mask {
+  background: url('../img/backgrounds/mask-bg.png');
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index: $modal-mask;
+  display:block;
+}

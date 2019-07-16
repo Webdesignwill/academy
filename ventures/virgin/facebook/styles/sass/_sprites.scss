@@ -1,0 +1,5 @@
+$sprites-sprite-base-class:".sprite";
+$sprites-sprite-dimensions:true;
+$sprites-layout:smart;
+@import "sprites/*.png";
+@include all-sprites-sprites;

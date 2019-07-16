@@ -1,0 +1,80 @@
+@import "compass/css3";
+.core-navigation{
+	@include border-radius(22px);
+	margin:0 62px;
+	padding:0 10px;
+	border:2px solid white;
+	.hidden{
+		visibility: hidden;
+	}
+	.nav-previous,
+	.nav-next{
+		display:block;
+		margin:3px 0 0 0;
+		padding:0;
+		width:29px;
+		height:34px;
+		border:0;
+		background-color:transparent;
+		background-position:0 0;
+		background-repeat:no-repeat;
+		text-indent: -9999px;
+		direction: ltr;
+	}
+	.nav-previous:hover,
+	.nav-next:hover{
+		background-position:0 -34px;
+	}
+	.nav-previous{
+		float:left;
+		margin-right:12px;
+		background-image:url(assets/nav-prev.png);
+	}
+	.nav-next{
+		float:right;
+		margin-left:12px;
+		background-image:url(assets/nav-next.png);
+	}
+	.progress-block{
+		display:inline-block;
+		margin:5px 0;
+		width:526px;
+		text-align:center;
+	}
+	.lesson-info{
+		color:white;
+		font-weight:500;
+		font-size:14px;
+	}
+	ul{
+		@include border-radius(4px);
+		overflow: hidden;
+		margin:0;
+		padding:0;
+		border:solid 1px transparent;
+		list-style-type: none;
+	}
+	.chapter{
+		display:inline-block;
+		float:left;
+		height:8px;
+	}
+	.chapter-bg{
+		display:block;
+		margin-right:2px;
+		height:8px;
+		background-image:url(assets/chapter-bg.png);
+		background-repeat:repeat-x;
+	}
+	.chapter:last-child .chapter-bg{
+		margin-right:0;
+	}
+	.progress-bg{
+		display:block;
+		width:0px;
+		height:8px;
+		background-image:url(assets/progress-bar.png);
+		background-repeat:repeat-x;
+		@include single-transition(width,0.7s,ease);
+	}
+}

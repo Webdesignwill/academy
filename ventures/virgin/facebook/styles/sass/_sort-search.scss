@@ -1,0 +1,119 @@
+.sort-search {
+  float:right;
+  margin-top:9px;
+  position:relative;
+  line-height:30px;
+  text-indent:10px;
+  .sprites-sort-btn {
+    @include text-shadow(1px 1px 1px #000);
+    background: url('../img/backgrounds/goToButton.png') no-repeat top left;
+    width:93px;
+    height:31px;
+    color:#FFF;
+    text-align:left;
+    font-size:14px;
+    position:relative;
+    cursor:pointer;
+    float: left;
+    outline:none;
+    .sprites-sort-pointer-up {
+      position:absolute;
+      top:-15px;
+      left:96px;
+    }
+    .sort-criteria {
+      @include box-shadow(#000 2px 2px 10px);
+      @include border-radius(6px);
+      display:none;
+      background:#313131;
+      cursor:default;
+      width:210px;
+      text-align:left;
+      position:absolute;
+      top: 55px;
+      left: -70px;
+      line-height: 17px;
+      text-indent:0;
+      outline:none;
+      z-index: $sortCriteriaIndex;
+      ul {
+        padding:0;
+        li {
+          margin:0;
+          padding:0;
+          line-height:42px;
+          height:40px;
+          cursor:pointer;
+          outline:none;
+          a {
+            @include text-shadow(#000 2px);
+            background:url('../img/backgrounds/sort-by-bg.png') repeat-x bottom left;
+            color:#FFF;
+            font-style:italic;
+            text-decoration:none;
+            text-indent:50px;
+            display:block;
+            width:100%;
+            font-size:14px;
+          }
+        }
+        li.active-tick {
+          background:url('../img/backgrounds/active-tick.png') no-repeat 15px center;
+        }
+        li:hover {
+          @include text-shadow(none);
+          background:#ADD9FA;
+          a {
+            color:#494C51;
+            background:none;
+          }
+        }
+        li:focus {
+          @include text-shadow(none);
+          background:#ADD9FA;
+          a {
+            color:#494C51;
+            background:none;
+          }
+        }
+        li.last {
+          a {
+            background:none;
+          }
+        }
+      }
+    }
+  }
+  .search-input {
+    border:none;
+    background:url('../img/backgrounds/search-input.png') no-repeat 0 0;
+    color:#FFF;
+    margin:0px;
+    width:147px;
+    height:27px;
+    text-indent:10px;
+    outline:none;
+    float:right;
+    margin-right:9px;
+  }
+  .search-input:focus {
+    background-position:0 -29px;
+    color:#000;
+  }
+  .sprites-sort-btn:hover {
+    background-position: 0 -31px;
+    color:#BBB;
+  }
+  .sprites-sort-btn:focus {
+    background-position: 0 -31px;
+    color:#BBB;
+  }
+  .sprites-sort-btn:active {
+    color:#AAA;
+  }
+  .sprites-sort-btn.display {
+    .sort-criteria {
+      display:inline-block;
+    }
+  }
+}

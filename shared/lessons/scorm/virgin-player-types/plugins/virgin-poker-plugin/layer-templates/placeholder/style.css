@@ -1,0 +1,51 @@
+
+
+.placeholder {
+	text-align: center;
+}
+
+.placeholder h2 {
+	font-family: "skippy-sharp", cursive, sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	font-style: normal;
+	color: #fff;
+	text-shadow: 0 0 12px rgba(0,0,0,.2);
+	margin: 60px 0 0 0;
+	padding: 0 0 8px 0;
+	background: url('../../assets/strike.png') bottom center no-repeat;
+	background-size: 80% 7px;
+}
+
+.placeholder p.subtitle {
+	font-family: "franklin-gothic-urw";
+	color: #fff;
+	text-shadow: 0 0 12px rgba(0,0,0,.2);
+	font-size: 20px;
+	letter-spacing: .05em;
+	margin: 8px 0;
+}
+
+
+.placeholder img {
+	width: auto;
+	margin: 30px auto;
+	display: block;
+}
+
+
+.placeholder button {
+	background-image: -webkit-linear-gradient(top, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+	background-image: linear-gradient(to bottom center, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+	color: white;
+	padding: 8px 16px;
+	font-family: "franklin-gothic-urw";
+	font-weight: lighter;
+	letter-spacing: .05em;
+	font-size: 20px;
+	border: 1px solid;
+	border-radius: 6px;
+	border-color: #ab1000 #642226 #951000;
+	margin-top: -100px;
+	box-shadow: 0 0 4px 1px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,199 @@
+
+.lessons-list {
+  position:relative;
+  .p-bar {
+    div {
+      // background: url('../img/backgrounds/progress-bar-pointer.png') no-repeat center right;
+      width:20px;
+      // height:100%;
+      display:inline-block;
+      position:absolute;
+      right: -20px;
+      width: 0px;
+      height: 0px;
+      border-style: solid;
+      border-width: 35.5px 0 35.5px 20px;
+      border-color: transparent transparent transparent $progress-bar-bg;
+    }
+    background: $progress-bar-bg no-repeat center right;
+    height:100%;
+    position:absolute;
+    left: -20px;
+  }
+
+  .lesson-list-item:nth-child(even){
+    background: $lesson-even-row;
+  }
+
+  .lesson-list-item {
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    clear: both;
+    border-bottom: 1px solid #DDDDDD;
+    .l-wrppr {
+      margin: 20px 45px 5px 2px;
+      position: relative;
+    }
+    h2,
+    p {
+      line-height: 15px;
+      @include single-text-shadow($default-text-shadow-color, 0px, 1px, 1px);
+    }
+    h2 {
+      font-size:15px;
+      font-style:italic;
+      color: $black;
+      margin-bottom:3px;
+      font-weight:bold;
+    }
+    p {
+      font-size:12px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow:hidden;
+      color: $lesson-description;
+    }
+    .sash {
+      position:absolute;
+      top:0;
+      right:0;
+      width: 80px;
+      height: 64px;
+      z-index:$sash;
+      background: url('../img/ribbons/ribbons-sprite.png') no-repeat;
+      .unlock-level-num {
+        font-size: 10px;
+        color: $white;
+        position: absolute;
+        right: 0;
+        top: 34px;
+        width: 21px;
+        @include rotate(38deg);
+      }
+     }
+    .l-inf,
+    .ch-in {
+      float: left;
+      margin-right: 20px;
+    }
+    .l-inf {
+      width:264px;
+      .l-in-inf {
+        margin-left: 61px;
+      }
+      .icon {
+        background: url('../img/lesson-icons/lesson-icons.png') -48px -260px;
+        float: left;
+        width: 50px;
+        height: 45px;
+        margin-top: -4px;
+      }
+    }
+    .ch-in {
+      width:165px;
+    }
+    .re-inf {
+      position: absolute;
+      top: 8px;
+      right: 3px;
+      width: 95px;
+      h2 {
+        text-align: right;
+      }
+      .icon {
+        top:-18px;
+        right: 5px;
+        left: -6px;
+        position:absolute;
+      }
+      .list-item-trophy-icon {
+        display:inline-block;
+        height:50px;
+        width:50px;
+        background-position: 0 -100px;
+      }
+    }
+    .re-inf.point {
+      .list-item-trophy-icon {
+        background-position: 0 0;
+      }
+    }
+    .l-inf.completed {
+      .icon {
+        background-position: -5px 0px;
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+      }
+      h2 {
+        color: $lesson-completed-color;
+      }
+    }
+  }
+  .lesson-list-item.odd {
+    background: $lesson-odd-row;
+  }
+  .lesson-list-item.completed {
+    h2 {
+      color: $lesson-completed-color;
+    }
+    .l-inf {
+      .icon {
+        background-position: -5px 0px;
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+      }
+    }
+    .sash {
+        background-position: -4px 0px;
+    }
+  }
+  .lesson-list-item.display-redo-lesson-btn {
+    .toggle-redo-lesson-mask {
+      display:block;
+      cursor:default;
+    }
+  }
+  .lesson-list-item.locked {
+    cursor:default;
+    h2, p {
+      color:#A6A6A6;
+    }
+    .sash {
+      background-position: -4px -140px;
+    }
+  }
+  .lesson-list-item.new {
+    .sash {
+      background-position: -4px -210px;
+    }
+  }
+  .lesson-list-item.recommended {
+    .sash {
+      background-position: -4px -280px;
+    }
+  }
+  .lesson-list-item.inprogress {
+    .sash {
+      background-position: -3px -70px;
+    }
+  }
+  .lesson-list-item.locked {
+    .l-inf {
+      .icon {
+        background-position: -48px -316px;
+      }
+    }
+  }
+  .lesson-list-item.inprogress:hover,
+  .lesson-list-item.recommended:hover,
+  .lesson-list-item.new:hover,
+  .lesson-list-item.completed:hover {
+    background-color: $lesson-list-hover;
+  }
+}

@@ -1,0 +1,421 @@
+{
+	"type": "cornichon.Project",
+	"version": 1.0,
+	"assetPath": "/assets",
+	"name": "Virgin Starting Hands",
+	"width": 760,
+	"height": 604,
+	"css":"/styles/project.css",
+	"typekitId":"rwn2lse",
+	"dictionary":"jargon/jargon-dictionary.json",
+	"jargonTemplate":"jargon/jargon-template.html",
+	"plugins": {
+		"virgin-poker-plugin": "/../plugins/virgin-poker-plugin"
+	},
+	"styles": {
+		"title": {
+			"fontFamily": "franklin-gothic-urw",
+			"fontWeight": "normal",
+			"fontSize": 32,
+			"textAlign": "centre",
+			"color": "#fff",
+			"text-shadow": "0 0 12px rgba(0,0,0,.2)"
+		},
+		"chapter-title": "virgin-poker-plugin:virgin-poker-title",
+		"normal": {
+			"fontFamily": "franklin-gothic-urw",
+			"fontWeight": "normal",
+			"fontSize": "16px",
+			"color": "#fff"
+		},
+		"button": {
+			"backgroundImage": "-webkit-linear-gradient(top, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%)",
+			"color": "white",
+			"padding": "8px 16px",
+			"fontFamily": "\"franklin-gothic-urw\"",
+			"fontWeight": "lighter",
+			"letterSpacing": ".05em",
+			"fontSize": "20px",
+			"border": "1px solid",
+			"borderRadius": "6px",
+			"borderColor": "#ab1000 #642226 #951000",
+			"display": "block",
+			"margin": "-100px auto",
+			"boxShadow": "0 0 4px 1px rgba(0,0,0,0.3)"
+		}
+	},
+	"navigation": {
+		"template": "virgin-poker-plugin:core-navigation"
+	},
+	"chapters": [
+		{
+			"id": "chapter:1",
+			"name": "Introduction",
+			"pages": [
+				{
+					"id": "page:1",
+					"name": "Welcome",
+					"layers": [
+						{
+							"id": "layer:1",
+							"name": "Placeholder",
+							"template": "virgin-poker-plugin:placeholder",
+							"config": {
+								"title": "Academy Lessons are currently in production",
+								"subtitle": "Click continue to view demo lesson content",
+								"imgFilename": "welcome.png",
+								"buttonText": "Continue"
+							},
+							"components": [
+							]
+						}
+					]
+				},
+				{
+					"id": "page:2",
+					"name": "Cover page",
+					"layers": [
+						{
+							"id": "layer:2",
+							"name": "Slide",
+							"components": [
+								{
+									"id": "component:2",
+									"constructor": "cornichon:text",
+									"x": 0,
+									"y": 200,
+									"width": 800,
+									"height": 50,
+									"style": "chapter-title",
+									"value": "Hands to Yourself"
+								},
+								{
+									"id": "component:3",
+									"constructor": "cornichon:image",
+									"x": 225,
+									"y": 250,
+									"width": 350,
+									"height": 6,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:4",
+									"constructor": "cornichon:text",
+									"x": 200,
+									"y": 350,
+									"width": 400,
+									"height": 150,
+									"style": "normal",
+									"value": "* This page will contain the completed Intro animation."
+								},
+								{
+									"id": "component:5",
+									"constructor": "cornichon:text",
+									"x": 341,
+									"y": 500,
+									"width": 84,
+									"style": "button",
+									"value": "Continue",
+									"events": {
+										"click": [
+											{
+												"type": "goToPage",
+												"id": "viewer",
+												"page": "page:3"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "page:3",
+					"name": "Starting Hands",
+					"layers": [
+						{
+							"id": "layer:2",
+							"name": "Tutorial",
+							"template": "virgin-poker-plugin:text-tutorial",
+							"config": {
+								"title": "Starting Hands in Texas Hold 'em",
+								"paragraph1": "There are 169 different starting hands in No Limit Hold 'Em. Whilst it's true that you never know what is going to come on the flop, some of these hands will win more often than others.",
+								"paragraph2": "It is impossible to win if you play every single hand.",
+								"paragraph3": "The starting hands in this lesson are classified by general overall strength. Many beginners--and even some veteran players--may be surprised by the ranking of some of the hands. The important thing to remember is that while this lesson will give you an idea of the basic value of a hand, the classification is not absolute.",
+								"paragraph4": "It is impossible to win if you play every single hand. Use discretion when deciding which hands to play, and always pay attention to your opponents, your position and the cards on the table before deciding what actions to take.",
+								"paragraph5": "Pay attention to your opponents, your position and the cards on the table before deciding what actions to take.",
+								"paragraph6": "",
+								"buttonText": "Continue",
+								"jargon":true
+							},
+							"components": [
+							]
+						}
+					]
+				},
+				{
+					"id": "page:4",
+					"name": "Monster Hands",
+					"layers": [
+						{
+							"id": "layer:3",
+							"visible": true,
+							"name": "Tutorial",
+							"transition": {
+								"show": "slideDown",
+								"hide": "slideUp",
+								"duration": 500
+							},
+							"template": "virgin-poker-plugin:simple-tutorial",
+							"config": {
+								"title": "Monster Hands",
+								"paragraph1": "Monster hands are the best starting hands in the game.",
+								"paragraph2": "Monster hands are the best starting hands in the game. These hands are almost always playable, even after a raise and re-raise. The hands that fall into this category are pairs from Queens to Aces.",
+								"paragraph3": "Although, monster hands put you in the best position at the beginning of a hand, be careful that you don't get too attached to your cards. There are many hands that can beat a pair of aces in hte long run, so always be ready to fold if it looks like something stronger is likely to be in play.",
+								"imgFilename": "tina-fey.png",
+								"buttonText": "Continue"
+							},
+							"components": [
+								{
+									"id": "component:6",
+									"constructor": "cornichon:text",
+									"x": 450,
+									"y": 502,
+									"style": "button",
+									"value": "Learn more",
+									"events": {
+										"click": [
+											{
+												"type": "show",
+												"id": "layer:5"
+											},
+											{
+												"type": "hide",
+												"id": "layer:3"
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"id": "layer:5",
+							"name": "Learn more slide",
+							"visible": false,
+							"template": "virgin-poker-plugin:card-definitions",
+							"transition": {
+								"show": "slideUp",
+								"hide": "slideDown",
+								"duration": 500
+							},
+							"config": {
+								"title": "Monster Hands",
+								"items": [
+									{
+										"title": "Nickname: Pocket Rockets",
+										"image": "cards/aa.png",
+										"text": "3, 2, 1... Blast off! Also known as 'bullets' and 'American Airlines', a pair of aces is the strongest starting hand in Texas Hold 'Em. This is a hans you should never fold before the flop. However, don't be over confident with this hand. After the flop, on very dangerous board, be prepared to fold it."
+									},
+									{
+										"title": "Nickname: Cowboys",
+										"image": "cards/kk.png",
+										"text": "Yeehaw! Also known as 'King Kong', a pair of Kings is the second strongest starting hand in Texas Hold 'Em. It's almost always a mistake to fold this hand before the flop. Instead look to make lots of raises to play as big a pot as possible. While a pair of Kings is usually the best hand on the flop, it's not unbeatable. Be careful when there is an Ace on the table."
+									},
+									{
+										"title": "Nickname: Ladies",
+										"image": "cards/qq.png",
+										"text": "These ladies make a very strong starting hand that is almost always playable even after a raise and re-raise. It's usually best to make a raise with this hand or re-raise if another player has already raised."
+									},
+									{
+										"title": "Nickname: Big Slick, AK Suited, AK Off Suit",
+										"image": "cards/ak.png",
+										"text": "Ace King brings up the rear for our monster starting hands. It's usually best to make a raise with this hand or re-raise if another player has already raised, but prepare to fold after the flop if you don't hit an Ace or King."
+									}
+								],
+								"jargon":true
+							},
+							"components": [
+								{
+									"id": "component:7",
+									"constructor": "cornichon:image",
+									"x": 343,
+									"y": 48,
+									"width": 74,
+									"height": 53,
+									"filename": "down-arrows.png",
+									"events": {
+										"click": [
+											{
+												"type": "show",
+												"id": "layer:3"
+											},
+											{
+												"type": "hide",
+												"id": "layer:5"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "page:5",
+					"name": "Strong Hands",
+					"layers": [
+						{
+							"id": "layer:6",
+							"name": "Tutorial",
+							"template": "virgin-poker-plugin:simple-tutorial",
+							"config": {
+								"title": "Strong Hands",
+								"paragraph1": "Strong Hands are usually playable unless there has been a raise and re-raise already.",
+								"paragraph2": "These hands consist mainly of medium value pairs, such as Jack-Jack (JJ) or Nine-Nine (99), some high-card combinations like Ace-Queen (AQ) and various suited combinations like King-Queen suited (KQs).",
+								"paragraph3": "It is important to note that King-Jack suited, Queen-Jack suited and Ace-Ten suited count as strong cards because the small chance of making a flush or flush draw with these cards adds considerable value to them.",
+								"imgFilename": "amy-winehouse.png",
+								"buttonText": "Continue"
+							},
+							"transition": {
+								"show": "slideDown",
+								"hide": "slideUp",
+								"duration": 500
+							},
+							"components": [
+								{
+									"id": "component:6",
+									"constructor": "cornichon:text",
+									"x": 450,
+									"y": 502,
+									"style": "button",
+									"value": "Learn more",
+									"events": {
+										"click": [
+											{
+												"type": "show",
+												"id": "layer:7"
+											},
+											{
+												"type": "hide",
+												"id": "layer:6"
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"id": "layer:7",
+							"name": "Learn more slide",
+							"visible": false,
+							"template": "virgin-poker-plugin:card-definitions",
+							"transition": {
+								"show": "slideUp",
+								"hide": "slideDown",
+								"duration": 500
+							},
+							"config": {
+								"title": "Strong Hands",
+								"items": [
+									{
+										"title": "Nickname: Fishhooks",
+										"image": "cards/jj.png",
+										"text": "A pair of Jacks is a fairly strong hand but is often overvalued by beginners. Look to raise with this hand or re-raise if another player has already raised.\nBe aware that there are several hands which could beat your Jacks, so pay attention to how your opponents act after the flop."
+									},
+									{
+										"title": "Nickname: Marriage, KQ Suited, KQ Off Suit",
+										"image": "cards/kq.png",
+										"text": "Love and marriage, love and marriage.... A King Queen looks like a very strong hand, but it often gets players into touble in re-raised pots. Look to raise if nobody else has raised yet. If a player has raised before you then consider just calling. If you make a raise and get re-rasied you can sometimes call, but be prepared to fold even if you hit a King or a Queen as you will often be up against a monster hand"
+									},
+									{
+										"title": "Nickname: Dimes",
+										"image": "cards/tt.png",
+										"text": "A pair of Tens is a fairly strong hand but is often overvalued by beginners. Look to raise with this hand if no one has raised yet. If another player has raised it is usually best to call and see what comes on the flop. If you raise and get re-raised, you can call if the re-raise is not too big, but be aware that even on safe flops you will often be behind an opponent with a bigger pair."
+									},
+									{
+										"title": "Nickname: Ajax, AJ Suited, AJ Off Suit",
+										"image": "cards/aj.png",
+										"text": "Ace Jack, suited or off suit, is a dangerous hand because it will often find itself outkicked. The real power of this hand comes from its ability to make a broadway straight or nut flush, so be careful not to get too attached to your hand if the flop comes ace high. Look to raise with this hand if nobody has raised yet. i=If another player has raised, it is usually best to call and see what comes on the flop."
+									},
+									{
+										"title": "Nickname: Wayne Gretsky",
+										"image": "cards/99.png",
+										"text": "Named after the iconic ice hockey player who wore number 99 on his jersey, a pair of nines is a hand worthy of a raise preflop but usually not strong enough to re-raise. If you raise and get re-raised by another player it’s likely best to fold unless the re-raise is particularly small."
+									},
+									{
+										"title": "Nickname: Kojak, KJ Suited",
+										"image": "cards/kj.png",
+										"text": "Be careful with King Jack, as this is a hand that gets a lot of inexperienced players into trouble. The power of this hand comes from it’s ability to make straights and flushes. Kojak is worthy of a raise preflop but not strong enough to re-raise. If you raise and get re-raised by another player it’s likely best to fold unless the re-raise is particularly small."
+									},
+									{
+										"title": "Nickname: Snowmen",
+										"image": "cards/88.png",
+										"text": "A relatively strong hand but one that can get you into trouble, a pair of Eights is a starting hand worthy of a raise preflop but usually not strong enough to warrant a re-raise. If you raise and get re-raised by another player, it’s likely best to fold unless the re-raise is particularly small."
+									},
+									{
+										"title": "Nickname: Maverick, QJ Suited",
+										"image": "cards/jq.png",
+										"text": "Maverick is definitely writing checks it can’t necessarily cash so be careful with this one. Like Kojak, Queen Jack’s power comes from its ability to make straights and flushes. It is worthy of a raise preflop but not strong enough to re-raise. If you raise and get re-raised by another player it’s likely best to fold unless the re-raise is small."
+									},
+									{
+										"title": "Nickname: Doyle Brunson, AQ Suited, AQ Off Suit",
+										"image": "cards/aq.png",
+										"text": "Named after the legendary poker player who famously refuses to play it, Ace Queen is a very strong hand but one that can cause you problems. It's always good enough to raise with, and often worth a re-raise, but beware. If your opponent makes a re-raise and starts putting a lot of money when there is an ace on the flop, they could very well have Ace King."
+									},
+									{
+										"title": "Nickname: Bookends, AT Suited",
+										"image": "cards/at.png",
+										"text": "Ace Ten, suited, is a dangerous hand because it will often find itself outkicked. The real power of this hand comes from its ability to make a broadway straight or nut flush, so be careful not to get too attached to your hand if the flop comes ace high. Look to raise with this hand if nobody has raised yet. If another player has raised it is usually best to call and see what comes on the flop."
+									}
+								],
+								"jargon":true
+							},
+							"components": [
+								{
+									"id": "component:7",
+									"constructor": "cornichon:image",
+									"x": 343,
+									"y": 56,
+									"width": 74,
+									"height": 53,
+									"filename": "down-arrows.png",
+									"events": {
+										"click": [
+											{
+												"type": "show",
+												"id": "layer:6"
+											},
+											{
+												"type": "hide",
+												"id": "layer:7"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "page:9",
+					"name": "Lesson Completed!",
+					"layers": [
+						{
+							"id": "layer:9",
+							"name": "Completed",
+							"template": "virgin-poker-plugin:lesson-completed",
+							"config": {
+								"subtitle": "You are now one step closer to becoming a poker expert. Now complete the objective to get an achievement and rewards.",
+								"imgFilename": "whale.png",
+								"reward": "700xp"
+							},
+							"components": [
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

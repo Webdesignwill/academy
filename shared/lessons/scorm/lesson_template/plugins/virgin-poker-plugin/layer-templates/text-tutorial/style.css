@@ -1,0 +1,62 @@
+
+.simple-tutorial h2 {
+	font-family: "skippy-sharp", cursive, sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	font-style: normal;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 12px rgba(0,0,0,.2);
+	margin: 60px 0 24px 0;
+}
+
+.simple-tutorial h2 span {
+	padding: 0 0 8px 0;
+	background: url('../../assets/strike.png') bottom center no-repeat;
+	background-size: 90% 7px;
+}
+
+
+.simple-tutorial div.buttons {
+	text-align: center;
+}
+
+.simple-tutorial button {
+	background-image: -webkit-linear-gradient(top, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+	background-image: linear-gradient(to bottom center, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%);
+	color: white;
+	padding: 8px 16px;
+	font-family: "franklin-gothic-urw";
+	font-weight: lighter;
+	letter-spacing: .05em;
+	font-size: 20px;
+	border: 1px solid;
+	border-radius: 6px;
+	border-color: #ab1000 #642226 #951000;
+	margin: 20px 0;
+	box-shadow: 0 0 4px 1px rgba(0,0,0,0.3);
+}
+
+
+.simple-tutorial .col {
+	width: 40%;
+	padding: 0 6% 0 2%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.simple-tutorial .col:nth-child(even) {
+	padding: 0 2% 0 6%;
+}
+
+
+.simple-tutorial p {
+	font-family: franklin-gothic-urw;
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+}
+
+.simple-tutorial p:nth-child(even) {
+	font-weight: bold;
+}

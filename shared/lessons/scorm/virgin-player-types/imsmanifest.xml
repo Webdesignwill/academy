@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- created by KnowledgePlanet SCORM Manifest Generator, Sam Lesher slesher@knowledgeplanet.com -->
+<manifest identifier="TEST-kpgenman" version="1.2"
+xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:kp="http://www.knowledgeplanet.com"
+xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+	http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+	http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd
+	http://www.knowledgeplanet.com knowledgeplanet.xsd">
+<metadata>
+	<schema>ADL SCORM</schema>
+	<schemaversion>1.2</schemaversion>
+</metadata>
+<organizations default="TEST">
+	<organization identifier="TEST">
+		<title><![CDATA[Virgin Poker]]></title>
+			<item identifier="TEST-A1" identifierref="TEST-res1" isvisible="true">
+				<title><![CDATA[Virgin Poker]]></title>
+			</item>
+	<kp:KnowledgePlanetData>
+		<kp:Course>
+			<kp:XID><![CDATA[TEST]]></kp:XID>
+		</kp:Course>
+	</kp:KnowledgePlanetData>
+	</organization>
+</organizations>
+<resources>
+	<resource identifier="TEST-res1" type="webcontent" adlcp:scormtype="sco" href="viewer/index.html"></resource>
+</resources>
+</manifest>

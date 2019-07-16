@@ -1,0 +1,1350 @@
+{
+	"type": "cornichon.Project",
+	"version": 1.0,
+	"assetPath": "/assets",
+	"name": "Virgin Player Types",
+	"width": 760,
+	"height": 604,
+	"css":"/styles/project.css",
+	"typekitId":"rwn2lse",
+	"gaAccountId":"UA-40409036-1",
+	"dictionary":"jargon/jargon-dictionary.json",
+	"jargonTemplate":"jargon/jargon-template.html",
+	"plugins": {
+		"virgin-poker-plugin": "/../plugins/virgin-poker-plugin"
+	},
+	"styles": {
+		"title": {
+			"fontFamily": "\"diamond-girl\"",
+			"fontWeight": "normal",
+			"fontSize": 34,
+			"textAlign": "centre",
+			"color": "#fff",
+			"text-shadow": "0 0 12px rgba(0,0,0,.2)"
+		},
+		"chapter-title": "virgin-poker-plugin:virgin-poker-title",
+		"normal": {
+			"fontFamily": "franklin-gothic-urw",
+			"fontWeight": "normal",
+			"fontSize": "14px",
+			"color": "#fff"
+		},
+		"normal-large": {
+			"fontFamily": "franklin-gothic-urw",
+			"fontWeight": "500",
+			"fontSize": "20px",
+			"fontStyle": "italic",
+			"color": "#fff"
+		},
+		"normal-large-bold": {
+			"fontFamily": "franklin-gothic-urw",
+			"fontWeight": "bold",
+			"fontSize": "20px",
+			"fontStyle": "italic",
+			"color": "#fff"
+		},
+		"button": {
+			"backgroundImage": "-webkit-linear-gradient(top, #e32106 0%, #de2006 49.9%, #c71c12 50%, #ae150d 100%)",
+			"color": "white",
+			"padding": "8px 16px",
+			"fontFamily": "\"franklin-gothic-urw\"",
+			"fontWeight": "lighter",
+			"letterSpacing": ".05em",
+			"fontSize": "20px",
+			"border": "1px solid",
+			"borderRadius": "6px",
+			"borderColor": "#ab1000 #642226 #951000",
+			"display": "block",
+			"margin": "-100px auto",
+			"boxShadow": "0 0 4px 1px rgba(0,0,0,0.3)"
+		}
+	},
+	"navigation": {
+		"template": "virgin-poker-plugin:core-navigation"
+	},
+	"chapters":[
+		{
+			"id": "Chapter 1",
+			"name": "Introduction",
+			"pages":[
+				{
+					"id": "page:1",
+					"name": "Reading Your Opponents",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:1",
+							"name": "Layer 1",
+							"components": [
+								{
+									"id": "component:101",
+									"constructor": "cornichon:text",
+									"x": 202,
+									"y": 57,
+									"width": 355,
+									"height": 40,
+									"style": "title",
+									"value": "Reading Your Opponents"
+								},
+								{
+									"id": "component:102",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 250,
+									"height": 76,
+									"style":"normal",
+									"value": "Learning to read your opponents is an extremely valuable skill to develop in poker that will often make the difference between winning big and losing often.",
+									"jargon":true
+								},
+								{
+									"id": "component:103",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 230,
+									"width": 275,
+									"height": 55,
+									"style":"normal",
+									"value": "Most beginners and even many intermediate level poker players tend to only pay attention to the hands in which they're involved.",
+									"jargon":true
+								},
+								{
+									"id": "component:104",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 310,
+									"width": 250,
+									"height": 100,
+									"style":"normal-large",
+									"value": "The best players pay attention to every detail about a hand, especially their opponents' play styles."
+								},
+								{
+									"id": "component:105",
+									"constructor": "cornichon:text",
+									"x": 405,
+									"y": 140,
+									"width": 250,
+									"height": 100,
+									"style":"normal-large",
+									"value": "Each player's style is unique, but most players tend to fall into one of a few common categories based on their typical behaviour."
+								},
+								{"id": "component:106",
+									"constructor": "cornichon:text",
+									"x": 405,
+									"y": 290,
+									"width": 250,
+									"height": 75,
+									"style":"normal",
+									"value": "Once you learn to identify what a type of a player a person is, it makes it much easier o make an educated guess about the hand they could be holding."
+								},
+								{
+									"id": "component:107",
+									"constructor": "cornichon:image",
+									"x": 200,
+									"y": 94,
+									"width": 370,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:108",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:2"
+
+										}
+
+										]
+
+										}
+
+
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "chapter:2",
+			"name": "Loose players",
+			"pages":[
+				{
+					"id": "page:2",
+					"name": "Loose players",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:2",
+							"name": "Layer 2",
+							"components": [
+								{
+									"id": "component:201",
+									"constructor": "cornichon:text",
+									"x": 270,
+									"y": 57,
+									"width": 200,
+									"height": 40,
+									"style": "title",
+									"value": "Loose Players"
+								},
+								{
+									"id": "component:202",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 95,
+									"style":"normal",
+									"value": "The Vast majority of poker players, whether new or experienced, play too many hands and when they do, take each of those hands too far. So it’s no surprise that this is the most common type of player.",
+									"jargon":true
+								},
+								{
+									"id": "component:203",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 255,
+									"width": 260,
+									"height": 100,
+									"style":"normal-large",
+									"value": "Loose players play a much wider range of hands than tight players and tend to play quite aggressively.",
+									"jargon":true
+								},
+								{
+									"id": "component:204",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 380,
+									"width": 260,
+									"height": 110,
+									"style":"normal",
+									"value": "A good Loose player is very difficult to play against as they will often put a lot of pressure on you with big bets and raises.",
+									"jargon":true
+								},
+								{
+									"id": "component:205",
+									"constructor": "cornichon:image",
+									"x": 405,
+									"y": 140,
+									"width": 213,
+									"height": 288,
+									"filename": "loose-players.png"
+								},
+								{
+									"id": "component:206",
+									"constructor": "cornichon:image",
+									"x": 270,
+									"y": 94,
+									"width": 200,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:207",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:3"
+
+										}
+
+										]
+
+										}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "page:3",
+					"name": "Loose Aggresive",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:3",
+							"name": "Layer 3",
+							"components": [
+								{
+									"id": "component:301",
+									"constructor": "cornichon:text",
+									"x": 250,
+									"y": 57,
+									"width": 250,
+									"height": 40,
+									"style": "title",
+									"value": "Loose Aggresive"
+								},
+								{
+									"id": "component:302",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 80,
+									"style":"normal-large",
+									"value": "Loose aggressive players play a lot of hands and are aggessive and unpredictable when they do.",
+									"jargon":true
+								},
+								{
+									"id": "component:303",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 258,
+									"width": 260,
+									"height": 110,
+									"style":"normal",
+									"value": "They watch for weaknessed in their opponents and exploit them by putting on pressure with strong bets and raises hoping to make them fold",
+									"jargon":true
+								},
+								{
+									"id": "component:304",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 347,
+									"width": 260,
+									"height": 110,
+									"style":"normal",
+									"value": "However, don't be fooled into thinking he is always bluffing. These players will play strong hands in the same way.",
+									"jargon":true
+								},
+								{
+									"id": "component:305",
+									"constructor": "cornichon:image",
+									"x": 411,
+									"y": 114,
+									"width": 198,
+									"height": 314,
+									"filename": "loose-aggresive.png"
+								},
+								{
+									"id": "component:306",
+									"constructor": "cornichon:image",
+									"x": 250,
+									"y": 94,
+									"width": 235,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:307",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:4"
+
+										}
+
+										]
+
+										}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "page:4",
+					"name": "The Maniac",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:4",
+							"name": "Layer 4",
+							"components": [
+								{
+									"id": "component:401",
+									"constructor": "cornichon:text",
+									"x": 285,
+									"y": 57,
+									"width": 250,
+									"height": 40,
+									"style": "title",
+									"value": "The Maniac"
+								},
+								{
+									"id": "component:402",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 80,
+									"style":"normal",
+									"value": "This player's behaviour is much like the Loose Aggressive player, but he takes it too far!",
+									"jargon":true
+								},
+								{
+									"id": "component:403",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 215,
+									"width": 260,
+									"height": 110,
+									"style":"normal-large",
+									"value": "The Maniac plays even more hands than the loose aggressive player and plays them more aggressively.",
+									"jargon":true
+								},
+								{
+									"id": "component:404",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 336,
+									"width": 260,
+									"height": 110,
+									"style":"normal",
+									"value": "A player like this will often force you to put a lot of money into the pot so be patient. Don't be afraid to make some brave calls because there's always a strong chance that the Maniac is bluffing.",
+									"jargon":true
+								},
+								{
+									"id": "component:405",
+									"constructor": "cornichon:image",
+									"x": 404,
+									"y": 112,
+									"width": 205,
+									"height": 309,
+									"filename": "the-maniac.png"
+								},
+								{
+									"id": "component:406",
+									"constructor": "cornichon:image",
+									"x": 285,
+									"y": 94,
+									"width": 165,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:407",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:5"
+
+										}
+
+										]
+
+										}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "page:5",
+					"name": "The Calling Station",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:5",
+							"name": "Layer 5",
+							"components": [
+								{
+									"id": "component:501",
+									"constructor": "cornichon:text",
+									"x": 235,
+									"y": 57,
+									"width": 320,
+									"height": 40,
+									"style": "title",
+									"value": "The Calling Station"
+								},
+								{
+									"id": "component:502",
+									"constructor": "cornichon:image",
+									"x": 235,
+									"y": 94,
+									"width": 268,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:503",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 95,
+									"style":"normal",
+									"value": "A calling station will call your bets down to the river whether they have a good hand or not. Because he wants only to see all five community cards in order to make the best hand they can, this player has little interest in folding befor then.",
+									"jargon":true
+								},
+								{
+									"id": "component:504",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 265,
+									"width": 260,
+									"height": 80,
+									"style":"normal-large",
+									"value": "A calling station will call your bets more often than any other type of player.",
+									"jargon":true
+								},
+								{
+									"id": "component:505",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 362,
+									"width": 260,
+									"height": 80,
+									"style":"normal",
+									"value": "So if you have a strong hand against this type of opponent, play it aggressively to get maximum value. If, however, you have a weak hand it is best to avoid bluffing him and simply fold.",
+									"jargon":true
+								},
+								{
+									"id": "component:506",
+									"constructor": "cornichon:image",
+									"x": 395,
+									"y": 75,
+									"width": 234,
+									"height": 357,
+									"filename": "calling-station.png"
+								},
+								{
+									"id": "component:507",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:6"
+
+										}
+
+										]
+
+										}
+								}
+							]	
+						}	
+					]			
+				}
+			]
+		},
+		{
+			"id": "chapter:3",
+			"name": "Tight Players",
+			"pages":[
+				{
+					"id": "page:6",
+					"name": "Tight Players",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:6",
+							"name": "Layer 6",
+							"components": [
+								{
+									"id": "component:601",
+									"constructor": "cornichon:text",
+									"x": 282,
+									"y": 57,
+									"width": 300,
+									"height": 40,
+									"style": "title",
+									"value": "Tight Players"
+								},
+								{
+									"id": "component:602",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 33,
+									"style":"normal",
+									"value": "Unlike loose players, tight players tend to play very few hands.",
+									"jargon":true
+								},
+								{
+									"id": "component:603",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 195,
+									"width": 300,
+									"height": 120,
+									"style":"normal-large",
+									"value": "Because they are discriminating with the hands they play, you can almost always assume that if a tight player is betting, it is because they have a strong hand.",
+									"jargon":true
+								},
+								{
+									"id": "component:604",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 345,
+									"width": 260,
+									"height": 110,
+									"style":"normal",
+									"value": "Tight players avoid many tricky situations by playing fewer hands, but in doing so they sometimes miss out on potentially profitable ones as well.",
+									"jargon":true
+								},
+								{
+									"id": "component:605",
+									"constructor": "cornichon:image",
+									"x": 407,
+									"y": 109,
+									"width": 210,
+									"height": 330,
+									"filename": "tight-players.png"
+								},
+								{
+									"id": "component:606",
+									"constructor": "cornichon:image",
+									"x": 282,
+									"y": 94,
+									"width": 180,
+									"height": 12,
+									"filename": "strike.png"
+									
+								},
+								{
+									"id": "component:607",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:7"
+
+										}
+
+										]
+
+										}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "page:7",
+					"name": "Tight Aggressive",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:7",
+							"name": "Layer 7",
+							"components": [
+								{
+									"id": "component:701",
+									"constructor": "cornichon:text",
+									"x": 257,
+									"y": 57,
+									"width": 320,
+									"height": 40,
+									"style": "title",
+									"value": "Tight Aggressive"
+								},
+								{
+									"id": "component:702",
+									"constructor": "cornichon:image",
+									"x": 257,
+									"y": 94,
+									"width": 233,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:703",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 95,
+									"style":"normal",
+									"value": "This is the best all round way to play.",
+									"jargon":true
+								},
+								{
+									"id": "component:704",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 180,
+									"width": 260,
+									"height": 70,
+									"style":"normal-large",
+									"value": "Tight Aggressive players will play less than 25% of their starting hands on average",
+									"jargon":true
+								},
+								{
+									"id": "component:705",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 275,
+									"width": 260,
+									"height": 80,
+									"style":"normal",
+									"value": "If they do stick around in the play, be wary. They will often play hard, beting and raising aggressively.",
+									"jargon":true
+								},
+								{
+									"id": "component:706",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 350,
+									"width": 255,
+									"height": 80,
+									"style":"normal",
+									"value": "Avoid playing pots with these opponents where possible, and be aware that when they start putting a lot of money into the pot, it's almost certainly because they have a strong hand.",
+									"jargon":true
+								},
+								{
+									"id": "component:707",
+									"constructor": "cornichon:image",
+									"x": 407,
+									"y": 118,
+									"width": 209,
+									"height": 308,
+									"filename": "tight-aggressive.png"
+								},
+								{
+									"id": "component:708",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:8"
+
+										}
+
+										]
+
+										}
+								}
+							]	
+						}	
+					]			
+				},
+				{
+					"id": "page:8",
+					"name": "The Nit",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:8",
+							"name": "Layer 8",
+							"components": [
+								{
+									"id": "component:801",
+									"constructor": "cornichon:text",
+									"x": 317,
+									"y": 57,
+									"width": 320,
+									"height": 40,
+									"style": "title",
+									"value": "The Nit"
+								},
+								{
+									"id": "component:802",
+									"constructor": "cornichon:image",
+									"x": 317,
+									"y": 94,
+									"width": 105,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:803",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 95,
+									"style":"normal",
+									"value": "The Nit is a folding machine!",
+									"jargon":true
+								},
+								{
+									"id": "component:804",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 178,
+									"width": 260,
+									"height": 70,
+									"style":"normal-large",
+									"value": "A nit almost never bluffs and will usually only ever play the strongest hands.",
+									"jargon":true
+								},
+								{
+									"id": "component:805",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 275,
+									"width": 260,
+									"height": 80,
+									"style":"normal",
+									"value": "Agaist this opponent be prepared to fold even very strong hands, since the Nit will only continue playing if he’s holding a premium hand.",
+									"jargon":true
+								},
+								{
+									"id": "component:806",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 365,
+									"width": 260,
+									"height": 80,
+									"style":"normal",
+									"value": "Making several small bluffs can be effective against this type of player, but beware if he calls, cut your losses and give up. You can almost guarantee he has a strong hand.",
+									"jargon":true
+								},
+								{
+									"id": "component:807",
+									"constructor": "cornichon:image",
+									"x": 407,
+									"y": 97,
+									"width": 210,
+									"height": 330,
+									"filename": "the-nit.png"
+								},
+								{
+									"id": "component:808",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:9"
+
+										}
+
+										]
+
+										}
+								}
+							]	
+						}	
+					]			
+				}
+			]
+		},
+		{
+			"id": "chapter:4",
+			"name": "Hybrid Players",
+			"pages":[
+				{
+					"id": "page:9",
+					"name": "Hybrid Players",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:9",
+							"name": "Layer 9",
+							"components": [
+								{
+									"id": "component:901",
+									"constructor": "cornichon:text",
+									"x": 270,
+									"y": 57,
+									"width": 300,
+									"height": 40,
+									"style": "title",
+									"value": "Hybrid Players"
+								},
+								{
+									"id": "component:902",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 33,
+									"style":"normal",
+									"value": "Occasionally you might come across a player who doesn't seem to fit into the tight or loose mould.",
+									"jargon":true
+								},
+								{
+									"id": "component:903",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 215,
+									"width": 300,
+									"height": 120,
+									"style":"normal-large",
+									"value": "There are a few types of players who may change style from hand to hand, sometimes playing loose and other times playing tight.",
+									"jargon":true
+								},
+								{
+									"id": "component:904",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 345,
+									"width": 260,
+									"height": 110,
+									"style":"normal",
+									"value": "To avoid getting into many unpleasant situations, it's best to simply play straight with these guys and avoid taking risks",
+									"jargon":true
+								},
+								{
+									"id": "component:905",
+									"constructor": "cornichon:image",
+									"x": 403,
+									"y": 125,
+									"width": 216,
+									"height": 302,
+									"filename": "hybrid-players.png"
+								},
+								{
+									"id": "component:906",
+									"constructor": "cornichon:image",
+									"x": 270,
+									"y": 94,
+									"width": 202,
+									"height": 12,
+									"filename": "strike.png"
+									
+								},
+								{
+									"id": "component:907",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:10"
+
+										}
+
+										]
+
+										}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "page:10",
+					"name": "The Fish",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:10",
+							"name": "Layer 10",
+							"components": [
+								{
+									"id": "component:1001",
+									"constructor": "cornichon:text",
+									"x": 313,
+									"y": 57,
+									"width": 320,
+									"height": 40,
+									"style": "title",
+									"value": "The Fish"
+								},
+								{
+									"id": "component:1002",
+									"constructor": "cornichon:image",
+									"x": 313,
+									"y": 94,
+									"width": 120,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:1003",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 95,
+									"style":"normal-large",
+									"value": "A fish is a general term for a bad player who refuses to fold their hand after the flop.",
+									"jargon":true
+								},
+								{
+									"id": "component:1004",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 240,
+									"width": 260,
+									"height": 70,
+									"style":"normal",
+									"value": "They can be loose or tight preflop, but their overriding characteristic is an inability to fold their hand after the flop even when it's obvious that their opponent has a beter hand.",
+									"jargon":true
+								},
+								{
+									"id": "component:1005",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 350,
+									"width": 260,
+									"height": 80,
+									"style":"normal",
+									"value": "Against a fish you should never bluff, just wait to make a decent hand keep betting. He will almost certainly call you all the way, ideally with a hand worse than yours.",
+									"jargon":true
+								},
+								{
+									"id": "component:1007",
+									"constructor": "cornichon:image",
+									"x": 387,
+									"y": 86,
+									"width": 230,
+									"height": 342,
+									"filename": "the-fish.png"
+								},
+								{
+									"id": "component:1008",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:11"
+
+										}
+
+										]
+
+										}
+								}
+							]	
+						}	
+					]			
+				},
+				{
+					"id": "page:11",
+					"name": "The Shark",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:11",
+							"name": "Layer 11",
+							"components": [
+								{
+									"id": "component:1101",
+									"constructor": "cornichon:text",
+									"x": 301,
+									"y": 57,
+									"width": 320,
+									"height": 40,
+									"style": "title",
+									"value": "The Shark"
+								},
+								{
+									"id": "component:1102",
+									"constructor": "cornichon:image",
+									"x": 301,
+									"y": 94,
+									"width": 146,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:1103",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 95,
+									"style":"normal-large",
+									"value": "A Shark is a general term for a player with very good insticts and a willingness to fold a stong hand.",
+									"jargon":true
+								},
+								{
+									"id": "component:1104",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 255,
+									"width": 260,
+									"height": 70,
+									"style":"normal",
+									"value": "Like Fish, they can be tight or loose preflop but after the flop they make very few mistakes. They have good insticts and can fold a strong hand when they know they are beaten. If they sense weakness in their opponents they put on the pressure and force them to fold.",
+									"jargon":true
+								},
+								{
+									"id": "component:1105",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 395,
+									"width": 260,
+									"height": 80,
+									"style":"normal",
+									"value": "Poker Sharks, like real Sharks are best avoided!",
+									"jargon":true
+								},
+								{
+									"id": "component:1107",
+									"constructor": "cornichon:image",
+									"x": 406,
+									"y": 102,
+									"width": 210,
+									"height": 324,
+									"filename": "the-shark.png"
+								},
+								{
+									"id": "component:1108",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:12"
+
+										}
+
+										]
+
+										}
+								}
+							]	
+						}	
+					]			
+				},
+				{
+					"id": "page:12",
+					"name": "The Shove Monkey",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:12",
+							"name": "Layer 12",
+							"components": [
+								{
+									"id": "component:1201",
+									"constructor": "cornichon:text",
+									"x": 237,
+									"y": 57,
+									"width": 320,
+									"height": 40,
+									"style": "title",
+									"value": "The Shove Monkey"
+								},
+								{
+									"id": "component:1202",
+									"constructor": "cornichon:image",
+									"x": 237,
+									"y": 94,
+									"width": 276,
+									"height": 12,
+									"filename": "strike.png"
+								},
+								{
+									"id": "component:1204",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 140,
+									"width": 260,
+									"height": 70,
+									"style":"normal-large",
+									"value": "Shove Monkeys go all-in far more often than any other player type.",
+									"jargon":true
+								},
+								{
+									"id": "component:1205",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 237,
+									"width": 260,
+									"height": 80,
+									"style":"normal",
+									"value": "Position becomes important when determing whether to play a hand against a Shove Monkey.If there are several opponents at the table who will act after you, it’s probably best to only keep going with the strongest hands.",
+									"jargon":true
+								},
+								{
+									"id": "component:1206",
+									"constructor": "cornichon:text",
+									"x": 105,
+									"y": 365,
+									"width": 260,
+									"height": 80,
+									"style":"normal",
+									"value": "Don’t forget that a Shove Monkey going all-in does not necessarily mean they always have nothing.",
+									"jargon":true
+								},
+								{
+									"id": "component:1207",
+									"constructor": "cornichon:image",
+									"x": 407,
+									"y": 117,
+									"width": 209,
+									"height": 311,
+									"filename": "shove-monkey.png"
+								},
+								{
+									"id": "component:1208",
+									"constructor": "cornichon:image",
+									"x": 325,
+									"y": 485,
+									"width": 97,
+									"height": 38,
+									"filename": "continue_green.png",
+									"events": {
+
+										"click": [
+
+										{
+
+										"type": "goToPage",
+
+										"id": "viewer",
+
+										"page": "page:13"
+
+										}
+
+										]
+
+										}
+								}
+							]	
+						}	
+					]			
+				},
+				{
+					"id": "page:13",
+					"name": "blank",
+					"template": null,
+					"layers": [
+						{
+							"id": "layer:13",
+							"name": "Layer 13",
+							"components": [
+								{
+									"id": "component:1301",
+									"constructor": "cornichon:text",
+									"x": 237,
+									"y": 57,
+									"width": 320,
+									"height": 40,
+									"style": "title",
+									"value": ""
+								}
+								
+							]	
+						}	
+					]			
+				}
+			]
+		}
+	]
+}
